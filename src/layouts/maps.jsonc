@@ -1,0 +1,94 @@
+{
+  "sm_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Full",
+        "content": {
+          "type": "map",
+          "maps": [
+            "metroid"
+          ]
+        }
+      },
+      {
+        "title": "Crateria",
+        "content": {
+          "type": "map",
+          "maps": [
+            "crateria"
+          ]
+        }
+      },
+      {
+        "title": "Brinstar",
+        "content": {
+          "type": "map",
+          "maps": [
+            "brinstar"
+          ]
+        }
+      },
+      {
+        "title": "Wrecked Ship",
+        "content": {
+          "type": "map",
+          "maps": [
+            "wreckedship"
+          ]
+        }
+      },
+      {
+        "title": "Maridia",
+        "content": {
+          "type": "map",
+          "maps": [
+            "maridia"
+          ]
+        }
+      },
+      {
+        "title": "Norfair",
+        "content": {
+          "type": "map",
+          "maps": [
+            "norfair"
+          ]
+        }
+      }
+    ]
+  },
+  "alttp_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Full",
+        "content": {
+          "type": "map",
+          "maps": [
+            "lightworld",
+            "darkworld"
+          ]
+        }
+      },
+      {
+        "title": "Light World",
+        "content": {
+          "type": "map",
+          "maps": [
+            "lightworld"
+          ]
+        }
+      },
+      {
+        "title": "Dark World",
+        "content": {
+          "type": "map",
+          "maps": [
+            "darkworld"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,833 @@
+[
+  {
+    "name": "Hyrule Castle",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2047,
+        "y": 1849
+      }
+    ],
+    "sections": [
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Boomerang Chest"
+      },
+      {
+        "name": "Zelda's Cell"
+      }
+    ]
+  },
+  {
+    "name": "Castle Tower",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@CanEnterCastleTower"    
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2047,
+        "y": 1636
+      }
+    ],
+    "sections": [
+      {
+        "name": "Foyer"
+      },
+      {
+        "name": "Dark Maze",
+        "access_rules": [
+          "[lamp]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sanctuary",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1888,
+        "y": 1094
+      }
+    ],
+    "sections": [
+      {
+        "name": "Sanctuary"
+      }
+    ]
+  },
+  {
+    "name": "Sewers",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2128,
+        "y": 1202
+      }
+    ],
+    "sections": [
+      {
+        "name": "Secret Room - Left",
+        "access_rules": [
+          "progressiveglove1",
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Secret Room - Middle",
+        "access_rules": [
+          "progressiveglove1",
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Secret Room - Right",
+        "access_rules": [
+          "progressiveglove1",
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Dark Cross",
+        "access_rules": [
+          "[lamp]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eastern Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "sections": [
+      {
+        "name": "Cannonball Chest"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Armos Knights",
+        "access_rules": [
+          "@CanBeatArmos,bow,[lamp]"
+        ],
+        "item_count": 1,
+        "hosted_item": "easternpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 3929,
+        "y": 1614
+      }
+    ]
+  },
+  {
+    "name": "Desert Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "book",
+      "mirror,progressiveglove2,flute",
+      "@CanAccessMiseryMirePortal,mirror"
+    ],
+    "sections": [
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Lanmolas",
+        "access_rules": [
+          "progressiveglove1,@CanLightTorches,@CanBeatLanmolas",
+          "@CanAccessMiseryMirePortal,mirror,@CanLightTorches,@CanBeatLanmolas"
+        ],
+        "item_count": 1,
+        "hosted_item": "desertpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 298,
+        "y": 3233
+      }
+    ]
+  },
+  {
+    "name": "Tower of Hera",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@Light World Death Mountain West,mirror",
+      "@Light World Death Mountain West,hookshot,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Basement Cage"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Compass Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Moldorm",
+        "access_rules": [
+          "@CanLightTorches,@CanBeatMoldorm"
+        ],
+        "item_count": 1,
+        "hosted_item": "towerofhera"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2298,
+        "y": 139
+      }
+    ]
+  },
+  {
+    "name": "Palace of Darkness",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,@Dark World North East"
+    ],
+    "sections": [
+      {
+        "name": "Shooter Room"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Stalfos Basement"
+      },
+      {
+        "name": "The Arena - Bridge"
+      },
+      {
+        "name": "The Arena - Ledge",
+        "access_rules": [
+          "bow"
+        ]
+      },
+      {
+        "name": "Map Chest",
+        "access_rules": [
+          "bow"
+        ]
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Harmless Hellway"
+      },
+      {
+        "name": "Dark Basement",
+        "access_rules": [
+          "[lamp]"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Dark Maze",
+        "access_rules": [
+          "[lamp]"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[lamp],[bow]"
+        ]
+      },
+      {
+        "name": "Helmasaur King",
+        "access_rules": [
+          "bow,hammer,[lamp]"
+        ],
+        "item_count": 1,
+        "hosted_item": "palaceofdarkness"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3926,
+        "y": 1633
+      }
+    ]
+  },
+  {
+    "name": "Swamp Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,mirror,flippers,@Dark World South"
+    ],
+    "sections": [
+      {
+        "name": "Entrance"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "hammer,hookshot"
+        ]
+      },
+      {
+        "name": "Compass Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "West Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "Flooded Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Waterfall Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ]
+      },
+      {
+        "name": "Arrghus",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "item_count": 1,
+        "hosted_item": "swamppalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1918,
+        "y": 3837
+      }
+    ]
+  },
+  {
+    "name": "Skull Woods",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,@Dark World North West"
+    ],
+    "sections": [
+      {
+        "name": "Pot Prison"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[firerod]"
+        ]
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Pinball Room"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Bridge Room",
+        "access_rules": [
+          "firerod"
+        ]
+      },
+      {
+        "name": "Mothula",
+        "access_rules": [
+          "firerod,progressivesword1"
+        ],
+        "item_count": 1,
+        "hosted_item": "skullwoods"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 161,
+        "y": 247
+      }
+    ]
+  },
+  {
+    "name": "Thieves' Town",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,@Dark World North West"
+    ],
+    "sections": [
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Ambush Chest"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Attic"
+      },
+      {
+        "name": "Blind's Cell"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "Blind",
+        "access_rules": [
+          "progressivesword1",
+          "hammer",
+          "somaria",
+          "byrna"
+        ],
+        "item_count": 1,
+        "hosted_item": "thievestown"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 512,
+        "y": 1982
+      }
+    ]
+  },
+  {
+    "name": "Ice Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "[flippers],moonpearl,progressiveglove2,@CanMeltFreezors"
+    ],
+    "sections": [
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Spike Room",
+        "access_rules": [
+          "[hookshot]"
+        ]
+      },
+      {
+        "name": "Map Chest",
+        "access_rules": [
+          "hammer,[hookshot]"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "hammer,[hookshot]"
+        ]
+      },
+      {
+        "name": "Iced T Room"
+      },
+      {
+        "name": "Freezor Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "hammer,[hookshot],[somaria]"
+        ]
+      },
+      {
+        "name": "Kholdstare",
+        "access_rules": [
+          "hammer,[somaria]"
+        ],
+        "item_count": 1,
+        "hosted_item": "icepalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3265,
+        "y": 3541
+      }
+    ]
+  },
+  {
+    "name": "Misery Mire",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "mm_bombos,bombos,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "mm_ether,ether,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "mm_quake,quake,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "bombos,ether,quake,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "mm_bombos,bombos,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+      "mm_ether,ether,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+      "mm_quake,quake,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+      "bombos,ether,quake,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+    ],
+    "sections": [
+      {
+        "name": "Main Lobby"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Bridge Chest"
+      },
+      {
+        "name": "Spike Chest"
+      },
+      {
+        "name": "Compass Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[@CanLightTorches]"
+        ]
+      },
+      {
+        "name": "Vitreous",
+        "access_rules": [
+          "[@CanLightTorches],[lamp],somaria"
+        ],
+        "item_count": 1,
+        "hosted_item": "miserymire"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 306,
+        "y": 3408
+      }
+    ]
+  },
+  {
+    "name": "Turtle Rock",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@Light World Death Mountain East,tr_bombos,bombos,progressivesword1,moonpearl,progressiveglove2,hammer,somaria",
+      "@Light World Death Mountain East,tr_ether,ether,progressivesword1,moonpearl,progressiveglove2,hammer,somaria",
+      "@Light World Death Mountain East,tr_quake,quake,progressivesword1,moonpearl,progressiveglove2,hammer,somaria",
+      "@Light World Death Mountain East,bombos,ether,quake,progressivesword1,moonpearl,progressiveglove2,hammer,somaria",
+    ],
+    "sections": [
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Roller Room",
+        "access_rules": [
+          "firerod"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Chain Chomps",
+        "access_rules": [
+          "[firerod]"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "[firerod]"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[firerod]"
+        ]
+      },
+      {
+        "name": "Crystaroller Room",
+        "access_rules": [
+          "[firerod]"
+        ]
+      },
+      {
+        "name": "Eye Bridge",
+        "access_rules": [
+          "[lamp],[firerod],[cape]",
+          "[lamp],[firerod],[byrna]",
+          "[lamp],[firerod],[progressiveshield3]"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Trinexx",
+        "access_rules": [
+          "[lamp],firerod,icerod"
+        ],
+        "item_count": 1,
+        "hosted_item": "turtlerock"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3857,
+        "y": 294
+      }
+    ],
+    "children": [
+      // Put Mimic Cave here to allow for different keysanity override.
+      {
+        "name": "Mimic Cave",
+        "access_rules": [
+          "[firerod],mirror"
+        ],
+        "sections": [
+          {
+            "name": "Mimic Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 3457,
+            "y": 388
+          },
+          {
+            "map": "darkworld",
+            "x": 3455,
+            "y": 418
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ganon's Tower",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@Dark World Death Mountain East,moonpearl,$GtCrystalCount"
+    ],
+    "sections": [
+      {
+        "name": "Bob's Torch",
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "DMs Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Map Chest",
+        "access_rules": [
+          "hammer,hookshot",
+          "hammer,boots"
+        ]
+      },
+      {
+        "name": "Firesnake Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ]
+      },
+      {
+        "name": "Randomizer Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Hope Room",
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Tile Room",
+        "access_rules": [
+          "somaria"
+        ]
+      },
+      {
+        "name": "Compass Room",
+        "access_rules": [
+          "somaria,firerod"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Bob's Chest",
+        "access_rules": [
+          "hammer,hookshot",
+          "somaria,firerod"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[hammer],[hookshot],[somaria],[firerod],[boots],[@CanBeatArmos]"
+        ]
+      },
+      {
+        "name": "Big Key Room",
+        "access_rules": [
+          "hammer,hookshot,@CanBeatArmos",
+          "somaria,firerod,@CanBeatArmos"
+        ],
+        "clear_as_group": false,
+        "item_count": 3
+      },
+      {
+        "name": "Mini Helmasaur Room",
+        "access_rules": [
+          "@CanAscendGanonsTower"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Pre-Moldorm Chest",
+        "access_rules": [
+          "@CanAscendGanonsTower"
+        ]
+      },
+      {
+        "name": "Moldorm Chest",
+        "access_rules": [
+          "@CanAscendGanonsTower,@CanBeatMoldorm,hookshot"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 2298,
+        "y": 139
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  //sets the trackers layout
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+  "bottom_bar": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "group",
+        "header": "SM Items",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "layout",
+              "key": "sm_item_grid"
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Z3 Items",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "layout",
+              "key": "alttp_item_grid"
+            }
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Boss Tokens/Dungeon Info",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "layout",
+              "key": "boss_tokens_grid"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

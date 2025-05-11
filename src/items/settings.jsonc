@@ -1,0 +1,55 @@
+[
+  {
+    "name": "SM Logic Difficulty",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "codes": "sm_logic_difficulty",
+    "stages": [
+      {
+        "name": "Normal",
+        "img": "images/items/settings/diff_normal_border.png",
+        "inherit_codes": "false",
+        "codes": "normal"
+      },
+      {
+        "name": "Hard",
+        "img": "images/items/settings/diff_hard_border.png",
+        "inherit_codes": "false",
+        "codes": "hard"
+      }
+    ]
+  },
+  {
+    "name": "Mother Brain",
+    "type": "consumable",
+    "swap_actions": true,
+    "img": "images/items/settings/mbrain_token.png",
+    "max_quantity":4,
+    "disabled_img_mods":"overlay|images/items/settings/mbrain_token0.png",
+    "initial_quantity":4,
+    "codes": "mb"
+  },
+  {
+    "name": "GT Required Crystals",
+    "type": "consumable",
+    "img": "images/items/settings/gt_crystals.png",
+    "codes": "gt_crystals",
+    "swap_actions": true,
+    "loop": "true",
+    "max_quantity": 7,
+    "disabled_img_mods": "overlay|images/items/settings/gt_crystals0.png",
+    "initial_quantity": 7
+  },
+  {
+    "name": "Ganon Required Crystals",
+    "type": "consumable",
+    "img": "images/items/settings/ganon_crystals.png",
+    "codes": "ganon_crystals",
+    "loop": "true",
+    "swap_actions": true,
+    "max_quantity": 7,
+    "disabled_img_mods": "overlay|images/items/settings/ganon_crystals0.png",
+    "initial_quantity": 7
+  }
+]

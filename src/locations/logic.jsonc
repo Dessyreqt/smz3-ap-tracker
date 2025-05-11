@@ -1,0 +1,220 @@
+[
+  // LTTP logic
+  {
+    "name": "CanLightTorches",
+    "access_rules": [
+      "firerod",
+      "lamp"
+    ]
+  },
+  {
+    "name": "CanMeltFreezors",
+    "access_rules": [
+      "firerod",
+      "bombos,progressivesword1"
+    ]
+  },
+  {
+    "name": "CanDoubleMagic",
+    "access_rules": [
+      "halfmagic",
+      "bottle"
+    ]
+  },
+  {
+    "name": "CanQuadrupleMagic",
+    "access_rules": [
+      "halfmagic,bottle",
+      "bottle:3"
+    ]
+  },
+  {
+    "name": "CanKillManyEnemies",
+    "access_rules": [
+      "progressivesword1",
+      "hammer",
+      "bow",
+      "firerod",
+      "somaria",
+      "byrna,@CanDoubleMagic"
+    ]
+  },
+  {
+    "name": "CanBeatArmos",
+    "access_rules": [
+      "progressivesword1",
+      "hammer",
+      "bow",
+      "@CanDoubleMagic,somaria",
+      "@CanDoubleMagic,byrna",
+      "@CanQuadrupleMagic,firerod",
+      "@CanQuadrupleMagic,icerod"
+    ]
+  },
+  {
+    "name": "CanBeatLanmolas",
+    "access_rules": [
+      "progressivesword1",
+      "hammer",
+      "bow",
+      "firerod",
+      "icerod",
+      "byrna",
+      "somaria"
+    ]
+  },
+  {
+    "name": "CanBeatMoldorm",
+    "access_rules": [
+      "progressivesword1",
+      "hammer"
+    ]
+  },
+  {
+    "name": "CanCompleteEasternPalace",
+    "access_rules": [
+      "bow,lamp"
+    ]
+  },
+  {
+    "name": "CanEnterCastleTower",
+    "access_rules": [
+      "@CanKillManyEnemies,cape",
+      "@CanKillManyEnemies,progressivesword2"
+    ]
+  },
+  {
+    "name": "CanCompleteCastleTower",
+    "access_rules": [
+      "@CanEnterCastleTower,lamp,progressivesword1"
+    ]
+  },
+  {
+    "name": "CanAscendGanonsTower",
+    "access_rules": [
+      "[hammer],[hookshot],[somaria],[firerod],[boots],bow"
+    ]
+  },
+  // SM logic
+  {
+    "name": "CanIbj",
+    "access_rules": [
+      "morph,bomb"
+    ]
+  },
+  {
+    "name": "CanFly",
+    "access_rules": [
+      "spacejump",
+      "@CanIbj"
+    ]
+  },
+  {
+    "name": "CanUsePowerBombs",
+    "access_rules": [
+      "morph,powerbomb"
+    ]
+  },
+  {
+    "name": "CanPassBombPassages",
+    "access_rules": [
+      "morph,bomb",
+      "morph,powerbomb"
+    ]
+  },
+  {
+    "name": "CanDestroyBombWalls",
+    "access_rules": [
+      "@CanPassBombPassages",
+      "screwattack"
+    ]
+  },
+  {
+    "name": "CanSpringBallJump",
+    "access_rules": [
+      "morph,springball"
+    ]
+  },
+  {
+    "name": "CanHellRun",
+    "access_rules": [
+      "varia",
+      "alltanks:5"
+    ]
+  },
+  {
+    "name": "CanOpenRedDoors",
+    "access_rules": [
+      "missile",
+      "super"
+    ]
+  },
+  {
+    "name": "CanBlueGateGlitch",
+    "access_rules": [
+      "missile",
+      "super",
+      "wave"
+    ]
+  },
+  // Cross-game portals
+  {
+    "name": "CanAccessDeathMountainPortal",
+    "access_rules": [
+      "@CanDestroyBombWalls,super,morph",
+      "speedbooster,super,morph"
+    ]
+  },
+  {
+    "name": "CanAccessDarkWorldPortal",
+    "access_rules": [
+      "normal,@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,gravity,speedbooster",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,ice",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,speedbooster",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,hijump,ice,grapple",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,ice",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,speedbooster",
+      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,hijump,ice,grapple"
+    ]
+  },
+  {
+    "name": "CanAccessMiseryMirePortal",
+    "access_rules": [
+      "normal,speedbooster,wave,varia,super,gravity,spacejump,@CanUsePowerBombs",
+      "normal,@CardNorfairL2,varia,super,gravity,spacejump,@CanUsePowerBombs",
+      "[hard],speedbooster,varia,super,gravity,@CanUsePowerBombs",
+      "[hard],speedbooster,varia,super,hijump,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,hijump,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,@CanFly,gravity,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,@CanSpringBallJump,gravity,@CanUsePowerBombs",
+      "[hard],@CardNorfairL2,varia,super,ice,gravity,@CanUsePowerBombs"
+    ]
+  },
+  {
+    "name": "CanAccessNorfairUpperPortal",
+    "access_rules": [
+      "flute",
+      "progressiveglove1,[lamp]"
+    ]
+  },
+  {
+    "name": "CanAccessNorfairLowerPortal",
+    "access_rules": [
+      "flute,progressiveglove2"
+    ]
+  },
+  {
+    "name": "CanAccessMaridiaPortal",
+    "access_rules": [
+      "moonpearl,flippers,gravity,morph,@CanCompleteCastleTower",
+      "moonpearl,flippers,gravity,morph,hammer,progressiveglove1",
+      "moonpearl,flippers,gravity,morph,progressiveglove2",
+      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,@CanCompleteCastleTower",
+      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,hammer,progressiveglove1",
+      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,progressiveglove2",
+      "[hard],moonpearl,flippers,morph,hijump,@CanCompleteCastleTower",
+      "[hard],moonpearl,flippers,morph,hijump,hammer,progressiveglove1",
+      "[hard],moonpearl,flippers,morph,hijump,progressiveglove2"
+    ]
+  }
+]

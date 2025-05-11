@@ -1,0 +1,152 @@
+{
+  "alttp_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "bow",
+        "boomerangs",
+        "hookshot",
+        "bombs-lttp",
+        "powder",
+        "mushroom"
+      ],
+      [
+        "firerod",
+        "icerod",
+        "bombos",
+        "ether",
+        "quake",
+        ""
+      ],
+      [
+        "lamp",
+        "hammer",
+        "flute",
+        "bugnet",
+        "book",
+        "shovel"
+      ],
+      [
+        "bottle",
+        "somaria",
+        "byrna",
+        "cape",
+        "mirror",
+        ""
+      ],
+      [
+        "progressiveglove1",
+        "boots",
+        "flippers",
+        "moonpearl"
+      ],
+      [
+        "heartcontainer",
+        "heartpiece",
+        "halfmagic",
+        "progressivesword1",
+        "progressiveshield1",
+        "progressivetunic1"
+      ]
+    ]
+  },
+  "sm_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "v_alignment": "top",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "1,2",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "etank",
+            "reservetank",
+            "",
+            "missile",
+            "super",
+            "powerbomb",
+            "grapple",
+            "xray"
+          ],
+          [
+            "charge",
+            "wave",
+            "ice",
+            "spazer",
+            "plasma",
+            "",
+            "varia",
+            "gravity"
+          ],
+          [
+            "morph",
+            "bombs",
+            "springball",
+            "screwattack",
+            "",
+            "hijump",
+            "spacejump",
+            "speedbooster"
+          ]
+        ]
+      }
+    ]
+  },
+  "boss_tokens_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "easternpalace_label",
+        "desertpalace_label",
+        "towerofhera_label",
+        "kraid_label",
+        "phantoon_label",
+        "draygon_label",
+        "ridley_label"
+      ],
+      [
+        "easternpalace",
+        "desertpalace",
+        "towerofhera",
+        "kraid",
+        "phantoon",
+        "draygon",
+        "ridley"
+      ],
+      [
+        "palaceofdarkness_label",
+        "swamppalace_label",
+        "skullwoods_label",
+        "thievestown_label",
+        "icepalace_label",
+        "miserymire_label",
+        "turtlerock_label"
+      ],
+      [
+        "palaceofdarkness",
+        "swamppalace",
+        "skullwoods",
+        "thievestown",
+        "icepalace",
+        "miserymire",
+        "turtlerock"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "mm_medallion",
+        "tr_medallion"
+      ]
+    ]
+  }
+}

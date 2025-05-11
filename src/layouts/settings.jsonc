@@ -1,0 +1,49 @@
+{
+  "settings_popup": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "5,5,5,5",
+    "content": [
+      {
+        "type": "group",
+        "header": "Game Options",
+        "content": [
+          {
+            "type": "item",
+            "item": "sm_logic_difficulty"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "",
+        "content": [
+          {
+            "type": "item",
+            "item": "mb"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "",
+        "content": [
+          {
+            "type": "item",
+            "item": "gt_crystals"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "",
+        "content": [
+          {
+            "type": "item",
+            "item": "ganon_crystals"
+          }
+        ]
+      }
+    ]
+  }
+}

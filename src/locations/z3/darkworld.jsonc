@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Dark World",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "children": [
+      {
+        "name": "Dark World North East",
+        "access_rules": [
+          "@CanCompleteCastleTower",
+          "moonpearl,hammer,progressiveglove1",
+          "moonpearl,progressiveglove2,flippers",
+          "moonpearl,@CanAccessDarkWorldPortal,flippers"
+        ],
+        "children": [
+          {
+            "name": "Catfish",
+            "access_rules": [
+              "moonpearl,progressiveglove1"
+            ],
+            "sections": [
+              {
+                "name": "Catfish"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 3700,
+                "y": 708
+              }
+            ]
+          },
+          {
+            "name": "Pyramid",
+            "sections": [
+              {
+                "name": "Pyramid"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 2375,
+                "y": 1882
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark World North West",
+        "access_rules": [
+          "moonpearl,hookshot,@CanCompleteCastleTower,flippers",
+          "moonpearl,hookshot,@CanCompleteCastleTower,progressiveglove1",
+          "moonpearl,hookshot,@CanCompleteCastleTower,hammer",
+          "moonpearl,hookshot,@CanAccessDarkWorldPortal,flippers",
+          "moonpearl,hammer,progressiveglove1",
+          "moonpearl,progressiveglove2"
+        ],
+        "children": [
+          {
+            "name": "Brewery",
+            "sections": [
+              {
+                "name": "Brewery"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 447,
+                "y": 2390
+              }
+            ]
+          },
+          {
+            "name": "C-Shaped House",
+            "sections": [
+              {
+                "name": "C-Shaped House"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 845,
+                "y": 1978
+              }
+            ]
+          },
+          {
+            "name": "Chest Game",
+            "sections": [
+              {
+                "name": "Chest Game"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 204,
+                "y": 1910
+              }
+            ]
+          },
+          {
+            "name": "Hammer Pegs",
+            "access_rules": [
+              "progressiveglove2,hammer"
+            ],
+            "sections": [
+              {
+                "name": "Hammer Pegs"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1298,
+                "y": 2478
+              }
+            ]
+          },
+          {
+            "name": "Bumper Cave",
+            "sections": [
+              {
+                "name": "Bumper Cave",
+                "capture_item": true,
+                "access_rules": [
+                  "progressiveglove1,cape"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1402,
+                "y": 694
+              }
+            ]
+          },
+          {
+            "name": "Graveyard Ledge",
+            "access_rules": [
+              "mirror"
+            ],
+            "sections": [
+              {
+                "name": "Graveyard Ledge"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 2310,
+                "y": 1120
+              },
+              {
+                "map": "darkworld",
+                "x": 2310,
+                "y": 1082
+              }
+            ]
+          },
+          {
+            "name": "Blacksmith",
+            "access_rules": [
+              "progressiveglove2"
+            ],
+            "sections": [
+              {
+                "name": "Blacksmith"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1257,
+                "y": 2151
+              },
+              {
+                "map": "darkworld",
+                "x": 602,
+                "y": 2704
+              }
+            ]
+          },
+          {
+            "name": "Purple Chest",
+            "access_rules": [
+              "progressiveglove2"
+            ],
+            "sections": [
+              {
+                "name": "Purple Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1388,
+                "y": 3684
+              },
+              {
+                "map": "darkworld",
+                "x": 1227,
+                "y": 2143
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark World South",
+        "access_rules": [
+          "moonpearl,@CanCompleteCastleTower,hammer",
+          "moonpearl,@CanCompleteCastleTower,hookshot,flippers",
+          "moonpearl,@CanCompleteCastleTower,hookshot,progressiveglove1",
+          "moonpearl,@CanAccessDarkWorldPortal,flippers,hammer",
+          "moonpearl,@CanAccessDarkWorldPortal,flippers,hookshot",
+          "moonpearl,hammer,progressiveglove1",
+          "moonpearl,progressiveglove2"
+        ],
+        "children": [
+          {
+            "name": "Pyramid Fairy",
+            "access_rules": [
+              "redcrystal:2,hammer",
+              "redcrystal:2,mirror,@CanCompleteCastleTower"
+            ],
+            "sections": [
+              {
+                "name": "Pyramid Fairy",
+                "clear_as_group": false,
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1918,
+                "y": 1992
+              }
+            ]
+          },
+          {
+            "name": "Hype Cave",
+            "sections": [
+              {
+                "name": "Hype Cave",
+                "clear_as_group": false,
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 2449,
+                "y": 3184
+              }
+            ]
+          },
+          {
+            "name": "Stumpy",
+            "sections": [
+              {
+                "name": "Stumpy"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 1265,
+                "y": 2798
+              }
+            ]
+          },
+          {
+            "name": "South of Grove",
+            "access_rules": [
+              "mirror"
+            ],
+            "sections": [
+              {
+                "name": "South of Grove"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 1127,
+                "y": 3455
+              },
+              {
+                "map": "darkworld",
+                "x": 1127,
+                "y": 3455
+              }
+            ]
+          },
+          {
+            "name": "Digging Game",
+            "sections": [
+              {
+                "name": "Digging Game"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 204,
+                "y": 2827
+              }
+            ]
+          },
+          {
+            "name": "Bombos Tablet",
+            "sections": [
+              {
+                "name": "Bombos Tablet",
+                "capture_item": true,
+                "access_rules": [
+                  "book,progressivesword2,mirror"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "lightworld",
+                "x": 898,
+                "y": 3765
+              },
+              {
+                "map": "darkworld",
+                "x": 898,
+                "y": 3765
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark World Mire",
+        "access_rules": [
+          "flute,progressiveglove2",
+          "@CanAccessMiseryMirePortal"
+        ],
+        "children": [
+          {
+            "name": "Mire Shed",
+            "access_rules": [
+              "moonpearl",
+              "mirror,[moonpearl]"
+            ],
+            "sections": [
+              {
+                "name": "Mire Shed",
+                "clear_as_group": false,
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 157,
+                "y": 3265
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark World Death Mountain West",
+        "access_rules": [
+          "@Light World Death Mountain West"
+        ],
+        "children": [
+          {
+            "name": "Spike Cave",
+            "sections": [
+              {
+                "name": "Spike Cave",
+                "access_rules": [
+                  "moonpearl,hammer,progressiveglove1,[@CanDoubleMagic],[cape]",
+                  "moonpearl,hammer,progressiveglove1,[@CanDoubleMagic],[byrna]"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 2349,
+                "y": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark World Death Mountain East",
+        "access_rules": [
+          "progressiveglove2,@Light World Death Mountain East"
+        ],
+        "children": [
+          {
+            "name": "Superbunny Cave",
+            "access_rules": [
+              "[moonpearl]"
+            ],
+            "sections": [
+              {
+                "name": "Superbunny Cave",
+                "clear_as_group": false,
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 3459,
+                "y": 592
+              }
+            ]
+          },
+          {
+            "name": "Hookshot Cave",
+            "access_rules": [
+              "moonpearl"
+            ],
+            "sections": [
+              {
+                "name": "Bottom Right",
+                "access_rules": [
+                  "boots",
+                  "hookshot"
+                ]
+              },
+              {
+                "name": "Other Chests",
+                "access_rules": [
+                  "hookshot"
+                ],
+                "clear_as_group": false,
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "darkworld",
+                "x": 3408,
+                "y": 257
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

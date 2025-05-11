@@ -1,0 +1,46 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+  {
+    "name": "metroid",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/maps/sm/map_full.png"
+  },
+  {
+    "name": "crateria",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/maps/sm/map_crateria.png"
+  },
+  {
+    "name": "norfair",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/maps/sm/map_norfair.png"
+  },
+   {
+    "name": "wreckedship",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/maps/sm/map_ws.png"
+  },
+   {
+    "name": "brinstar",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/maps/sm/map_brinstar.png"
+  },
+   {
+    "name": "maridia",
+    "location_size": 40,
+    "location_border_thickness": 5,
+    "img": "images/maps/sm/map_maridia.png"
+  },  
+  {
+    "name": "lightworld",
+    "img": "images/maps/z3/lightworld.png"
+  },
+  {
+    "name": "darkworld",
+    "img": "images/maps/z3/darkworld.png"
+  }]

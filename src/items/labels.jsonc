@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Eastern Palace",
+    "type": "static",
+    "img": "images/labels/easternpalace.png",
+    "codes": "easternpalace_label"
+  },
+  {
+    "name": "Desert Palace",
+    "type": "static",
+    "img": "images/labels/desertpalace.png",
+    "codes": "desertpalace_label"
+  },
+  {
+    "name": "Tower of Hera",
+    "type": "static",
+    "img": "images/labels/towerofhera.png",
+    "codes": "towerofhera_label"
+  },
+  {
+    "name": "Castle Tower",
+    "type": "static",
+    "img": "images/labels/castletower.png",
+    "codes": "castletower_label"
+  },
+  {
+    "name": "Palace of Darkness",
+    "type": "static",
+    "img": "images/labels/palaceofdarkness.png",
+    "codes": "palaceofdarkness_label"
+  },
+  {
+    "name": "Swamp Palace",
+    "type": "static",
+    "img": "images/labels/swamppalace.png",
+    "codes": "swamppalace_label"
+  },
+  {
+    "name": "Skull Woods",
+    "type": "static",
+    "img": "images/labels/skullwoods.png",
+    "codes": "skullwoods_label"
+  },
+  {
+    "name": "Thieves' Town",
+    "type": "static",
+    "img": "images/labels/thievestown.png",
+    "codes": "thievestown_label"
+  },
+  {
+    "name": "Ice Palace",
+    "type": "static",
+    "img": "images/labels/icepalace.png",
+    "codes": "icepalace_label"
+  },
+  {
+    "name": "Misery Mire",
+    "type": "static",
+    "img": "images/labels/miserymire.png",
+    "codes": "miserymire_label"
+  },
+  {
+    "name": "Turtle Rock",
+    "type": "static",
+    "img": "images/labels/turtlerock.png",
+    "codes": "turtlerock_label"
+  },
+  {
+    "name": "Kraid",
+    "type": "static",
+    "img": "images/labels/kraid.png",
+    "codes": "kraid_label"
+  },
+  {
+    "name": "Phantoon",
+    "type": "static",
+    "img": "images/labels/phantoon.png",
+    "codes": "phantoon_label"
+  },
+  {
+    "name": "Draygon",
+    "type": "static",
+    "img": "images/labels/draygon.png",
+    "codes": "draygon_label"
+  },
+  {
+    "name": "Ridley",
+    "type": "static",
+    "img": "images/labels/ridley.png",
+    "codes": "ridley_label"
+  }
+]
