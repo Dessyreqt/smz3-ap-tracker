@@ -23,6 +23,43 @@
           "[lamp]"
         ]
       }
+    ],
+    "children": [
+      {
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Foyer",
+            "sections": [
+              {
+                "ref": "Castle Tower/Foyer"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "castletower",
+                "x": 439,
+                "y": 712
+              }
+            ]
+          },
+          {
+            "name": "Dark Maze",
+            "sections": [
+              {
+                "ref": "Castle Tower/Dark Maze"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "castletower",
+                "x": 55,
+                "y": 214
+              }
+            ]
+          }
+        ]
+      }
     ]
   }
 ]
