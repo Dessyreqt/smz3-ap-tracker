@@ -3,6 +3,7 @@
     "name": "KeyHC",
     "type": "consumable",
     "img": "images/items/z3/key.png",
+    "item_size": 8,
     "max_quantity": 1,
     "increment": 1,
     "decrement": 1,

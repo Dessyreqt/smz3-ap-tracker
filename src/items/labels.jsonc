@@ -1,5 +1,11 @@
 [
   {
+    "name": "Hyrule Castle",
+    "type": "static",
+    "img": "images/labels/hyrulecastle.png",
+    "codes": "hyrulecastle_label"
+  },
+  {
     "name": "Eastern Palace",
     "type": "static",
     "img": "images/labels/easternpalace.png",
@@ -64,6 +70,12 @@
     "type": "static",
     "img": "images/labels/turtlerock.png",
     "codes": "turtlerock_label"
+  },
+  {
+    "name": "Ganon's Tower",
+    "type": "static",
+    "img": "images/labels/ganonstower.png",
+    "codes": "ganonstower_label"
   },
   {
     "name": "Kraid",

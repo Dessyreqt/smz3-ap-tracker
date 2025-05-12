@@ -15,7 +15,7 @@
       ]
     },
     "var_keysanity": {
-      "display_name": "Keysanity (not yet implemented)",
+      "display_name": "Keysanity",
       "flags": [
         "ap"
       ]

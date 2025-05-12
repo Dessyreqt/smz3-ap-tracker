@@ -1,0 +1,162 @@
+{
+  "boss_tokens_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_row_1"
+      },
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_keys_1"
+      },
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_row_2"
+      },
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_keys_2"
+      },
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_row_3"
+      }
+    ]
+},
+  "boss_tokens_grid_row_1": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,0",
+    "rows": [
+      [
+        "hyrulecastle_label",
+        "easternpalace_label",
+        "desertpalace_label",
+        "towerofhera_label",
+        "",
+        "kraid_label",
+        "phantoon_label",
+        "draygon_label",
+        "ridley_label"
+      ],
+      [
+        "",
+        "easternpalace",
+        "desertpalace",
+        "towerofhera",
+        "",
+        "kraid",
+        "phantoon",
+        "draygon",
+        "ridley"
+      ]
+    ]
+  },
+  "boss_tokens_grid_row_2": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,0",
+    "rows": [
+      [
+        "castletower_label",
+        "palaceofdarkness_label",
+        "swamppalace_label",
+        "skullwoods_label",
+        "thievestown_label",
+        "icepalace_label",
+        "miserymire_label",
+        "turtlerock_label",
+        "ganonstower_label"
+      ],
+      [
+        "",
+        "palaceofdarkness",
+        "swamppalace",
+        "skullwoods",
+        "thievestown",
+        "icepalace",
+        "miserymire",
+        "turtlerock",
+        ""
+      ]
+    ]
+  },
+  "boss_tokens_grid_row_3": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "2,0",
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "mm_medallion",
+        "tr_medallion",
+        "",
+        ""
+      ]
+    ]
+  },
+  "boss_tokens_grid_keys_1": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,0",
+    "item_size": 16,
+    "rows": [
+      [
+        "",
+        "keyhc",
+        "bigkeyep",
+        "",
+        "bigkeydp",
+        "keydp",
+        "bigkeyth",
+        "keyth",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "boss_tokens_grid_keys_2": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,0",
+    "item_size": 16,
+    "rows": [
+      [
+        "",
+        "keyct",
+        "bigkeypd",
+        "keypd",
+        "bigkeysp",
+        "keysp",
+        "bigkeysw",
+        "keysw",
+        "bigkeytt",
+        "keytt",
+        "bigkeyip",
+        "keyip",
+        "bigkeymm",
+        "keymm",
+        "bigkeytr",
+        "keytr",
+        "bigkeygt",
+        "keygt"
+      ]
+    ]
+  }
+}
