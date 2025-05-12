@@ -6,6 +6,13 @@
     "access_rules": [
       "[flippers],moonpearl,progressiveglove2,@CanMeltFreezors"
     ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3265,
+        "y": 3541
+      }
+    ],
     "sections": [
       {
         "name": "Compass Chest"
@@ -49,11 +56,131 @@
         "hosted_item": "icepalace"
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "darkworld",
-        "x": 3265,
-        "y": 3541
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Ice Palace/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 378,
+                "y": 951
+              }
+            ]
+          },
+          {
+            "name": "Spike Room",
+            "sections": [
+              {
+                "ref": "Ice Palace/Spike Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 1367,
+                "y": 438
+              }
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Ice Palace/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 698,
+                "y": 1494
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Ice Palace/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 880,
+                "y": 708
+              }
+            ]
+          },
+          {
+            "name": "Iced T Room",
+            "sections": [
+              {
+                "ref": "Ice Palace/Iced T Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 1894,
+                "y": 694
+              }
+            ]
+          },
+          {
+            "name": "Freezor Chest",
+            "sections": [
+              {
+                "ref": "Ice Palace/Freezor Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 903,
+                "y": 1172
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Ice Palace/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 1630,
+                "y": 331
+              }
+            ]
+          },
+          {
+            "name": "Kholdstare",
+            "sections": [
+              {
+                "ref": "Ice Palace/Kholdstare"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "icepalace",
+                "x": 1950,
+                "y": 1707
+              }
+            ]
+          }
+        ]
       }
     ]
   }
