@@ -101,6 +101,42 @@
     "img": "images/labels/ridley.png",
     "codes": "ridley_label"
   },
+  {
+    "name": "Crateria",
+    "type": "static",
+    "img": "images/labels/crateria.png",
+    "codes": "crateria_label"
+  },
+  {
+    "name": "Brinstar",
+    "type": "static",
+    "img": "images/labels/brinstar.png",
+    "codes": "brinstar_label"
+  },
+  {
+    "name": "Norfair",
+    "type": "static",
+    "img": "images/labels/uppernorfair.png",
+    "codes": "norfair_label"
+  },
+  {
+    "name": "Maridia",
+    "type": "static",
+    "img": "images/labels/maridia.png",
+    "codes": "maridia_label"
+  },
+  {
+    "name": "Wrecked Ship",
+    "type": "static",
+    "img": "images/labels/wreckedship.png",
+    "codes": "wreckedship_label"
+  },
+  {
+    "name": "Lower Norfair",
+    "type": "static",
+    "img": "images/labels/lowernorfair.png",
+    "codes": "lowernorfair_label"
+  },
   // space filler
   {
     "name": "",
