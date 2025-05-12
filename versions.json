@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "package_version": "1.0.0",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.0.0/smz3-ap-tracker-1.0.0.zip",
+      "sha256": "9FEB080A8BAC9027B7860E8F713E91DC936EB93ACC87D0FB26B54B0497259DE0",
+      "changelog": ["Dungeonsanity support", "Agahnim tracking"]
+    },
+    {
       "package_version": "0.2.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/0.2.0/smz3-ap-tracker-0.2.0.zip",
       "sha256": "3D32565DD176B2599E217CBB04AA47B00F9BF98AD23B18501634B903BB6FF095",
