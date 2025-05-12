@@ -20,6 +20,58 @@
       {
         "name": "Zelda's Cell"
       }
+    ],
+    "children": [
+      {
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Hyrule Castle/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hyrulecastle",
+                "x": 759,
+                "y": 151
+              }
+            ]
+          },
+          {
+            "name": "Boomerang Chest",
+            "sections": [
+              {
+                "ref": "Hyrule Castle/Boomerang Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hyrulecastle",
+                "x": 383,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "name": "Zelda's Cell",
+            "sections": [
+              {
+                "ref": "Hyrule Castle/Zelda's Cell"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hyrulecastle",
+                "x": 335,
+                "y": 1383
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -37,6 +89,28 @@
       {
         "name": "Sanctuary"
       }
+    ],
+    "children": [
+      {
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Sanctuary",
+            "sections": [
+              {
+                "ref": "Sanctuary/Sanctuary"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hyrulecastle",
+                "x": 2839,
+                "y": 599
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
@@ -52,30 +126,55 @@
     ],
     "sections": [
       {
-        "name": "Secret Room - Left",
+        "name": "Secret Room",
         "access_rules": [
           "progressiveglove1",
           "[lamp]"
-        ]
-      },
-      {
-        "name": "Secret Room - Middle",
-        "access_rules": [
-          "progressiveglove1",
-          "[lamp]"
-        ]
-      },
-      {
-        "name": "Secret Room - Right",
-        "access_rules": [
-          "progressiveglove1",
-          "[lamp]"
-        ]
+        ],
+        "clear_as_group": false,
+        "item_count": 3
       },
       {
         "name": "Dark Cross",
         "access_rules": [
           "[lamp]"
+        ]
+      }
+    ],
+    "children": [
+      {
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Secret Room",
+            "sections": [
+              {
+                "ref": "Sewers/Secret Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hyrulecastle",
+                "x": 1670,
+                "y": 287
+              }
+            ]
+          },
+          {
+            "name": "Dark Cross",
+            "sections": [
+              {
+                "ref": "Sewers/Dark Cross"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hyrulecastle",
+                "x": 2470,
+                "y": 1239
+              }
+            ]
+          }
         ]
       }
     ]
