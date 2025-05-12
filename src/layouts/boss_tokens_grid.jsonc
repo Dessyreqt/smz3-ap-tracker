@@ -1,0 +1,54 @@
+{
+  "boss_tokens_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "easternpalace_label",
+        "desertpalace_label",
+        "towerofhera_label",
+        "kraid_label",
+        "phantoon_label",
+        "draygon_label",
+        "ridley_label"
+      ],
+      [
+        "easternpalace",
+        "desertpalace",
+        "towerofhera",
+        "kraid",
+        "phantoon",
+        "draygon",
+        "ridley"
+      ],
+      [
+        "palaceofdarkness_label",
+        "swamppalace_label",
+        "skullwoods_label",
+        "thievestown_label",
+        "icepalace_label",
+        "miserymire_label",
+        "turtlerock_label"
+      ],
+      [
+        "palaceofdarkness",
+        "swamppalace",
+        "skullwoods",
+        "thievestown",
+        "icepalace",
+        "miserymire",
+        "turtlerock"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "mm_medallion",
+        "tr_medallion"
+      ]
+    ]
+  }
+}

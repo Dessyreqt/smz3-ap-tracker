@@ -26,8 +26,10 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 -- Items
 Tracker:AddItems("items/sm/boss_tokens.jsonc")
 Tracker:AddItems("items/sm/equipment.jsonc")
-Tracker:AddItems("items/z3/equipment.jsonc")
+Tracker:AddItems("items/sm/keys.jsonc")
 Tracker:AddItems("items/z3/dungeon_info.jsonc")
+Tracker:AddItems("items/z3/equipment.jsonc")
+Tracker:AddItems("items/z3/keys.jsonc")
 Tracker:AddItems("items/settings.jsonc")
 Tracker:AddItems("items/labels.jsonc")
 
@@ -64,7 +66,9 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/alttp_item_grid.jsonc")
+Tracker:AddLayouts("layouts/boss_tokens_grid.jsonc")
+Tracker:AddLayouts("layouts/sm_item_grid.jsonc")
 Tracker:AddLayouts("layouts/maps.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
