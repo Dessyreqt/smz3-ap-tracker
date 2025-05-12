@@ -261,7 +261,7 @@ LOCATION_MAPPING = {
     [85041] = { { "@Missile (red Brinstar spike room)/Missile (red Brinstar spike room)" } },
     [85042] = { { "@Spazer/Spazer" } },
     [85043] = { { "@Energy Tank, Kraid/Energy Tank, Kraid" }, { "kraid", "progressive_toggle", true } },
-    [85048] = { { "@Varia Suit/Varia Suit" } },
+    [85048] = { { "@Varia Suit/Varia Suit" }, { "kraid", "progressive_toggle", true } },
     [85044] = { { "@Missile (Kraid)/Missile (Kraid)" } },
     
     [85128] = { { "@Missile (Wrecked Ship middle)/Missile (Wrecked Ship middle)" } },
