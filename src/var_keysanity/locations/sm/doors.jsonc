@@ -3,37 +3,37 @@
   {
     "name": "CanOpenCrateriaSurfaceDoor",
     "access_rules": [
-      "@CanUsePowerBombs"
+      "@CardCrateriaL1"
     ]
   },
   {
     "name": "CanOpenBombTorizoDoor",
     "access_rules": [
-      "@CanOpenRedDoors"
+      "@CardCrateriaBoss"
     ]
   },
   {
     "name": "CanOpenMoatDoor",
     "access_rules": [
-      "@CanUsePowerBombs"
+      "@CardCrateriaL2"
     ]
   },
   {
     "name": "CanOpenIceBeamDoor",
     "access_rules": [
-      "super"
+      "@CardNorfairL1"
     ]
   },
   {
     "name": "CanOpenCathedralDoor",
     "access_rules": [
-      "super"
+      "@CardNorfairL2"
     ]
   },
   {
     "name": "CanAccessCrocomire",
     "access_rules": [
-      "super"
+      "@CardNorfairBoss"
     ]
   }
 ]
