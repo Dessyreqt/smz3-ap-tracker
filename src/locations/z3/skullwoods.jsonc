@@ -6,6 +6,13 @@
     "access_rules": [
       "moonpearl,@Dark World North West"
     ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 161,
+        "y": 247
+      }
+    ],
     "sections": [
       {
         "name": "Pot Prison"
@@ -43,11 +50,131 @@
         "hosted_item": "skullwoods"
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "darkworld",
-        "x": 161,
-        "y": 247
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Pot Prison",
+            "sections": [
+              {
+                "ref": "Skull Woods/Pot Prison"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 822,
+                "y": 598
+              }
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Skull Woods/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 1479,
+                "y": 598
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Skull Woods/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 646,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Skull Woods/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 902,
+                "y": 1016
+              }
+            ]
+          },
+          {
+            "name": "Bridge Room",
+            "sections": [
+              {
+                "ref": "Skull Woods/Bridge Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 1720,
+                "y": 1144
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Skull Woods/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 1149,
+                "y": 627
+              }
+            ]
+          },
+          {
+            "name": "Pinball Room",
+            "sections": [
+              {
+                "ref": "Skull Woods/Pinball Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 1287,
+                "y": 1014
+              }
+            ]
+          },
+          {
+            "name": "Mothula",
+            "sections": [
+              {
+                "ref": "Skull Woods/Mothula"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "skullwoods",
+                "x": 1408,
+                "y": 136
+              }
+            ]
+          }
+        ]
       }
     ]
   }

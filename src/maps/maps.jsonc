@@ -92,8 +92,8 @@
   },
   {
     "name": "skullwoods",
-    "location_size": 32,
-    "location_border_thickness": 5,
+    "location_size": 24,
+    "location_border_thickness": 3,
     "img": "images/maps/z3/skullwoods.png"
   },
   {
