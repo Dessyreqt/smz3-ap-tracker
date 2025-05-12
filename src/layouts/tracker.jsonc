@@ -35,6 +35,13 @@
                 "type": "layout",
                 "key": "alttp_maps"
               }
+            },
+            {
+              "title": "Dungeons",
+              "content": {
+                "type": "layout",
+                "key": "dungeon_maps"
+              }
             }
           ]
         }
@@ -119,6 +126,13 @@
               "content": {
                 "type": "layout",
                 "key": "alttp_maps"
+              }
+            },
+            {
+              "title": "Dungeons",
+              "content": {
+                "type": "layout",
+                "key": "dungeon_maps"
               }
             }
           ]

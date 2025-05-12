@@ -18,24 +18,24 @@
     "location_border_thickness": 5,
     "img": "images/maps/sm/map_norfair.png"
   },
-   {
+  {
     "name": "wreckedship",
     "location_size": 40,
     "location_border_thickness": 5,
     "img": "images/maps/sm/map_ws.png"
   },
-   {
+  {
     "name": "brinstar",
     "location_size": 40,
     "location_border_thickness": 5,
     "img": "images/maps/sm/map_brinstar.png"
   },
-   {
+  {
     "name": "maridia",
     "location_size": 40,
     "location_border_thickness": 5,
     "img": "images/maps/sm/map_maridia.png"
-  },  
+  },
   {
     "name": "lightworld",
     "img": "images/maps/z3/lightworld.png"
@@ -43,4 +43,57 @@
   {
     "name": "darkworld",
     "img": "images/maps/z3/darkworld.png"
-  }]
+  },
+  {
+    "name": "hyrulecastle",
+    "img": "images/maps/z3/hyrulecastle.png"
+  },
+  {
+    "name": "castletower",
+    "img": "images/maps/z3/castletower.png"
+  },
+  {
+    "name": "easternpalace",
+    "img": "images/maps/z3/easternpalace.png"
+  },
+  {
+    "name": "desertpalace",
+    "img": "images/maps/z3/desertpalace.png"
+  },
+  {
+    "name": "towerofhera",
+    "img": "images/maps/z3/towerofhera.png"
+  },
+  {
+    "name": "palaceofdarkness",
+    "img": "images/maps/z3/palaceofdarkness.png"
+  },
+  {
+    "name": "swamppalace",
+    "img": "images/maps/z3/swamppalace.png"
+  },
+  {
+    "name": "skullwoods",
+    "img": "images/maps/z3/skullwoods.png"
+  },
+  {
+    "name": "thievestown",
+    "img": "images/maps/z3/thievestown.png"
+  },
+  {
+    "name": "icepalace",
+    "img": "images/maps/z3/icepalace.png"
+  },
+  {
+    "name": "miserymire",
+    "img": "images/maps/z3/miserymire.png"
+  },
+  {
+    "name": "turtlerock",
+    "img": "images/maps/z3/turtlerock.png"
+  },
+  {
+    "name": "ganonstower",
+    "img": "images/maps/z3/ganonstower.png"
+  }
+]

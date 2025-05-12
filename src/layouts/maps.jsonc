@@ -90,5 +90,127 @@
         }
       }
     ]
+  },
+  "dungeon_maps": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Hyrule Castle",
+        "content": {
+          "type": "map",
+          "maps": [
+            "hyrulecastle"
+          ]
+        }
+      },
+      {
+        "title": "Eastern Palace",
+        "content": {
+          "type": "map",
+          "maps": [
+            "easternpalace"
+          ]
+        }
+      },
+      {
+        "title": "Desert Palace",
+        "content": {
+          "type": "map",
+          "maps": [
+            "desertpalace"
+          ]
+        }
+      },
+      {
+        "title": "Tower of Hera",
+        "content": {
+          "type": "map",
+          "maps": [
+            "towerofhera"
+          ]
+        }
+      },
+      {
+        "title": "Castle Tower",
+        "content": {
+          "type": "map",
+          "maps": [
+            "castletower"
+          ]
+        }
+      },
+      {
+        "title": "Palace of Darkness",
+        "content": {
+          "type": "map",
+          "maps": [
+            "palaceofdarkness"
+          ]
+        }
+      },
+      {
+        "title": "Swamp Palace",
+        "content": {
+          "type": "map",
+          "maps": [
+            "swamppalace"
+          ]
+        }
+      },
+      {
+        "title": "Skull Woods",
+        "content": {
+          "type": "map",
+          "maps": [
+            "skullwoods"
+          ]
+        }
+      },
+      {
+        "title": "Thieves' Town",
+        "content": {
+          "type": "map",
+          "maps": [
+            "thievestown"
+          ]
+        }
+      },
+      {
+        "title": "Ice Palace",
+        "content": {
+          "type": "map",
+          "maps": [
+            "icepalace"
+          ]
+        }
+      },
+      {
+        "title": "Misery Mire",
+        "content": {
+          "type": "map",
+          "maps": [
+            "miserymire"
+          ]
+        }
+      },
+      {
+        "title": "Turtle Rock",
+        "content": {
+          "type": "map",
+          "maps": [
+            "turtlerock"
+          ]
+        }
+      },
+      {
+        "title": "Ganon's Tower",
+        "content": {
+          "type": "map",
+          "maps": [
+            "ganonstower"
+          ]
+        }
+      }
+    ]
   }
 }
