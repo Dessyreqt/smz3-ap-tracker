@@ -1,54 +1,390 @@
 {
   "boss_tokens_grid": {
-    "type": "itemgrid",
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_row_1"
+      },
+      {
+        "type": "layout",
+        "key": "boss_tokens_grid_row_2"
+      }
+    ]
+  },
+  "boss_tokens_grid_row_1": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "easternpalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "desertpalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "towerofhera_info"
+      },
+      {
+        "type": "layout",
+        "key": "kraid_info"
+      },
+      {
+        "type": "layout",
+        "key": "phantoon_info"
+      },
+      {
+        "type": "layout",
+        "key": "draygon_info"
+      },
+      {
+        "type": "layout",
+        "key": "ridley_info"
+      }
+    ]
+  },
+  "boss_tokens_grid_row_2": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "palaceofdarkness_info"
+      },
+      {
+        "type": "layout",
+        "key": "swamppalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "skullwoods_info"
+      },
+      {
+        "type": "layout",
+        "key": "thievestown_info"
+      },
+      {
+        "type": "layout",
+        "key": "icepalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "miserymire_info"
+      },
+      {
+        "type": "layout",
+        "key": "turtlerock_info"
+      }
+    ]
+  },
+  "empty_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "000000",
+    "content": [
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,2",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "easternpalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "84AA73",
+    "content": [
+      {
+        "type": "item",
+        "item": "easternpalace_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "easternpalace",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "desertpalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "9C7952",
+    "content": [
+      {
+        "type": "item",
+        "item": "desertpalace_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "desertpalace",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "towerofhera_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "9C7973",
+    "content": [
+      {
+        "type": "item",
+        "item": "towerofhera_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "towerofhera",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "palaceofdarkness_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "949294",
+    "content": [
+      {
+        "type": "item",
+        "item": "palaceofdarkness_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "palaceofdarkness",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "swamppalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "736994",
+    "content": [
+      {
+        "type": "item",
+        "item": "swamppalace_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "swamppalace",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "skullwoods_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "947952",
+    "content": [
+      {
+        "type": "item",
+        "item": "skullwoods_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "skullwoods",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "thievestown_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "7B798C",
+    "content": [
+      {
+        "type": "item",
+        "item": "thievestown_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "thievestown",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "icepalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "ADE3EF",
+    "content": [
+      {
+        "type": "item",
+        "item": "icepalace_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "icepalace",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "miserymire_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "84B273",
+    "content": [
+      {
+        "type": "item",
+        "item": "miserymire_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "miserymire",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "mm_medallion",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "turtlerock_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "292021",
+    "content": [
+      {
+        "type": "item",
+        "item": "turtlerock_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "turtlerock",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "tr_medallion",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "kraid_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "009000",
+    "content": [
+      {
+        "type": "item",
+        "item": "kraid_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "kraid",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "phantoon_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "909000",
+    "content": [
+      {
+        "type": "item",
+        "item": "phantoon_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "phantoon",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "draygon_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "009090",
+    "content": [
+      {
+        "type": "item",
+        "item": "draygon_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "draygon",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "ridley_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "900000",
     "h_alignment": "center",
-    "item_margin": "1,2",
-    "rows": [
-      [
-        "easternpalace_label",
-        "desertpalace_label",
-        "towerofhera_label",
-        "kraid_label",
-        "phantoon_label",
-        "draygon_label",
-        "ridley_label"
-      ],
-      [
-        "easternpalace",
-        "desertpalace",
-        "towerofhera",
-        "kraid",
-        "phantoon",
-        "draygon",
-        "ridley"
-      ],
-      [
-        "palaceofdarkness_label",
-        "swamppalace_label",
-        "skullwoods_label",
-        "thievestown_label",
-        "icepalace_label",
-        "miserymire_label",
-        "turtlerock_label"
-      ],
-      [
-        "palaceofdarkness",
-        "swamppalace",
-        "skullwoods",
-        "thievestown",
-        "icepalace",
-        "miserymire",
-        "turtlerock"
-      ],
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "mm_medallion",
-        "tr_medallion"
-      ]
+    "content": [
+      {
+        "type": "item",
+        "item": "ridley_label",
+        "margin": "5,2"
+      },
+      {
+        "type": "item",
+        "item": "ridley",
+        "margin": "5,2"
+      }
     ]
   }
 }

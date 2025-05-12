@@ -108,12 +108,12 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -137,12 +137,12 @@
       {
         "type": "item",
         "item": "hyrulecastle_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "0,0"
+        "margin": "0,1"
       },
       {
         "type": "itemgrid",
@@ -166,12 +166,12 @@
       {
         "type": "item",
         "item": "easternpalace_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "easternpalace",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -195,12 +195,12 @@
       {
         "type": "item",
         "item": "desertpalace_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "desertpalace",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -224,12 +224,12 @@
       {
         "type": "item",
         "item": "towerofhera_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "towerofhera",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -253,12 +253,12 @@
       {
         "type": "item",
         "item": "castletower_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -275,7 +275,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -287,12 +287,12 @@
       {
         "type": "item",
         "item": "palaceofdarkness_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "palaceofdarkness",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -309,7 +309,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -321,12 +321,12 @@
       {
         "type": "item",
         "item": "swamppalace_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "swamppalace",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -343,7 +343,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -355,12 +355,12 @@
       {
         "type": "item",
         "item": "skullwoods_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "skullwoods",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -377,7 +377,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -389,12 +389,12 @@
       {
         "type": "item",
         "item": "thievestown_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "thievestown",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -411,7 +411,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -423,12 +423,12 @@
       {
         "type": "item",
         "item": "icepalace_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "icepalace",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -445,7 +445,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -457,12 +457,12 @@
       {
         "type": "item",
         "item": "miserymire_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "miserymire",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -479,7 +479,7 @@
       {
         "type": "item",
         "item": "mm_medallion",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -491,12 +491,12 @@
       {
         "type": "item",
         "item": "turtlerock_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "turtlerock",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -513,7 +513,7 @@
       {
         "type": "item",
         "item": "tr_medallion",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -525,12 +525,12 @@
       {
         "type": "item",
         "item": "ganonstower_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -547,7 +547,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "5,0"
+        "margin": "5,1"
       }
     ]
   },
@@ -559,12 +559,12 @@
       {
         "type": "item",
         "item": "kraid_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "kraid",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -588,12 +588,12 @@
       {
         "type": "item",
         "item": "phantoon_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "phantoon",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -617,12 +617,12 @@
       {
         "type": "item",
         "item": "draygon_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "draygon",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -647,12 +647,12 @@
       {
         "type": "item",
         "item": "ridley_label",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "item",
         "item": "ridley",
-        "margin": "5,0"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -667,6 +667,5 @@
         ]
       }
     ]
-  },
-  
+  }
 }
