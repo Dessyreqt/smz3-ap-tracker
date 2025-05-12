@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Tower of Hera",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@Light World Death Mountain West,mirror",
+      "@Light World Death Mountain West,hookshot,hammer"
+    ],
+    "sections": [
+      {
+        "name": "Basement Cage"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Compass Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Moldorm",
+        "access_rules": [
+          "@CanLightTorches,@CanBeatMoldorm"
+        ],
+        "item_count": 1,
+        "hosted_item": "towerofhera"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2298,
+        "y": 139
+      }
+    ]
+  }
+]

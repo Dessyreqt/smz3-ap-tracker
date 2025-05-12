@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Eastern Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "sections": [
+      {
+        "name": "Cannonball Chest"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Armos Knights",
+        "access_rules": [
+          "@CanBeatArmos,bow,[lamp]"
+        ],
+        "item_count": 1,
+        "hosted_item": "easternpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 3929,
+        "y": 1614
+      }
+    ]
+  }
+]

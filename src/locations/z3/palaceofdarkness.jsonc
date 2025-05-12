@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Palace of Darkness",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,@Dark World North East"
+    ],
+    "sections": [
+      {
+        "name": "Shooter Room"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Stalfos Basement"
+      },
+      {
+        "name": "The Arena - Bridge"
+      },
+      {
+        "name": "The Arena - Ledge",
+        "access_rules": [
+          "bow"
+        ]
+      },
+      {
+        "name": "Map Chest",
+        "access_rules": [
+          "bow"
+        ]
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Harmless Hellway"
+      },
+      {
+        "name": "Dark Basement",
+        "access_rules": [
+          "[lamp]"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Dark Maze",
+        "access_rules": [
+          "[lamp]"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[lamp],[bow]"
+        ]
+      },
+      {
+        "name": "Helmasaur King",
+        "access_rules": [
+          "bow,hammer,[lamp]"
+        ],
+        "item_count": 1,
+        "hosted_item": "palaceofdarkness"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3926,
+        "y": 1633
+      }
+    ]
+  }
+]

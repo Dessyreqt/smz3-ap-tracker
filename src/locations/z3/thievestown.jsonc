@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Thieves' Town",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,@Dark World North West"
+    ],
+    "sections": [
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Ambush Chest"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Attic"
+      },
+      {
+        "name": "Blind's Cell"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "Blind",
+        "access_rules": [
+          "progressivesword1",
+          "hammer",
+          "somaria",
+          "byrna"
+        ],
+        "item_count": 1,
+        "hosted_item": "thievestown"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 512,
+        "y": 1982
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Ganon's Tower",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@Dark World Death Mountain East,moonpearl,$GtCrystalCount"
+    ],
+    "sections": [
+      {
+        "name": "Bob's Torch",
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "DMs Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Map Chest",
+        "access_rules": [
+          "hammer,hookshot",
+          "hammer,boots"
+        ]
+      },
+      {
+        "name": "Firesnake Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ]
+      },
+      {
+        "name": "Randomizer Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Hope Room",
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Tile Room",
+        "access_rules": [
+          "somaria"
+        ]
+      },
+      {
+        "name": "Compass Room",
+        "access_rules": [
+          "somaria,firerod"
+        ],
+        "clear_as_group": false,
+        "item_count": 4
+      },
+      {
+        "name": "Bob's Chest",
+        "access_rules": [
+          "hammer,hookshot",
+          "somaria,firerod"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[hammer],[hookshot],[somaria],[firerod],[boots],[@CanBeatArmos]"
+        ]
+      },
+      {
+        "name": "Big Key Room",
+        "access_rules": [
+          "hammer,hookshot,@CanBeatArmos",
+          "somaria,firerod,@CanBeatArmos"
+        ],
+        "clear_as_group": false,
+        "item_count": 3
+      },
+      {
+        "name": "Mini Helmasaur Room",
+        "access_rules": [
+          "@CanAscendGanonsTower"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Pre-Moldorm Chest",
+        "access_rules": [
+          "@CanAscendGanonsTower"
+        ]
+      },
+      {
+        "name": "Moldorm Chest",
+        "access_rules": [
+          "@CanAscendGanonsTower,@CanBeatMoldorm,hookshot"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 2298,
+        "y": 139
+      }
+    ]
+  }
+]

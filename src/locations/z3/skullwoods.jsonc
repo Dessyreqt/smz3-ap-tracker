@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Skull Woods",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,@Dark World North West"
+    ],
+    "sections": [
+      {
+        "name": "Pot Prison"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[firerod]"
+        ]
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Pinball Room"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Bridge Room",
+        "access_rules": [
+          "firerod"
+        ]
+      },
+      {
+        "name": "Mothula",
+        "access_rules": [
+          "firerod,progressivesword1"
+        ],
+        "item_count": 1,
+        "hosted_item": "skullwoods"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 161,
+        "y": 247
+      }
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Desert Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "book",
+      "mirror,progressiveglove2,flute",
+      "@CanAccessMiseryMirePortal,mirror"
+    ],
+    "sections": [
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "Torch",
+        "access_rules": [
+          "boots"
+        ]
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Big Key Chest"
+      },
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Lanmolas",
+        "access_rules": [
+          "progressiveglove1,@CanLightTorches,@CanBeatLanmolas",
+          "@CanAccessMiseryMirePortal,mirror,@CanLightTorches,@CanBeatLanmolas"
+        ],
+        "item_count": 1,
+        "hosted_item": "desertpalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 298,
+        "y": 3233
+      }
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Ice Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "[flippers],moonpearl,progressiveglove2,@CanMeltFreezors"
+    ],
+    "sections": [
+      {
+        "name": "Compass Chest"
+      },
+      {
+        "name": "Spike Room",
+        "access_rules": [
+          "[hookshot]"
+        ]
+      },
+      {
+        "name": "Map Chest",
+        "access_rules": [
+          "hammer,[hookshot]"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "hammer,[hookshot]"
+        ]
+      },
+      {
+        "name": "Iced T Room"
+      },
+      {
+        "name": "Freezor Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "hammer,[hookshot],[somaria]"
+        ]
+      },
+      {
+        "name": "Kholdstare",
+        "access_rules": [
+          "hammer,[somaria]"
+        ],
+        "item_count": 1,
+        "hosted_item": "icepalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3265,
+        "y": 3541
+      }
+    ]
+  }
+]

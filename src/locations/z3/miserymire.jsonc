@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Misery Mire",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "mm_bombos,bombos,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "mm_ether,ether,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "mm_quake,quake,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "bombos,ether,quake,progressivesword1,moonpearl,boots,@Dark World Mire",
+      "mm_bombos,bombos,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+      "mm_ether,ether,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+      "mm_quake,quake,progressivesword1,moonpearl,hookshot,@Dark World Mire",
+      "bombos,ether,quake,progressivesword1,moonpearl,hookshot,@Dark World Mire"
+    ],
+    "sections": [
+      {
+        "name": "Main Lobby"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Bridge Chest"
+      },
+      {
+        "name": "Spike Chest"
+      },
+      {
+        "name": "Compass Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "@CanLightTorches"
+        ]
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "[@CanLightTorches]"
+        ]
+      },
+      {
+        "name": "Vitreous",
+        "access_rules": [
+          "[@CanLightTorches],[lamp],somaria"
+        ],
+        "item_count": 1,
+        "hosted_item": "miserymire"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 306,
+        "y": 3408
+      }
+    ]
+  }
+]

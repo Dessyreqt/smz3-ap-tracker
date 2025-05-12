@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Swamp Palace",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "moonpearl,mirror,flippers,@Dark World South"
+    ],
+    "sections": [
+      {
+        "name": "Entrance"
+      },
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Big Chest",
+        "access_rules": [
+          "hammer,hookshot"
+        ]
+      },
+      {
+        "name": "Compass Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "West Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "Big Key Chest",
+        "access_rules": [
+          "hammer"
+        ]
+      },
+      {
+        "name": "Flooded Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "clear_as_group": false,
+        "item_count": 2
+      },
+      {
+        "name": "Waterfall Room",
+        "access_rules": [
+          "hammer,hookshot"
+        ]
+      },
+      {
+        "name": "Arrghus",
+        "access_rules": [
+          "hammer,hookshot"
+        ],
+        "item_count": 1,
+        "hosted_item": "swamppalace"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1918,
+        "y": 3837
+      }
+    ]
+  }
+]

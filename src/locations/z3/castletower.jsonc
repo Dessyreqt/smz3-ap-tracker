@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Castle Tower",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "access_rules": [
+      "@CanEnterCastleTower"
+    ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2047,
+        "y": 1636
+      }
+    ],
+    "sections": [
+      {
+        "name": "Foyer"
+      },
+      {
+        "name": "Dark Maze",
+        "access_rules": [
+          "[lamp]"
+        ]
+      }
+    ]
+  }
+]

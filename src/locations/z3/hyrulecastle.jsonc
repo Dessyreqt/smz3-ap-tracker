@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Hyrule Castle",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2047,
+        "y": 1849
+      }
+    ],
+    "sections": [
+      {
+        "name": "Map Chest"
+      },
+      {
+        "name": "Boomerang Chest"
+      },
+      {
+        "name": "Zelda's Cell"
+      }
+    ]
+  },
+  {
+    "name": "Sanctuary",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 1888,
+        "y": 1094
+      }
+    ],
+    "sections": [
+      {
+        "name": "Sanctuary"
+      }
+    ]
+  },
+  {
+    "name": "Sewers",
+    "chest_unopened_img": "images/items/z3/ChestUnopened.png",
+    "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2128,
+        "y": 1202
+      }
+    ],
+    "sections": [
+      {
+        "name": "Secret Room - Left",
+        "access_rules": [
+          "progressiveglove1",
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Secret Room - Middle",
+        "access_rules": [
+          "progressiveglove1",
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Secret Room - Right",
+        "access_rules": [
+          "progressiveglove1",
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Dark Cross",
+        "access_rules": [
+          "[lamp]"
+        ]
+      }
+    ]
+  }
+]
