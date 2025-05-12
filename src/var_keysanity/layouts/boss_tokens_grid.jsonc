@@ -142,7 +142,7 @@
       {
         "type": "item",
         "item": "empty_label",
-        "margin": "0,1"
+        "margin": "5,1"
       },
       {
         "type": "itemgrid",
@@ -257,7 +257,7 @@
       },
       {
         "type": "item",
-        "item": "empty_label",
+        "item": "agahnim",
         "margin": "5,1"
       },
       {

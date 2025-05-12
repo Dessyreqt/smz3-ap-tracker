@@ -193,7 +193,7 @@
                 "name": "Lumberjack Tree",
                 "capture_item": true,
                 "access_rules": [
-                  "@CanCompleteCastleTower,boots"
+                  "agahnim,boots"
                 ]
               }
             ]

@@ -28,7 +28,8 @@
         "name": "Agahnim",
         "access_rules": [
           "@CanCompleteCastleTower,keyct:2"
-        ]
+        ],
+        "hosted_item": "agahnim"
       }
     ],
     "children": [

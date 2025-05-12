@@ -207,13 +207,13 @@
   {
     "name": "CanAccessMaridiaPortal",
     "access_rules": [
-      "moonpearl,flippers,gravity,morph,@CanCompleteCastleTower",
+      "moonpearl,flippers,gravity,morph,agahnim",
       "moonpearl,flippers,gravity,morph,hammer,progressiveglove1",
       "moonpearl,flippers,gravity,morph,progressiveglove2",
-      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,@CanCompleteCastleTower",
+      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,agahnim",
       "[hard],moonpearl,flippers,morph,@CanSpringBallJump,hammer,progressiveglove1",
       "[hard],moonpearl,flippers,morph,@CanSpringBallJump,progressiveglove2",
-      "[hard],moonpearl,flippers,morph,hijump,@CanCompleteCastleTower",
+      "[hard],moonpearl,flippers,morph,hijump,agahnim",
       "[hard],moonpearl,flippers,morph,hijump,hammer,progressiveglove1",
       "[hard],moonpearl,flippers,morph,hijump,progressiveglove2"
     ]

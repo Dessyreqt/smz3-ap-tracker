@@ -33,6 +33,10 @@
       },
       {
         "type": "layout",
+        "key": "empty_info"
+      },
+      {
+        "type": "layout",
         "key": "kraid_info"
       },
       {
@@ -54,6 +58,10 @@
     "orientation": "horizontal",
     "margin": "0,0",
     "content": [
+      {
+        "type": "layout",
+        "key": "castletower_info"
+      },
       {
         "type": "layout",
         "key": "palaceofdarkness_info"
@@ -98,18 +106,6 @@
         "type": "item",
         "item": "empty_label",
         "margin": "5,2"
-      },
-      {
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "0,2",
-        "item_size": 16,
-        "rows": [
-          [
-            "",
-            ""
-          ]
-        ]
       }
     ]
   },
@@ -160,6 +156,28 @@
       {
         "type": "item",
         "item": "towerofhera",
+        "margin": "5,2"
+      }
+    ]
+  },
+  "castletower_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "AD9A6B",
+    "content": [
+      {
+        "type": "item",
+        "item": "castletower_label",
+        "margin": "5,1"
+      },
+      {
+        "type": "item",
+        "item": "agahnim",
+        "margin": "5,1"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
         "margin": "5,2"
       }
     ]

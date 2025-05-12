@@ -414,5 +414,11 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Agahnim",
+    "type": "toggle",
+    "img": "images/items/z3/agahnim.png",
+    "codes": "agahnim"
   }
 ]
