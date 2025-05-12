@@ -21,19 +21,22 @@
       {
         "name": "Spike Room",
         "access_rules": [
-          "[hookshot]"
+          "hookshot",
+          "keyip:1"
         ]
       },
       {
         "name": "Map Chest",
         "access_rules": [
-          "hammer,[hookshot]"
+          "hammer,hookshot",
+          "hammer,keyip:1"
         ]
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "hammer,[hookshot]"
+          "hammer,hookshot",
+          "hammer,keyip:1"
         ]
       },
       {
@@ -45,13 +48,14 @@
       {
         "name": "Big Chest",
         "access_rules": [
-          "[hammer],[hookshot],[somaria]"
+          "bigkeyip"
         ]
       },
       {
         "name": "Kholdstare",
         "access_rules": [
-          "hammer,[somaria]"
+          "hammer,somaria,bigkeyip,keyip:1",
+          "hammer,bigkeyip,keyip:2"
         ],
         "item_count": 1,
         "hosted_item": "icepalace"

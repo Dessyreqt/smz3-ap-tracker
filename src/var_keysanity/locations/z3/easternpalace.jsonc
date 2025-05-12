@@ -1,52 +1,45 @@
 [
   {
-    "name": "Tower of Hera",
+    "name": "Eastern Palace",
     "chest_unopened_img": "images/items/z3/ChestUnopened.png",
     "chest_opened_img": "images/items/z3/ChestOpened.png",
     "overlay_background": "#000000",
-    "access_rules": [
-      "@Light World Death Mountain West,mirror",
-      "@Light World Death Mountain West,hookshot,hammer"
-    ],
     "map_locations": [
       {
         "map": "lightworld",
-        "x": 2298,
-        "y": 139
+        "x": 3929,
+        "y": 1614
       }
     ],
     "sections": [
       {
-        "name": "Basement Cage"
+        "name": "Cannonball Chest"
       },
       {
         "name": "Map Chest"
       },
       {
-        "name": "Big Key Chest",
-        "access_rules": [
-          "@CanLightTorches"
-        ]
-      },
-      {
-        "name": "Compass Chest",
-        "access_rules": [
-          "[@CanLightTorches]"
-        ]
+        "name": "Compass Chest"
       },
       {
         "name": "Big Chest",
         "access_rules": [
-          "[@CanLightTorches]"
+          "bigkeyep"
         ]
       },
       {
-        "name": "Moldorm",
+        "name": "Big Key Chest",
         "access_rules": [
-          "[@CanLightTorches],@CanBeatMoldorm"
+          "[lamp]"
+        ]
+      },
+      {
+        "name": "Armos Knights",
+        "access_rules": [
+          "@CanBeatArmos,bow,[lamp],bigkeyep"
         ],
         "item_count": 1,
-        "hosted_item": "towerofhera"
+        "hosted_item": "easternpalace"
       }
     ],
     "children": [
@@ -54,17 +47,17 @@
         "name": "Dungeon Map",
         "children": [
           {
-            "name": "Basement Cage",
+            "name": "Cannonball Chest",
             "sections": [
               {
-                "ref": "Tower of Hera/Basement Cage"
+                "ref": "Eastern Palace/Cannonball Chest"
               }
             ],
             "map_locations": [
               {
-                "map": "towerofhera",
-                "x": 402,
-                "y": 949
+                "map": "easternpalace",
+                "x": 1447,
+                "y": 1318
               }
             ]
           },
@@ -72,29 +65,14 @@
             "name": "Map Chest",
             "sections": [
               {
-                "ref": "Tower of Hera/Map Chest"
+                "ref": "Eastern Palace/Map Chest"
               }
             ],
             "map_locations": [
               {
-                "map": "towerofhera",
-                "x": 526,
-                "y": 128
-              }
-            ]
-          },
-          {
-            "name": "Big Key Chest",
-            "sections": [
-              {
-                "ref": "Tower of Hera/Big Key Chest"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "towerofhera",
-                "x": 654,
-                "y": 950
+                "map": "easternpalace",
+                "x": 1991,
+                "y": 887
               }
             ]
           },
@@ -102,14 +80,14 @@
             "name": "Compass Chest",
             "sections": [
               {
-                "ref": "Tower of Hera/Compass Chest"
+                "ref": "Eastern Palace/Compass Chest"
               }
             ],
             "map_locations": [
               {
-                "map": "towerofhera",
-                "x": 1055,
-                "y": 295
+                "map": "easternpalace",
+                "x": 637,
+                "y": 591
               }
             ]
           },
@@ -117,29 +95,44 @@
             "name": "Big Chest",
             "sections": [
               {
-                "ref": "Tower of Hera/Big Chest"
+                "ref": "Eastern Palace/Big Chest"
               }
             ],
             "map_locations": [
               {
-                "map": "towerofhera",
-                "x": 1055,
-                "y": 83
+                "map": "easternpalace",
+                "x": 1295,
+                "y": 731
               }
             ]
           },
           {
-            "name": "Moldorm",
+            "name": "Big Key Chest",
             "sections": [
               {
-                "ref": "Tower of Hera/Moldorm"
+                "ref": "Eastern Palace/Big Key Chest"
               }
             ],
             "map_locations": [
               {
-                "map": "towerofhera",
-                "x": 1584,
-                "y": 255
+                "map": "easternpalace",
+                "x": 919,
+                "y": 1157
+              }
+            ]
+          },
+          {
+            "name": "Armos Knights",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Armos Knights"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 126,
+                "y": 1171
               }
             ]
           }

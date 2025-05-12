@@ -132,7 +132,7 @@
         "name": "Secret Room",
         "access_rules": [
           "progressiveglove1",
-          "[lamp]"
+          "[lamp],keyhc:1"
         ],
         "clear_as_group": false,
         "item_count": 3

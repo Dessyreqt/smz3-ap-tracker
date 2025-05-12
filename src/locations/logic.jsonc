@@ -86,7 +86,8 @@
   {
     "name": "CanCompleteCastleTower",
     "access_rules": [
-      "@CanEnterCastleTower,lamp,progressivesword1"
+      "@CanEnterCastleTower,[lamp],progressivesword1",
+      "@CanEnterCastleTower,[lamp],bugnet"
     ]
   },
   {

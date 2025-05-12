@@ -19,36 +19,39 @@
         "name": "Entrance"
       },
       {
-        "name": "Map Chest"
+        "name": "Map Chest",
+        "access_rules": [
+          "keysp:1"
+        ]
       },
       {
         "name": "Big Chest",
         "access_rules": [
-          "hammer"
+          "hammer,bigkeysp,keysp:1"
         ]
       },
       {
         "name": "Compass Chest",
         "access_rules": [
-          "hammer"
+          "hammer,keysp:1"
         ]
       },
       {
         "name": "West Chest",
         "access_rules": [
-          "hammer"
+          "hammer,keysp:1"
         ]
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "hammer"
+          "hammer,keysp:1"
         ]
       },
       {
         "name": "Flooded Room",
         "access_rules": [
-          "hammer,hookshot"
+          "hammer,hookshot,keysp:1"
         ],
         "clear_as_group": false,
         "item_count": 2
@@ -56,13 +59,13 @@
       {
         "name": "Waterfall Room",
         "access_rules": [
-          "hammer,hookshot"
+          "hammer,hookshot,keysp:1"
         ]
       },
       {
         "name": "Arrghus",
         "access_rules": [
-          "hammer,hookshot"
+          "hammer,hookshot,keysp:1"
         ],
         "item_count": 1,
         "hosted_item": "swamppalace"

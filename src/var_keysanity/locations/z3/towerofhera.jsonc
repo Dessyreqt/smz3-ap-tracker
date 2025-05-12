@@ -25,25 +25,25 @@
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "@CanLightTorches"
+          "@CanLightTorches,keyth:1"
         ]
       },
       {
         "name": "Compass Chest",
         "access_rules": [
-          "[@CanLightTorches]"
+          "bigkeyth"
         ]
       },
       {
         "name": "Big Chest",
         "access_rules": [
-          "[@CanLightTorches]"
+          "bigkeyth"
         ]
       },
       {
         "name": "Moldorm",
         "access_rules": [
-          "[@CanLightTorches],@CanBeatMoldorm"
+          "@CanBeatMoldorm,bigkeyth"
         ],
         "item_count": 1,
         "hosted_item": "towerofhera"
