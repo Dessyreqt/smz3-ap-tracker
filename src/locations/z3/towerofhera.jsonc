@@ -7,6 +7,13 @@
       "@Light World Death Mountain West,mirror",
       "@Light World Death Mountain West,hookshot,hammer"
     ],
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 2298,
+        "y": 139
+      }
+    ],
     "sections": [
       {
         "name": "Basement Cage"
@@ -41,11 +48,101 @@
         "hosted_item": "towerofhera"
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "lightworld",
-        "x": 2298,
-        "y": 139
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Basement Cage",
+            "sections": [
+              {
+                "ref": "Tower of Hera/Basement Cage"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "towerofhera",
+                "x": 402,
+                "y": 949
+              }
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Tower of Hera/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "towerofhera",
+                "x": 526,
+                "y": 128
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Tower of Hera/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "towerofhera",
+                "x": 654,
+                "y": 950
+              }
+            ]
+          },
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Tower of Hera/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "towerofhera",
+                "x": 1055,
+                "y": 295
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Tower of Hera/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "towerofhera",
+                "x": 1055,
+                "y": 83
+              }
+            ]
+          },
+          {
+            "name": "Moldorm",
+            "sections": [
+              {
+                "ref": "Tower of Hera/Moldorm"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "towerofhera",
+                "x": 1584,
+                "y": 255
+              }
+            ]
+          }
+        ]
       }
     ]
   }
