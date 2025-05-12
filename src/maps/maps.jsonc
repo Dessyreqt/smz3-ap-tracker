@@ -44,7 +44,7 @@
   },
   {
     "name": "darkworld",
-    "location_size": 40,
+    "location_size": 64,
     "location_border_thickness": 5,
     "img": "images/maps/z3/darkworld.png"
   },

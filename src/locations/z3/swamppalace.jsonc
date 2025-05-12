@@ -6,6 +6,13 @@
     "access_rules": [
       "moonpearl,mirror,flippers,@Dark World South"
     ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 1918,
+        "y": 3837
+      }
+    ],
     "sections": [
       {
         "name": "Entrance"
@@ -60,11 +67,146 @@
         "hosted_item": "swamppalace"
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "darkworld",
-        "x": 1918,
-        "y": 3837
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Entrance",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Entrance"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 2262,
+                "y": 854
+              }
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 1853,
+                "y": 1413
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 704,
+                "y": 1415
+              }
+            ]
+          },
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 1142,
+                "y": 1878
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 1270,
+                "y": 1509
+              }
+            ]
+          },
+          {
+            "name": "West Chest",
+            "sections": [
+              {
+                "ref": "Swamp Palace/West Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 189,
+                "y": 1414
+              }
+            ]
+          },
+          {
+            "name": "Flooded Room",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Flooded Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 1920,
+                "y": 1093
+              }
+            ]
+          },
+          {
+            "name": "Waterfall Room",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Waterfall Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 1831,
+                "y": 629
+              }
+            ]
+          },
+          {
+            "name": "Arrghus",
+            "sections": [
+              {
+                "ref": "Swamp Palace/Arrghus"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "swamppalace",
+                "x": 1148,
+                "y": 136
+              }
+            ]
+          }
+        ]
       }
     ]
   }
