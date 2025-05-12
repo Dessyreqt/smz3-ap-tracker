@@ -6,6 +6,13 @@
     "access_rules": [
       "moonpearl,@Dark World North West"
     ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 512,
+        "y": 1982
+      }
+    ],
     "sections": [
       {
         "name": "Map Chest"
@@ -43,11 +50,131 @@
         "hosted_item": "thievestown"
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "darkworld",
-        "x": 512,
-        "y": 1982
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 135,
+                "y": 1447
+              }
+            ]
+          },
+          {
+            "name": "Ambush Chest",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Ambush Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 190,
+                "y": 1070
+              }
+            ]
+          },
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 703,
+                "y": 1581
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 399,
+                "y": 1639
+              }
+            ]
+          },
+          {
+            "name": "Attic",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Attic"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 1864,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "name": "Blind's Cell",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Blind's Cell"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 1990,
+                "y": 366
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 1167,
+                "y": 650
+              }
+            ]
+          },
+          {
+            "name": "Blind",
+            "sections": [
+              {
+                "ref": "Thieves' Town/Blind"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "thievestown",
+                "x": 893,
+                "y": 133
+              }
+            ]
+          }
+        ]
       }
     ]
   }
