@@ -10,153 +10,663 @@
       },
       {
         "type": "layout",
-        "key": "boss_tokens_grid_keys_1"
-      },
-      {
-        "type": "layout",
         "key": "boss_tokens_grid_row_2"
-      },
-      {
-        "type": "layout",
-        "key": "boss_tokens_grid_keys_2"
-      },
-      {
-        "type": "layout",
-        "key": "boss_tokens_grid_row_3"
       }
     ]
-},
+  },
   "boss_tokens_grid_row_1": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "2,0",
-    "rows": [
-      [
-        "hyrulecastle_label",
-        "easternpalace_label",
-        "desertpalace_label",
-        "towerofhera_label",
-        "",
-        "kraid_label",
-        "phantoon_label",
-        "draygon_label",
-        "ridley_label"
-      ],
-      [
-        "",
-        "easternpalace",
-        "desertpalace",
-        "towerofhera",
-        "",
-        "kraid",
-        "phantoon",
-        "draygon",
-        "ridley"
-      ]
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "hyrulecastle_info"
+      },
+      {
+        "type": "layout",
+        "key": "easternpalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "desertpalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "towerofhera_info"
+      },
+      {
+        "type": "layout",
+        "key": "empty_info"
+      },
+      {
+        "type": "layout",
+        "key": "kraid_info"
+      },
+      {
+        "type": "layout",
+        "key": "phantoon_info"
+      },
+      {
+        "type": "layout",
+        "key": "draygon_info"
+      },
+      {
+        "type": "layout",
+        "key": "ridley_info"
+      }
     ]
   },
   "boss_tokens_grid_row_2": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "2,0",
-    "rows": [
-      [
-        "castletower_label",
-        "palaceofdarkness_label",
-        "swamppalace_label",
-        "skullwoods_label",
-        "thievestown_label",
-        "icepalace_label",
-        "miserymire_label",
-        "turtlerock_label",
-        "ganonstower_label"
-      ],
-      [
-        "",
-        "palaceofdarkness",
-        "swamppalace",
-        "skullwoods",
-        "thievestown",
-        "icepalace",
-        "miserymire",
-        "turtlerock",
-        ""
-      ]
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "castletower_info"
+      },
+      {
+        "type": "layout",
+        "key": "palaceofdarkness_info"
+      },
+      {
+        "type": "layout",
+        "key": "swamppalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "skullwoods_info"
+      },
+      {
+        "type": "layout",
+        "key": "thievestown_info"
+      },
+      {
+        "type": "layout",
+        "key": "icepalace_info"
+      },
+      {
+        "type": "layout",
+        "key": "miserymire_info"
+      },
+      {
+        "type": "layout",
+        "key": "turtlerock_info"
+      },
+      {
+        "type": "layout",
+        "key": "ganonstower_info"
+      }
     ]
   },
-  "boss_tokens_grid_row_3": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "2,0",
-    "rows": [
-      [
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "mm_medallion",
-        "tr_medallion",
-        "",
-        ""
-      ]
+  "empty_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "000000",
+    "content": [
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
     ]
   },
-  "boss_tokens_grid_keys_1": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "1,0",
-    "item_size": 16,
-    "rows": [
-      [
-        "",
-        "keyhc",
-        "bigkeyep",
-        "",
-        "bigkeydp",
-        "keydp",
-        "bigkeyth",
-        "keyth",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-      ]
+  "hyrulecastle_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "736994",
+    "content": [
+      {
+        "type": "item",
+        "item": "hyrulecastle_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "0,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            "keyhc"
+          ]
+        ]
+      }
     ]
   },
-  "boss_tokens_grid_keys_2": {
-    "type": "itemgrid",
-    "h_alignment": "center",
-    "item_margin": "1,0",
-    "item_size": 16,
-    "rows": [
-      [
-        "",
-        "keyct",
-        "bigkeypd",
-        "keypd",
-        "bigkeysp",
-        "keysp",
-        "bigkeysw",
-        "keysw",
-        "bigkeytt",
-        "keytt",
-        "bigkeyip",
-        "keyip",
-        "bigkeymm",
-        "keymm",
-        "bigkeytr",
-        "keytr",
-        "bigkeygt",
-        "keygt"
-      ]
+  "easternpalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "84AA73",
+    "content": [
+      {
+        "type": "item",
+        "item": "easternpalace_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "easternpalace",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeyep",
+            ""
+          ]
+        ]
+      }
     ]
-  }
+  },
+  "desertpalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "9C7952",
+    "content": [
+      {
+        "type": "item",
+        "item": "desertpalace_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "desertpalace",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeydp",
+            "keydp"
+          ]
+        ]
+      }
+    ]
+  },
+  "towerofhera_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "9C7973",
+    "content": [
+      {
+        "type": "item",
+        "item": "towerofhera_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "towerofhera",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeyth",
+            "keyth"
+          ]
+        ]
+      }
+    ]
+  },
+  "castletower_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "AD9A6B",
+    "content": [
+      {
+        "type": "item",
+        "item": "castletower_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeyct",
+            "keyct"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "palaceofdarkness_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "949294",
+    "content": [
+      {
+        "type": "item",
+        "item": "palaceofdarkness_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "palaceofdarkness",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeypd",
+            "keypd"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "swamppalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "736994",
+    "content": [
+      {
+        "type": "item",
+        "item": "swamppalace_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "swamppalace",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeysp",
+            "keysp"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "skullwoods_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "947952",
+    "content": [
+      {
+        "type": "item",
+        "item": "skullwoods_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "skullwoods",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeysw",
+            "keysw"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "thievestown_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "7B798C",
+    "content": [
+      {
+        "type": "item",
+        "item": "thievestown_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "thievestown",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeytt",
+            "keytt"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "icepalace_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "ADE3EF",
+    "content": [
+      {
+        "type": "item",
+        "item": "icepalace_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "icepalace",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeyip",
+            "keyip"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "miserymire_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "84B273",
+    "content": [
+      {
+        "type": "item",
+        "item": "miserymire_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "miserymire",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeymm",
+            "keymm"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "mm_medallion",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "turtlerock_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "292021",
+    "content": [
+      {
+        "type": "item",
+        "item": "turtlerock_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "turtlerock",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeytr",
+            "keytr"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "tr_medallion",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "ganonstower_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "A58A6B",
+    "content": [
+      {
+        "type": "item",
+        "item": "ganonstower_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "bigkeygt",
+            "keygt"
+          ]
+        ]
+      },
+      {
+        "type": "item",
+        "item": "empty_label",
+        "margin": "5,0"
+      }
+    ]
+  },
+  "kraid_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "009000",
+    "content": [
+      {
+        "type": "item",
+        "item": "kraid_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "kraid",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "phantoon_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "909000",
+    "content": [
+      {
+        "type": "item",
+        "item": "phantoon_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "phantoon",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "draygon_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "009090",
+    "content": [
+      {
+        "type": "item",
+        "item": "draygon_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "draygon",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "ridley_info": {
+    "type": "array",
+    "orientation": "vertical",
+    "background": "900000",
+    "h_alignment": "center",
+    "content": [
+      {
+        "type": "item",
+        "item": "ridley_label",
+        "margin": "5,0"
+      },
+      {
+        "type": "item",
+        "item": "ridley",
+        "margin": "5,0"
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "0,0",
+        "item_size": 16,
+        "rows": [
+          [
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  
 }

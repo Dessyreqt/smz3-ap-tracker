@@ -100,5 +100,12 @@
     "type": "static",
     "img": "images/labels/ridley.png",
     "codes": "ridley_label"
+  },
+  // space filler
+  {
+    "name": "",
+    "type": "static",
+    "img": "images/labels/empty.png",
+    "codes": "empty_label"
   }
 ]

@@ -47,6 +47,31 @@
             }
           ]
         }
+      },
+      {
+        "type": "group",
+        "header": "",
+        "content": {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "layout",
+              "key": "empty_section"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "empty_section": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "item",
+        "key": "empty_label"
       }
     ]
   }
