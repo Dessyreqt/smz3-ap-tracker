@@ -6,6 +6,13 @@
     "access_rules": [
       "@Dark World Death Mountain East,moonpearl,$GtCrystalCount"
     ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 2298,
+        "y": 139
+      }
+    ],
     "sections": [
       {
         "name": "Bob's Torch",
@@ -104,11 +111,221 @@
         ]
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "darkworld",
-        "x": 2298,
-        "y": 139
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Bob's Torch",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Bob's Torch"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 613,
+                "y": 644
+              }
+            ]
+          },
+          {
+            "name": "DMs Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/DMs Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 125,
+                "y": 403
+              }
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 390,
+                "y": 919
+              }
+            ]
+          },
+          {
+            "name": "Firesnake Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Firesnake Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 1142,
+                "y": 151
+              }
+            ]
+          },
+          {
+            "name": "Randomizer Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Randomizer Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 895,
+                "y": 174
+              }
+            ]
+          },
+          {
+            "name": "Hope Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Hope Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 893,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "name": "Tile Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Tile Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 1158,
+                "y": 599
+              }
+            ]
+          },
+          {
+            "name": "Compass Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Compass Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 1148,
+                "y": 1173
+              }
+            ]
+          },
+          {
+            "name": "Bob's Chest",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Bob's Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 967,
+                "y": 967
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 639,
+                "y": 913
+              }
+            ]
+          },
+          {
+            "name": "Big Key Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Big Key Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 384,
+                "y": 1653
+              }
+            ]
+          },
+          {
+            "name": "Mini Helmasaur Room",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Mini Helmasaur Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 3246,
+                "y": 149
+              }
+            ]
+          },
+          {
+            "name": "Pre-Moldorm Chest",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Pre-Moldorm Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 2982,
+                "y": 405
+              }
+            ]
+          },
+          {
+            "name": "Moldorm Chest",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Moldorm Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 3149,
+                "y": 903
+              }
+            ]
+          }
+        ]
       }
     ]
   }
