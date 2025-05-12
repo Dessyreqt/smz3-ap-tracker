@@ -3,6 +3,13 @@
     "name": "Eastern Palace",
     "chest_unopened_img": "images/items/z3/ChestUnopened.png",
     "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "map_locations": [
+      {
+        "map": "lightworld",
+        "x": 3929,
+        "y": 1614
+      }
+    ],
     "sections": [
       {
         "name": "Cannonball Chest"
@@ -34,11 +41,101 @@
         "hosted_item": "easternpalace"
       }
     ],
-    "map_locations": [
+    "children": [
       {
-        "map": "lightworld",
-        "x": 3929,
-        "y": 1614
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Cannonball Chest",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Cannonball Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 1447,
+                "y": 1318
+              }
+            ]
+          },
+          {
+            "name": "Map Chest",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Map Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 1991,
+                "y": 887
+              }
+            ]
+          },
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 637,
+                "y": 591
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 1295,
+                "y": 731
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 919,
+                "y": 1157
+              }
+            ]
+          },
+          {
+            "name": "Armos Knights",
+            "sections": [
+              {
+                "ref": "Eastern Palace/Armos Knights"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "easternpalace",
+                "x": 126,
+                "y": 1171
+              }
+            ]
+          }
+        ]
       }
     ]
   }
