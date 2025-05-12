@@ -9,6 +9,13 @@
       "@Light World Death Mountain East,tr_quake,quake,progressivesword1,moonpearl,progressiveglove2,hammer,somaria",
       "@Light World Death Mountain East,bombos,ether,quake,progressivesword1,moonpearl,progressiveglove2,hammer,somaria"
     ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 3857,
+        "y": 294
+      }
+    ],
     "sections": [
       {
         "name": "Compass Chest"
@@ -64,13 +71,6 @@
         "hosted_item": "turtlerock"
       }
     ],
-    "map_locations": [
-      {
-        "map": "darkworld",
-        "x": 3857,
-        "y": 294
-      }
-    ],
     "children": [
       // Put Mimic Cave here to allow for different keysanity override.
       {
@@ -93,6 +93,131 @@
             "map": "darkworld",
             "x": 3455,
             "y": 418
+          }
+        ]
+      },
+      {
+        "name": "Dungeon Map",
+        "children": [
+          {
+            "name": "Compass Chest",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Compass Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 2480,
+                "y": 1332
+              }
+            ]
+          },
+          {
+            "name": "Roller Room",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Roller Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 2991,
+                "y": 99
+              }
+            ]
+          },
+          {
+            "name": "Chain Chomps",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Chain Chomps"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 2480,
+                "y": 103
+              }
+            ]
+          },
+          {
+            "name": "Big Key Chest",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Big Key Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 1526,
+                "y": 723
+              }
+            ]
+          },
+          {
+            "name": "Big Chest",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Big Chest"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 1696,
+                "y": 1395
+              }
+            ]
+          },
+          {
+            "name": "Crystaroller Room",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Crystaroller Room"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 1366,
+                "y": 151
+              }
+            ]
+          },
+          {
+            "name": "Eye Bridge",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Eye Bridge"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 910,
+                "y": 1252
+              }
+            ]
+          },
+          {
+            "name": "Trinexx",
+            "sections": [
+              {
+                "ref": "Turtle Rock/Trinexx"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "turtlerock",
+                "x": 125,
+                "y": 905
+              }
+            ]
           }
         ]
       }
