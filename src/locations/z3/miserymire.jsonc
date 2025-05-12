@@ -3,6 +3,7 @@
     "name": "Misery Mire",
     "chest_unopened_img": "images/items/z3/ChestUnopened.png",
     "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "overlay_background": "#000000",
     "access_rules": [
       "mm_bombos,bombos,progressivesword1,moonpearl,boots,@Dark World Mire",
       "mm_ether,ether,progressivesword1,moonpearl,boots,@Dark World Mire",

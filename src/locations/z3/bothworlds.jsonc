@@ -5,6 +5,7 @@
     "name": "Both Worlds",
     "chest_unopened_img": "images/items/z3/ChestUnopened.png",
     "chest_opened_img": "images/items/z3/ChestOpened.png",
+    "overlay_background": "#000000",
     "children": [
       {
         "name": "King's Tomb",
