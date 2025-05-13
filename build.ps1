@@ -44,6 +44,12 @@ if ($version -ne "") {
     }
     $versions.versions = @($newVersion) + $versions.versions
     $versions | ConvertTo-Json -Depth 10 | Set-Content -Path $versionsPath -Force
+
+    Write-Host "Versioning complete! Next items to do to release this version:
+
+- Commit and push all files except .\versions.json
+- Create release in GitHub and attach $filename to it
+- Commit and push .\versions.json"
 }
 
 
