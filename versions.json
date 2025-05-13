@@ -1,22 +1,37 @@
 {
   "versions": [
     {
+      "package_version": "1.0.1",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.0.1/smz3-ap-tracker-1.0.1.zip",
+      "sha256": "F75A6AB163625D1D837427CF399B39B9AB31C8A398BD33CCF19C8280976304B8",
+      "changelog": [
+        "Fix logic bug with bombs"
+      ]
+    },
+    {
       "package_version": "1.0.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.0.0/smz3-ap-tracker-1.0.0.zip",
       "sha256": "6E1B5290BC54EE4D0770544BEE9345EE29715313E4C36BBEC65ABC2F85F96673",
-      "changelog": ["Dungeonsanity support","Agahnim tracking"]
+      "changelog": [
+        "Dungeonsanity support",
+        "Agahnim tracking"
+      ]
     },
     {
       "package_version": "0.2.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/0.2.0/smz3-ap-tracker-0.2.0.zip",
       "sha256": "3D32565DD176B2599E217CBB04AA47B00F9BF98AD23B18501634B903BB6FF095",
-      "changelog": ["Add dungeon maps"]
+      "changelog": [
+        "Add dungeon maps"
+      ]
     },
     {
       "package_version": "0.1.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/0.1.0/smz3-ap-tracker-0.1.0.zip",
       "sha256": "2026E180C285DEDEF47895E579E597025D4936470CFA2BD469B568FAFD09142F",
-      "changelog": ["Initial release"]
+      "changelog": [
+        "Initial release"
+      ]
     }
   ]
 }
