@@ -9,9 +9,9 @@
         "access_rules": [
           "@CardMaridiaL2,@CanAccessMaridiaPortal",
 
-          "normal,@CardMaridiaL1,@CanFly",
-          "normal,@CardMaridiaL1,speedbooster",
-          "normal,@CardMaridiaL1,grapple",
+          "@CardMaridiaL1,@CanFly",
+          "@CardMaridiaL1,speedbooster",
+          "@CardMaridiaL1,grapple",
 
           "[hard],@CardMaridiaL1,gravity",
           "[hard],@CardMaridiaL1,hijump,ice,grapple",
@@ -23,7 +23,7 @@
         "access_rules": [
           "@CanAccessMaridiaPortal",
 
-          "normal,speedbooster",
+          "speedbooster",
 
           "[hard],ice",
           "[hard],speedbooster,gravity"
@@ -32,10 +32,10 @@
       {
         "name": "CanDefeatDraygon",
         "access_rules": [
-          "normal,@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity,speedbooster,hijump",
-          "normal,@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity,@CanFly",
-          "normal,@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity,speedbooster,hijump",
-          "normal,@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity,@CanFly",
+          "@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity,speedbooster,hijump",
+          "@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity,@CanFly",
+          "@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity,speedbooster,hijump",
+          "@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity,@CanFly",
 
           "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity",
           "[hard],@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity"
@@ -44,9 +44,9 @@
       {
         "name": "Maridia Outer",
         "access_rules": [
-          "normal,gravity,@Norfair Upper West,@CanUsePowerBombs",
-          "normal,gravity,@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,@CanPassBombPassages",
-          "normal,gravity,@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,screwattack",
+          "gravity,@Norfair Upper West,@CanUsePowerBombs",
+          "gravity,@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,@CanPassBombPassages",
+          "gravity,@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,screwattack",
 
           "[hard],@Norfair Upper West,@CanUsePowerBombs,gravity",
           "[hard],@Norfair Upper West,@CanUsePowerBombs,hijump,@CanSpringBallJump",
@@ -158,10 +158,10 @@
       {
         "name": "Maridia Inner",
         "access_rules": [
-          "normal,gravity,@Norfair Upper West,super,@CanUsePowerBombs,@CanFly",
-          "normal,gravity,@Norfair Upper West,super,@CanUsePowerBombs,speedbooster",
-          "normal,gravity,@Norfair Upper West,super,@CanUsePowerBombs,grapple",
-          "normal,gravity,@CanAccessMaridiaPortal",
+          "gravity,@Norfair Upper West,super,@CanUsePowerBombs,@CanFly",
+          "gravity,@Norfair Upper West,super,@CanUsePowerBombs,speedbooster",
+          "gravity,@Norfair Upper West,super,@CanUsePowerBombs,grapple",
+          "gravity,@CanAccessMaridiaPortal",
 
           "[hard],super,@Norfair Upper West,@CanUsePowerBombs,gravity",
           "[hard],super,@Norfair Upper West,@CanUsePowerBombs,hijump,ice,grapple",
@@ -225,7 +225,7 @@
           {
             "name": "West Sand Hole",
             "access_rules": [
-              "normal,@CanReachAqueduct,super,@CanPassBombPassages",
+              "@CanReachAqueduct,super,@CanPassBombPassages",
 
               "[hard],@CanReachAqueduct,super,hijump,spacejump",
               "[hard],@CanReachAqueduct,super,hijump,@CanSpringBallJump",
@@ -257,7 +257,7 @@
           {
             "name": "Missile (right Maridia sand pit room)",
             "access_rules": [
-              "normal,@CanReachAqueduct,super",
+              "@CanReachAqueduct,super",
 
               "[hard],@CanReachAqueduct,super,hijump",
               "[hard],@CanReachAqueduct,super,gravity"
@@ -284,7 +284,7 @@
           {
             "name": "Power Bomb (right Maridia sand pit room)",
             "access_rules": [
-              "normal,@CanReachAqueduct,super",
+              "@CanReachAqueduct,super",
 
               "[hard],@CanReachAqueduct,super,hijump,@CanSpringBallJump",
               "[hard],@CanReachAqueduct,super,gravity"
@@ -311,7 +311,7 @@
           {
             "name": "Super Missile (pink Maridia)",
             "access_rules": [
-              "normal,@CanReachAqueduct,gravity,speedbooster",
+              "@CanReachAqueduct,gravity,speedbooster",
               "[hard],@CanReachAqueduct,gravity"
             ],
             "sections": [
@@ -339,7 +339,7 @@
                 "name": "Missile (pink Maridia)",
                 "capture_item": true,
                 "access_rules": [
-                  "normal,@CanReachAqueduct,gravity,speedbooster",
+                  "@CanReachAqueduct,gravity,speedbooster",
                   "[hard],@CanReachAqueduct,gravity"
                 ]
               }
@@ -465,8 +465,8 @@
           {
             "name": "Spring Ball",
             "access_rules": [
-              "normal,super,grapple,@CanUsePowerBombs,gravity,spacejump",
-              "normal,super,grapple,@CanUsePowerBombs,gravity,hijump",
+              "super,grapple,@CanUsePowerBombs,gravity,spacejump",
+              "super,grapple,@CanUsePowerBombs,gravity,hijump",
 
               "[hard],super,grapple,@CanUsePowerBombs,gravity,@CanFly",
               "[hard],super,grapple,@CanUsePowerBombs,gravity,hijump",

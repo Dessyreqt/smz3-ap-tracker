@@ -79,10 +79,10 @@
               {
                 "name": "Energy Tank, Brinstar Ceiling",
                 "access_rules": [
-                  "normal,@CardBrinstarL1,@CanFly",
-                  "normal,@CardBrinstarL1,hijump",
-                  "normal,@CardBrinstarL1,speedbooster",
-                  "normal,@CardBrinstarL1,ice",
+                  "@CardBrinstarL1,@CanFly",
+                  "@CardBrinstarL1,hijump",
+                  "@CardBrinstarL1,speedbooster",
+                  "@CardBrinstarL1,ice",
                   "[hard],@CardBrinstarL1"
                 ],
                 "capture_item": true
@@ -237,14 +237,14 @@
               {
                 "name": "Missile (green Brinstar behind reserve tank)",
                 "access_rules": [
-                  "normal,speedbooster,@CanOpenRedDoors,morph",
+                  "speedbooster,@CanOpenRedDoors,morph",
                   "[hard],@CanOpenRedDoors,morph"
                 ]
               },
               {
                 "name": "Missile (green Brinstar behind missile)",
                 "access_rules": [
-                  "normal,speedbooster,@CanPassBombPassages,@CanOpenRedDoors",
+                  "speedbooster,@CanPassBombPassages,@CanOpenRedDoors",
                   "[hard],@CanPassBombPassages,@CanOpenRedDoors",
                   "[hard],morph,screwattack,@CanOpenRedDoors"
                 ]
@@ -343,7 +343,7 @@
           "@CanAccessNorfairUpperPortal,morph,wave,ice",
           "@CanAccessNorfairUpperPortal,morph,wave,hijump",
 
-          "normal,@CanAccessNorfairUpperPortal,morph,wave,spacejump",
+          "@CanAccessNorfairUpperPortal,morph,wave,spacejump",
 
           "[hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,ice",
           "[hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,hijump",
@@ -428,7 +428,7 @@
           {
             "name": "Energy Tank, Brinstar Gate",
             "access_rules": [
-              "normal,@CardBrinstarL2,@CanUsePowerBombs,wave,alltanks:1",
+              "@CardBrinstarL2,@CanUsePowerBombs,wave,alltanks:1",
               "[hard],@CardBrinstarL2,@CanUsePowerBombs,wave",
               "[hard],@CardBrinstarL2,@CanUsePowerBombs,super"
             ],
@@ -477,7 +477,7 @@
           {
             "name": "Power Bomb (pink Brinstar)",
             "access_rules": [
-              "normal,@CanUsePowerBombs,super,alltanks:1",
+              "@CanUsePowerBombs,super,alltanks:1",
               "[hard],@CanUsePowerBombs,super"
             ],
             "sections": [
@@ -548,7 +548,7 @@
           "@CanAccessNorfairUpperPortal,ice",
           "@CanAccessNorfairUpperPortal,hijump",
 
-          "normal,@CanAccessNorfairUpperPortal,spacejump",
+          "@CanAccessNorfairUpperPortal,spacejump",
 
           "[hard],@CanAccessNorfairUpperPortal,@CanSpringBallJump",
           "[hard],@CanAccessNorfairUpperPortal,@CanFly"
@@ -634,8 +634,8 @@
           {
             "name": "Power Bomb (red Brinstar spike room)",
             "access_rules": [
-              "normal,@CanUsePowerBombs,super",
-              "normal,ice,super",
+              "@CanUsePowerBombs,super",
+              "ice,super",
               "[hard],super"
             ],
             "sections": [

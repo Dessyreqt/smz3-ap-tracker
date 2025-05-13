@@ -100,7 +100,7 @@
   {
     "name": "CanIbj",
     "access_rules": [
-      "morph,bomb"
+      "morph,bombs"
     ]
   },
   {
@@ -119,7 +119,7 @@
   {
     "name": "CanPassBombPassages",
     "access_rules": [
-      "morph,bomb",
+      "morph,bombs",
       "morph,powerbomb"
     ]
   },
@@ -169,7 +169,7 @@
   {
     "name": "CanAccessDarkWorldPortal",
     "access_rules": [
-      "normal,@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,gravity,speedbooster",
+      "@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,gravity,speedbooster",
       "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,ice",
       "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,speedbooster",
       "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,hijump,ice,grapple",
@@ -181,8 +181,8 @@
   {
     "name": "CanAccessMiseryMirePortal",
     "access_rules": [
-      "normal,speedbooster,wave,varia,super,gravity,spacejump,@CanUsePowerBombs",
-      "normal,@CardNorfairL2,varia,super,gravity,spacejump,@CanUsePowerBombs",
+      "speedbooster,wave,varia,super,gravity,spacejump,@CanUsePowerBombs",
+      "@CardNorfairL2,varia,super,gravity,spacejump,@CanUsePowerBombs",
       "[hard],speedbooster,varia,super,gravity,@CanUsePowerBombs",
       "[hard],speedbooster,varia,super,hijump,@CanUsePowerBombs",
       "[hard],@CardNorfairL2,varia,super,hijump,@CanUsePowerBombs",

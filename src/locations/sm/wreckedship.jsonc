@@ -8,11 +8,11 @@
       "super,@CanAccessMaridiaPortal,gravity,@CardMaridiaL2,@CanDestroyBombWalls",
       "super,@CanAccessMaridiaPortal,gravity,draygon",
 
-      "normal,super,@CanOpenMoatDoor,speedbooster",
-      "normal,super,@CanOpenMoatDoor,grapple",
-      "normal,super,@CanOpenMoatDoor,spacejump",
-      "normal,super,@CanOpenMoatDoor,gravity,@CanIbj",
-      "normal,super,@CanOpenMoatDoor,gravity,hijump",
+      "super,@CanOpenMoatDoor,speedbooster",
+      "super,@CanOpenMoatDoor,grapple",
+      "super,@CanOpenMoatDoor,spacejump",
+      "super,@CanOpenMoatDoor,gravity,@CanIbj",
+      "super,@CanOpenMoatDoor,gravity,hijump",
 
       "[hard],super,@CanOpenMoatDoor",
       "[hard],super,@CanUsePowerBombs,hijump,ice,grapple,@CardMaridiaL1",
@@ -57,7 +57,7 @@
           "@CanUnlockShip,speedbooster",
           "@CanUnlockShip,gravity",
 
-          "[hard],@CanUnlockShip,bomb",
+          "[hard],@CanUnlockShip,bombs",
           "[hard],@CanUnlockShip,powerbomb",
           "[hard],@CanUnlockShip,@CanSpringBallJump"
         ],
@@ -155,10 +155,10 @@
             "name": "Reserve Tank, Wrecked Ship",
             "capture_item": true,
             "access_rules": [
-              "normal,@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,grapple",
-              "normal,@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,spacejump",
-              "normal,@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,varia,alltanks:2",
-              "normal,@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
+              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,grapple",
+              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,spacejump",
+              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,varia,alltanks:2",
+              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
 
               "[hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
               "[hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2"
@@ -181,10 +181,10 @@
       {
         "name": "Gravity Suit",
         "access_rules": [
-          "normal,@CanUnlockShip,@CardWreckedShipL1,grapple",
-          "normal,@CanUnlockShip,@CardWreckedShipL1,spacejump",
-          "normal,@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
-          "normal,@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
+          "@CanUnlockShip,@CardWreckedShipL1,grapple",
+          "@CanUnlockShip,@CardWreckedShipL1,spacejump",
+          "@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
+          "@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
 
           "[hard],@CanUnlockShip,@CardWreckedShipL1,varia",
           "[hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
@@ -210,10 +210,10 @@
       {
         "name": "Missile (Gravity Suit)",
         "access_rules": [
-          "normal,@CanUnlockShip,@CardWreckedShipL1,grapple",
-          "normal,@CanUnlockShip,@CardWreckedShipL1,spacejump",
-          "normal,@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
-          "normal,@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
+          "@CanUnlockShip,@CardWreckedShipL1,grapple",
+          "@CanUnlockShip,@CardWreckedShipL1,spacejump",
+          "@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
+          "@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
 
           "[hard],@CanUnlockShip,@CardWreckedShipL1,varia",
           "[hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
