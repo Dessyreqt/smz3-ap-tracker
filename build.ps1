@@ -12,6 +12,12 @@ $filename = "smz3-ap-tracker.zip"
 
 if ($version -ne "") {
     $filename = "smz3-ap-tracker-$version.zip"
+
+    # update the version in the manifest file
+    $manifestPath = ".\src\manifest.json"
+    $manifest = Get-Content -Path $manifestPath -Raw | ConvertFrom-Json
+    $manifest.package_version = $version
+    $manifest | ConvertTo-Json -Depth 10 | Set-Content -Path $manifestPath -Force
 }
 
 # build the package
@@ -25,12 +31,6 @@ Write-Host "Build complete. Output: .\bin\$filename"
 if ($version -ne "") {
     $sha256 = Get-FileHash -Path .\bin\$filename -Algorithm SHA256
     Write-Host "SHA256: $($sha256.Hash)"
-
-    # update the version in the manifest file
-    $manifestPath = ".\src\manifest.json"
-    $manifest = Get-Content -Path $manifestPath -Raw | ConvertFrom-Json
-    $manifest.package_version = $version
-    $manifest | ConvertTo-Json -Depth 10 | Set-Content -Path $manifestPath -Force
 
     # add the new version to the versions.json file
     $versionsPath = ".\versions.json"
