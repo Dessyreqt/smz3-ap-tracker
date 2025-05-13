@@ -3,7 +3,7 @@
     {
       "package_version": "1.0.1",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.0.1/smz3-ap-tracker-1.0.1.zip",
-      "sha256": "F75A6AB163625D1D837427CF399B39B9AB31C8A398BD33CCF19C8280976304B8",
+      "sha256": "15ECDB8832C79A06DC5DC4E9DBFBF134D4C6269BB6193758DD22AA50CBD0E475",
       "changelog": [
         "Fix logic bug with bombs"
       ]
