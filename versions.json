@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.0.2",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.0.2/smz3-ap-tracker-1.0.2.zip",
+      "sha256": "B30BCC9EA245EDC5A6C2F36E5DE79259DAD78ABD0D38379C30B4F3AD7DD427F7",
+      "changelog": [
+        "Mark spots yellow with fewer keys"
+      ]
+    },
+    {
       "package_version": "1.0.1",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.0.1/smz3-ap-tracker-1.0.1.zip",
       "sha256": "15ECDB8832C79A06DC5DC4E9DBFBF134D4C6269BB6193758DD22AA50CBD0E475",
