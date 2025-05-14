@@ -35,20 +35,22 @@
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "keydp:1"
+          "keydp:1",
+          "[keydp:1],progressiveglove1"
         ]
       },
       {
         "name": "Compass Chest",
         "access_rules": [
-          "keydp:1"
+          "keydp:1",
+          "[keydp:1],progressiveglove1"
         ]
       },
       {
         "name": "Lanmolas",
         "access_rules": [
-          "progressiveglove1,@CanLightTorches,@CanBeatLanmolas,bigkeydp,keydp:1",
-          "@CanAccessMiseryMirePortal,mirror,@CanLightTorches,@CanBeatLanmolas,bigkeydp,keydp:1"
+          "progressiveglove1,@CanLightTorches,@CanBeatLanmolas,bigkeydp,[keydp:1]",
+          "@CanAccessMiseryMirePortal,mirror,@CanLightTorches,@CanBeatLanmolas,bigkeydp,[keydp:1]"
         ],
         "item_count": 1,
         "hosted_item": "desertpalace"
