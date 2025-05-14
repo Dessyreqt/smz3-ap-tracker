@@ -30,7 +30,7 @@
       {
         "name": "Attic",
         "access_rules": [
-          "bigkeytt,keytt:1"
+          "bigkeytt,[keytt:1]"
         ]
       },
       {
@@ -42,16 +42,16 @@
       {
         "name": "Big Chest",
         "access_rules": [
-          "hammer,bigkeytt,keytt:1"
+          "hammer,bigkeytt,[keytt:1]"
         ]
       },
       {
         "name": "Blind",
         "access_rules": [
-          "progressivesword1,bigkeytt,keytt:1",
-          "hammer,bigkeytt,keytt:1",
-          "somaria,bigkeytt,keytt:1",
-          "byrna,bigkeytt,keytt:1"
+          "progressivesword1,bigkeytt,[keytt:1]",
+          "hammer,bigkeytt,[keytt:1]",
+          "somaria,bigkeytt,[keytt:1]",
+          "byrna,bigkeytt,[keytt:1]"
         ],
         "item_count": 1,
         "hosted_item": "thievestown"

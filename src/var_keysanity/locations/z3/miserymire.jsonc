@@ -26,14 +26,14 @@
         "name": "Main Lobby",
         "access_rules": [
           "bigkeymm",
-          "keymm:1"
+          "[keymm:1]"
         ]
       },
       {
         "name": "Map Chest",
         "access_rules": [
           "bigkeymm",
-          "keymm:1"
+          "[keymm:1]"
         ]
       },
       {
@@ -45,13 +45,13 @@
       {
         "name": "Compass Chest",
         "access_rules": [
-          "@CanLightTorches,mm_smallkey:2,[mm_smallkey:3]"
+          "@CanLightTorches,[keymm:3]"
         ]
       },
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "@CanLightTorches,mm_smallkey:2,[mm_smallkey:3]"
+          "@CanLightTorches,[keymm:3]"
         ]
       },
       {

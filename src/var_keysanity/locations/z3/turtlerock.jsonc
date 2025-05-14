@@ -38,7 +38,7 @@
       {
         "name": "Big Key Chest",
         "access_rules": [
-          "keytr:3,[keytr:4]"
+          "keytr:2,[keytr:4]"
         ]
       },
       {
@@ -56,9 +56,9 @@
       {
         "name": "Eye Bridge",
         "access_rules": [
-          "[lamp],[cape],bigkeytr,keytr:3",
-          "[lamp],[byrna],bigkeytr,keytr:3",
-          "[lamp],[progressiveshield3],bigkeytr,keytr:3"
+          "[lamp],[cape],bigkeytr,keytr:2,[keytr:3]",
+          "[lamp],[byrna],bigkeytr,keytr:2,[keytr:3]",
+          "[lamp],[progressiveshield3],bigkeytr,keytr:2,[keytr:3]"
         ],
         "clear_as_group": false,
         "item_count": 4
@@ -66,7 +66,7 @@
       {
         "name": "Trinexx",
         "access_rules": [
-          "[lamp],firerod,icerod,bigkeytr,keytr:4"
+          "[lamp],firerod,icerod,bigkeytr,keytr:3,[keytr:4]"
         ],
         "item_count": 1,
         "hosted_item": "turtlerock"

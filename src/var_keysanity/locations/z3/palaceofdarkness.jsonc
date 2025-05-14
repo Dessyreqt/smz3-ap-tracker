@@ -53,19 +53,22 @@
       {
         "name": "Compass Chest",
         "access_rules": [
-          "keypd:4"
+          "keypd:2,[keypd:4]",
+          "bow,hammer,keypd:1,[keypd:4]"
         ]
       },
       {
         "name": "Harmless Hellway",
         "access_rules": [
-          "[keypd:6],keypd:4"
+          "keypd:3,[keypd:6]",
+          "bow,hammer,keypd:2,[keypd:6]"
         ]
       },
       {
         "name": "Dark Basement",
         "access_rules": [
-          "[lamp],keypd:4"
+          "[lamp],keypd:2,[keypd:4]",
+          "[lamp],bow,hammer,keypd:1,[keypd:4]"
         ],
         "clear_as_group": false,
         "item_count": 2
@@ -73,7 +76,8 @@
       {
         "name": "Dark Maze",
         "access_rules": [
-          "[lamp],keypd:6"
+          "[lamp],keypd:3,[keypd:6]",
+          "[lamp],bow,hammer,keypd:2,[keypd:6]"
         ],
         "clear_as_group": false,
         "item_count": 2
@@ -81,13 +85,14 @@
       {
         "name": "Big Chest",
         "access_rules": [
-          "[lamp],keypd:6,bigkeypd"
+          "[lamp],keypd:3,[keypd:6],bigkeypd",
+          "[lamp],bow,hammer,keypd:2,[keypd:6],bigkeypd"
         ]
       },
       {
         "name": "Helmasaur King",
         "access_rules": [
-          "[lamp],bow,hammer,keypd:6,bigkeypd"
+          "[lamp],bow,hammer,keypd:1,[keypd:6],bigkeypd"
         ],
         "item_count": 1,
         "hosted_item": "palaceofdarkness"

@@ -45,7 +45,7 @@
       {
         "name": "Mothula",
         "access_rules": [
-          "firerod,progressivesword1,keysw:3"
+          "firerod,progressivesword1,[keysw:3]"
         ],
         "item_count": 1,
         "hosted_item": "skullwoods"

@@ -54,8 +54,8 @@
       {
         "name": "Kholdstare",
         "access_rules": [
-          "hammer,somaria,bigkeyip,keyip:1",
-          "hammer,bigkeyip,keyip:2"
+          "hammer,somaria,[bigkeyip],[keyip:1]",
+          "hammer,[bigkeyip],[keyip:2]"
         ],
         "item_count": 1,
         "hosted_item": "icepalace"
