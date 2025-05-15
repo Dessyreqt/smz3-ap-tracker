@@ -1,55 +1,58 @@
 [
   {
-    "name": "SM Logic Difficulty",
+    "name": "Super Metroid Logic Difficulty",
     "type": "progressive",
     "allow_disabled": "false",
     "loop": "true",
     "codes": "sm_logic_difficulty",
     "stages": [
       {
-        "name": "Normal",
-        "img": "images/items/settings/diff_normal_border.png",
+        "name": "Super Metroid Logic Difficulty - Normal",
+        "img": "images/settings/smdifficultynormal.png",
         "inherit_codes": "false",
         "codes": "normal"
       },
       {
-        "name": "Hard",
-        "img": "images/items/settings/diff_hard_border.png",
+        "name": "Super Metroid Logic Difficulty - Hard",
+        "img": "images/settings/smdifficultyhard.png",
         "inherit_codes": "false",
         "codes": "hard"
       }
     ]
   },
   {
-    "name": "Mother Brain",
+    "name": "Metroid Boss Tokens to Open Tourian",
     "type": "consumable",
     "swap_actions": true,
-    "img": "images/items/settings/mbrain_token.png",
+    "img": "images/settings/opentourian.png",
     "max_quantity":4,
-    "disabled_img_mods":"overlay|images/items/settings/mbrain_token0.png",
     "initial_quantity":4,
+    "disabled_img_mods":"overlay|images/settings/opentourian.png",
+    "overlay_font_size": 40,
     "codes": "mb"
   },
   {
-    "name": "GT Required Crystals",
+    "name": "Crystals to Open Ganon's Tower",
     "type": "consumable",
-    "img": "images/items/settings/gt_crystals.png",
+    "img": "images/settings/opentower.png",
     "codes": "gt_crystals",
     "swap_actions": true,
     "loop": "true",
+    "initial_quantity": 7,
     "max_quantity": 7,
-    "disabled_img_mods": "overlay|images/items/settings/gt_crystals0.png",
-    "initial_quantity": 7
+    "disabled_img_mods": "overlay|images/settings/opentower.png",
+    "overlay_font_size": 40
   },
   {
-    "name": "Ganon Required Crystals",
+    "name": "Crystals to make Ganon Vulnerable",
     "type": "consumable",
-    "img": "images/items/settings/ganon_crystals.png",
+    "img": "images/settings/ganonvulnerable.png",
     "codes": "ganon_crystals",
     "loop": "true",
     "swap_actions": true,
+    "initial_quantity": 7,
     "max_quantity": 7,
-    "disabled_img_mods": "overlay|images/items/settings/ganon_crystals0.png",
-    "initial_quantity": 7
+    "disabled_img_mods": "overlay|images/settings/ganonvulnerable.png",
+    "overlay_font_size": 40
   }
 ]
