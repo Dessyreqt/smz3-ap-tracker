@@ -271,7 +271,7 @@ LOCATION_MAPPING = {
     [85132] = { { "@Energy Tank, Wrecked Ship/Energy Tank, Wrecked Ship" }, { "phantoon", "progressive_toggle", true } },
     [85133] = { { "@Super Missile (Wrecked Ship left)/Super Missile (Wrecked Ship left)" }, { "phantoon", "progressive_toggle", true } },
     [85134] = { { "@Right Super, Wrecked Ship/Right Super, Wrecked Ship" }, { "phantoon", "progressive_toggle", true } },
-    [85135] = { { "@Gravity Suit/Gravity Suit" } },
+    [85135] = { { "@Gravity Suit/Gravity Suit" }, { "phantoon", "progressive_toggle", true } },
     
     [85136] = { { "@Missile (green Maridia shinespark)/Missile (green Maridia shinespark)" } },
     [85137] = { { "@Super Missile (green Maridia)/Super Missile (green Maridia)" } },

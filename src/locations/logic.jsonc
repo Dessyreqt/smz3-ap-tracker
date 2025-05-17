@@ -213,15 +213,51 @@
   {
     "name": "CanAccessMaridiaPortal",
     "access_rules": [
-      "moonpearl,flippers,gravity,morph,agahnim1",
+      "moonpearl,flippers,gravity,morph,@Aganihm1Beaten",
       "moonpearl,flippers,gravity,morph,hammer,progressiveglove1",
       "moonpearl,flippers,gravity,morph,progressiveglove2",
-      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,agahnim1",
+      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,@Aganihm1Beaten",
       "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,hammer,progressiveglove1",
       "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,progressiveglove2",
-      "[sm_logic_hard],moonpearl,flippers,morph,hijump,agahnim1",
+      "[sm_logic_hard],moonpearl,flippers,morph,hijump,@Aganihm1Beaten",
       "[sm_logic_hard],moonpearl,flippers,morph,hijump,hammer,progressiveglove1",
       "[sm_logic_hard],moonpearl,flippers,morph,hijump,progressiveglove2"
+    ]
+  },
+  // Boss Blocked Items
+  {
+    "name": "KraidBeaten",
+    "access_rules": [
+      "kraid",
+      "bossblockeditems_show,@Kraid/Kraid"
+    ]
+  },
+  {
+    "name": "PhantoonBeaten",
+    "access_rules": [
+      "phantoon",
+      "bossblockeditems_show,@Phantoon/Phantoon"
+    ]
+  },
+  {
+    "name": "DraygonBeaten",
+    "access_rules": [
+      "draygon",
+      "bossblockeditems_show,@Draygon/Draygon"
+    ]
+  },
+  {
+    "name": "RidleyBeaten",
+    "access_rules": [
+      "ridley",
+      "bossblockeditems_show,@Ridley/Ridley"
+    ]
+  },
+  {
+    "name": "Aganihm1Beaten",
+    "access_rules": [
+      "agahnim1",
+      "bossblockeditems_show,@Castle Tower/Agahnim"
     ]
   }
 ]

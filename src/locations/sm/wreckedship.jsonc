@@ -6,7 +6,7 @@
     "access_rules": [
       "super,@CanUsePowerBombs,gravity",
       "super,@CanAccessMaridiaPortal,gravity,@CardMaridiaL2,@CanDestroyBombWalls",
-      "super,@CanAccessMaridiaPortal,gravity,draygon",
+      "super,@CanAccessMaridiaPortal,gravity,@DraygonBeaten",
 
       "super,@CanOpenMoatDoor,speedbooster",
       "super,@CanOpenMoatDoor,grapple",
@@ -44,8 +44,8 @@
           },
           {
             "map": "wreckedship",
-            "x": 633,
-            "y": 436
+            "x": 408,
+            "y": 340
           }
         ]
       },
@@ -70,22 +70,22 @@
           {
             "map": "wreckedship",
             "shape": "diamond",
-            "x": 408,
-            "y": 340
+            "x": 633,
+            "y": 436
           }
-        ]
+       ]
       },
       {
         "name": "Energy Tank, Wrecked Ship",
         "access_rules": [
-          "@CanUnlockShip,hijump",
-          "@CanUnlockShip,spacejump",
-          "@CanUnlockShip,speedbooster",
-          "@CanUnlockShip,gravity",
+          "@PhantoonBeaten,hijump",
+          "@PhantoonBeaten,spacejump",
+          "@PhantoonBeaten,speedbooster",
+          "@PhantoonBeaten,gravity",
 
-          "[sm_logic_hard],@CanUnlockShip,bombs",
-          "[sm_logic_hard],@CanUnlockShip,powerbomb",
-          "[sm_logic_hard],@CanUnlockShip,@CanSpringBallJump"
+          "[sm_logic_hard],@PhantoonBeaten,bombs",
+          "[sm_logic_hard],@PhantoonBeaten,powerbomb",
+          "[sm_logic_hard],@PhantoonBeaten,@CanSpringBallJump"
         ],
         "sections": [
           {
@@ -108,7 +108,7 @@
       {
         "name": "Right Super, Wrecked Ship",
         "access_rules": [
-          "@CanUnlockShip"
+          "@PhantoonBeaten"
         ],
         "sections": [
           {
@@ -131,7 +131,7 @@
       {
         "name": "Missile (Wrecked Ship top)",
         "access_rules": [
-          "@CanUnlockShip"
+          "@PhantoonBeaten"
         ],
         "sections": [
           {
@@ -154,7 +154,7 @@
       {
         "name": "Super Missile (Wrecked Ship left)",
         "access_rules": [
-          "@CanUnlockShip"
+          "@PhantoonBeaten"
         ],
         "sections": [
           {
@@ -181,13 +181,13 @@
             "name": "Reserve Tank, Wrecked Ship",
             "capture_item": true,
             "access_rules": [
-              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,grapple",
-              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,spacejump",
-              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,varia,alltanks:2",
-              "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
+              "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,grapple",
+              "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,spacejump",
+              "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,varia,alltanks:2",
+              "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
 
-              "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
-              "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2"
+              "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
+              "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2"
             ]
           }
         ],
@@ -207,13 +207,13 @@
       {
         "name": "Gravity Suit",
         "access_rules": [
-          "@CanUnlockShip,@CardWreckedShipL1,grapple",
-          "@CanUnlockShip,@CardWreckedShipL1,spacejump",
-          "@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
-          "@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
+          "@PhantoonBeaten,@CardWreckedShipL1,grapple",
+          "@PhantoonBeaten,@CardWreckedShipL1,spacejump",
+          "@PhantoonBeaten,@CardWreckedShipL1,varia,alltanks:2",
+          "@PhantoonBeaten,@CardWreckedShipL1,alltanks:3",
 
-          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,varia",
-          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
+          "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,varia",
+          "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,alltanks:1"
         ],
         "sections": [
           {
@@ -236,13 +236,13 @@
       {
         "name": "Missile (Gravity Suit)",
         "access_rules": [
-          "@CanUnlockShip,@CardWreckedShipL1,grapple",
-          "@CanUnlockShip,@CardWreckedShipL1,spacejump",
-          "@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
-          "@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
+          "@PhantoonBeaten,@CardWreckedShipL1,grapple",
+          "@PhantoonBeaten,@CardWreckedShipL1,spacejump",
+          "@PhantoonBeaten,@CardWreckedShipL1,varia,alltanks:2",
+          "@PhantoonBeaten,@CardWreckedShipL1,alltanks:3",
 
-          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,varia",
-          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
+          "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,varia",
+          "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,alltanks:1"
         ],
         "sections": [
           {

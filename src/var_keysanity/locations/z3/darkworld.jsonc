@@ -8,7 +8,7 @@
       {
         "name": "Dark World North East",
         "access_rules": [
-          "agahnim1",
+          "@Aganihm1Beaten",
           "moonpearl,hammer,progressiveglove1",
           "moonpearl,progressiveglove2,flippers",
           "moonpearl,@CanAccessDarkWorldPortal,flippers"
@@ -52,9 +52,9 @@
       {
         "name": "Dark World North West",
         "access_rules": [
-          "moonpearl,hookshot,agahnim1,flippers",
-          "moonpearl,hookshot,agahnim1,progressiveglove1",
-          "moonpearl,hookshot,agahnim1,hammer",
+          "moonpearl,hookshot,@Aganihm1Beaten,flippers",
+          "moonpearl,hookshot,@Aganihm1Beaten,progressiveglove1",
+          "moonpearl,hookshot,@Aganihm1Beaten,hammer",
           "moonpearl,hookshot,@CanAccessDarkWorldPortal,flippers",
           "moonpearl,hammer,progressiveglove1",
           "moonpearl,progressiveglove2"
@@ -216,9 +216,9 @@
       {
         "name": "Dark World South",
         "access_rules": [
-          "moonpearl,agahnim1,hammer",
-          "moonpearl,agahnim1,hookshot,flippers",
-          "moonpearl,agahnim1,hookshot,progressiveglove1",
+          "moonpearl,@Aganihm1Beaten,hammer",
+          "moonpearl,@Aganihm1Beaten,hookshot,flippers",
+          "moonpearl,@Aganihm1Beaten,hookshot,progressiveglove1",
           "moonpearl,@CanAccessDarkWorldPortal,flippers,hammer",
           "moonpearl,@CanAccessDarkWorldPortal,flippers,hookshot",
           "moonpearl,hammer,progressiveglove1",
@@ -229,7 +229,7 @@
             "name": "Pyramid Fairy",
             "access_rules": [
               "redcrystal:2,hammer",
-              "redcrystal:2,mirror,agahnim1"
+              "redcrystal:2,mirror,@Aganihm1Beaten"
             ],
             "sections": [
               {

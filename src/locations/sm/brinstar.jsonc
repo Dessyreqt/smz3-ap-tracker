@@ -692,7 +692,7 @@
           {
             "name": "Energy Tank, Kraid",
             "access_rules": [
-              "@CardBrinstarBoss"
+              "@KraidBeaten"
             ],
             "sections": [
               {
@@ -741,7 +741,7 @@
           {
             "name": "Varia Suit",
             "access_rules": [
-              "@CardBrinstarBoss"
+              "@KraidBeaten"
             ],
             "sections": [
               {

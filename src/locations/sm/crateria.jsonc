@@ -240,13 +240,13 @@
 
           "@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,spacejump",
           "@CanAccessMaridiaPortal,gravity,super,@CanDestroyBombWalls,@CardMaridiaL2",
-          "@CanAccessMaridiaPortal,gravity,super,draygon",
+          "@CanAccessMaridiaPortal,gravity,super,@DraygonBeaten",
 
           "[sm_logic_hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanFly",
           "[sm_logic_hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanSpringBallJump",
           "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,hijump,@CanPassBombPassages",
           "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,gravity,@CanDestroyBombWalls",
-          "[sm_logic_hard],@CanAccessMaridiaPortal,gravity,draygon",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,gravity,@DraygonBeaten",
           "[sm_logic_hard],@CanUsePowerBombs,super,hijump,ice,grapple,@CardMaridiaL1",
           "[sm_logic_hard],@CanUsePowerBombs,super,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1"
         ],

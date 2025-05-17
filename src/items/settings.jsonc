@@ -4,19 +4,18 @@
     "type": "progressive",
     "allow_disabled": "false",
     "loop": "true",
-    "codes": "sm_logic",
     "stages": [
       {
         "name": "Super Metroid Logic Difficulty - Normal",
         "img": "images/settings/sm_logic_normal.png",
-        "inherit_codes": "false",
-        "codes": "sm_logic_normal"
+        "inherit_codes": false,
+        "codes": "sm_logic,sm_logic_normal"
       },
       {
         "name": "Super Metroid Logic Difficulty - Hard",
         "img": "images/settings/sm_logic_hard.png",
-        "inherit_codes": "false",
-        "codes": "sm_logic_hard"
+        "inherit_codes": false,
+        "codes": "sm_logic,sm_logic_hard"
       }
     ]
   },
@@ -25,25 +24,24 @@
     "type": "progressive",
     "allow_disabled": "false",
     "loop": "true",
-    "codes": "goal",
     "stages": [
       {
         "name": "Goal - Defeat Both",
         "img": "images/settings/goal_defeatboth.png",
-        "inherit_codes": "false",
-        "codes": "goal_defeatboth"
+        "inherit_codes": false,
+        "codes": "goal,goal_defeatboth"
       },
       {
         "name": "Goal - Fast Ganon, Defeat Mother Brain",
         "img": "images/settings/goal_fastganondefeatmotherbrain.png",
-        "inherit_codes": "false",
-        "codes": "goal_fastganondefeatmotherbrain"
+        "inherit_codes": false,
+        "codes": "goal,goal_fastganondefeatmotherbrain"
       },
       {
         "name": "Goal - All Dungeons, Defeat Mother Brain",
         "img": "images/settings/goal_alldungeonsdefeatmotherbrain.png",
-        "inherit_codes": "false",
-        "codes": "goal_alldungeonsdefeatmotherbrain"
+        "inherit_codes": false,
+        "codes": "goal,goal_alldungeonsdefeatmotherbrain"
       }
     ]
   },
@@ -81,5 +79,25 @@
     "max_quantity": 7,
     "disabled_img_mods": "overlay|images/settings/ganon_vulnerable_nocrystals.png",
     "overlay_font_size": 40
+  },
+  {
+    "name": "Boss Blocked Item Visibility",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "stages": [
+      {
+        "name": "Hide Boss Blocked Items",
+        "img": "images/settings/bossblockeditems_hide.png",
+        "inherit_codes": false,
+        "codes": "bossblockeditems,bossblockeditems_hide"
+      },
+      {
+        "name": "Show Boss Blocked Items",
+        "img": "images/settings/bossblockeditems_show.png",
+        "inherit_codes": false,
+        "codes": "bossblockeditems,bossblockeditems_show"
+      }
+    ]
   }
 ]

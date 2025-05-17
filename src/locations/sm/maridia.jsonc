@@ -408,7 +408,7 @@
           {
             "name": "Space Jump",
             "access_rules": [
-              "@CanDefeatDraygon"
+              "@DraygonBeaten"
             ],
             "sections": [
               {
@@ -461,17 +461,17 @@
                 "name": "Plasma Beam",
                 "capture_item": true,
                 "access_rules": [
-                  "draygon,screwattack,hijump",
-                  "draygon,screwattack,@CanFly",
-                  "draygon,plasma,hijump",
-                  "draygon,plasma,@CanFly",
+                  "@DraygonBeaten,screwattack,hijump",
+                  "@DraygonBeaten,screwattack,@CanFly",
+                  "@DraygonBeaten,plasma,hijump",
+                  "@DraygonBeaten,plasma,@CanFly",
 
-                  "[sm_logic_hard],draygon,speedbooster",
-                  "[sm_logic_hard],draygon,screwattack,@CanSpringBallJump",
-                  "[sm_logic_hard],draygon,plasma,@CanSpringBallJump",
-                  "[sm_logic_hard],draygon,charge,alltanks:3,hijump",
-                  "[sm_logic_hard],draygon,charge,alltanks:3,@CanSpringBallJump",
-                  "[sm_logic_hard],draygon,charge,alltanks:3,@CanFly"
+                  "[sm_logic_hard],@DraygonBeaten,speedbooster",
+                  "[sm_logic_hard],@DraygonBeaten,screwattack,@CanSpringBallJump",
+                  "[sm_logic_hard],@DraygonBeaten,plasma,@CanSpringBallJump",
+                  "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,hijump",
+                  "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,@CanSpringBallJump",
+                  "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,@CanFly"
                 ]
               }
             ],

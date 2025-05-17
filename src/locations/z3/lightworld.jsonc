@@ -193,7 +193,7 @@
                 "name": "Lumberjack Tree",
                 "capture_item": true,
                 "access_rules": [
-                  "agahnim1,boots"
+                  "@Aganihm1Beaten,boots"
                 ]
               }
             ]
