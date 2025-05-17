@@ -99,7 +99,11 @@
                   "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,gravity",
                   "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,@CanFly",
                   "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,@CanSpringBallJump",
-                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,speedbooster"
+                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,speedbooster",
+
+                  // Allow viewable on hard mode via green gate glitch.
+                  "{scoutablelocations_show,sm_logic_hard,super}",
+                  "{scoutablelocations_show,@CanAccessNorfairLowerPortal}"
                 ]
               }
             ],

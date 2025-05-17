@@ -21,7 +21,8 @@
                 "name": "Master Sword Pedestal",
                 "capture_item": true,
                 "access_rules": [
-                  "pendant:2,greenpendant"
+                  "pendant:2,greenpendant",
+                  "{scoutablelocations_show,book}"
                 ]
               }
             ]
@@ -193,7 +194,8 @@
                 "name": "Lumberjack Tree",
                 "capture_item": true,
                 "access_rules": [
-                  "@Aganihm1Beaten,boots"
+                  "@Aganihm1Beaten,boots",
+                  "{scoutablelocations_show}"
                 ]
               }
             ]
@@ -280,7 +282,9 @@
                 "name": "Zora's Ledge",
                 "capture_item": true,
                 "access_rules": [
-                  "flippers"
+                  "flippers",
+                  "{scoutablelocations_show,progressiveglove1}",
+                  "{scoutablelocations_show,[flippers]}"
                 ]
               }
             ]
@@ -466,7 +470,8 @@
                 "name": "Library",
                 "capture_item": true,
                 "access_rules": [
-                  "boots"
+                  "boots",
+                  "{scoutablelocations_show}"
                 ]
               }
             ]
@@ -496,7 +501,8 @@
                 "access_rules": [
                   "book",
                   "mirror,progressiveglove2,flute",
-                  "@CanAccessMiseryMirePortal,mirror"
+                  "@CanAccessMiseryMirePortal,mirror",
+                  "{scoutablelocations_show}"
                 ]
               }
             ],
@@ -561,7 +567,8 @@
                 "name": "Spectacle Rock",
                 "capture_item": true,
                 "access_rules": [
-                  "mirror"
+                  "mirror",
+                  "{scoutablelocations_show}"
                 ]
               }
             ],
@@ -596,7 +603,9 @@
                 "capture_item": true,
                 "access_rules": [
                   "book,progressivesword2,mirror",
-                  "book,progressivesword2,hammer,hookshot"
+                  "book,progressivesword2,hammer,hookshot",
+                  "{scoutablelocations_show,book,mirror}",
+                  "{scoutablelocations_show,book,hammer,hookshot}"
                 ]
               }
             ],
@@ -656,30 +665,6 @@
                 "map": "lightworld",
                 "x": 3498,
                 "y": 598
-              }
-            ]
-          },
-          {
-            "name": "Floating Island",
-            "sections": [
-              {
-                "name": "Floating Island",
-                "capture_item": true,
-                "access_rules": [
-                  "mirror,moonpearl,progressiveglove2"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "lightworld",
-                "x": 3320,
-                "y": 82
-              },
-              {
-                "map": "darkworld",
-                "x": 3320,
-                "y": 82
               }
             ]
           }

@@ -65,7 +65,8 @@
                 "name": "Missile (green Maridia shinespark)",
                 "capture_item": true,
                 "access_rules": [
-                  "gravity,speedbooster"
+                  "gravity,speedbooster",
+                  "{scoutablelocations_show}"
                 ]
               }
             ],
@@ -109,7 +110,8 @@
               "@CanOpenRedDoors,speedbooster",
               "@CanOpenRedDoors,grapple",
               "[sm_logic_hard],@CanOpenRedDoors,@CanSpringBallJump,gravity",
-              "[sm_logic_hard],@CanOpenRedDoors,@CanSpringBallJump,hijump"
+              "[sm_logic_hard],@CanOpenRedDoors,@CanSpringBallJump,hijump",
+              "{scoutablelocations_show,@CanOpenRedDoors}"
             ],
             "sections": [
               {
@@ -312,7 +314,8 @@
             "name": "Super Missile (pink Maridia)",
             "access_rules": [
               "@CanReachAqueduct,gravity,speedbooster",
-              "[sm_logic_hard],@CanReachAqueduct,gravity"
+              "[sm_logic_hard],@CanReachAqueduct,gravity",
+              "{scoutablelocations_show,@CanReachAqueduct}"
             ],
             "sections": [
               {
@@ -471,7 +474,9 @@
                   "[sm_logic_hard],@DraygonBeaten,plasma,@CanSpringBallJump",
                   "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,hijump",
                   "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,@CanSpringBallJump",
-                  "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,@CanFly"
+                  "[sm_logic_hard],@DraygonBeaten,charge,alltanks:3,@CanFly",
+
+                  "{scoutablelocations_show,@DraygonBeaten}"
                 ]
               }
             ],

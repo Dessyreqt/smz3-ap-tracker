@@ -2,8 +2,8 @@
   {
     "name": "Super Metroid Logic Difficulty",
     "type": "progressive",
-    "allow_disabled": "false",
-    "loop": "true",
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
         "name": "Super Metroid Logic Difficulty - Normal",
@@ -22,8 +22,8 @@
   {
     "name": "Goal",
     "type": "progressive",
-    "allow_disabled": "false",
-    "loop": "true",
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
         "name": "Goal - Defeat Both",
@@ -62,7 +62,7 @@
     "img": "images/settings/open_tower.png",
     "codes": "open_tower",
     "swap_actions": true,
-    "loop": "true",
+    "loop": true,
     "initial_quantity": 7,
     "max_quantity": 7,
     "disabled_img_mods": "overlay|images/settings/open_tower_nocrystals.png",
@@ -73,7 +73,7 @@
     "type": "consumable",
     "img": "images/settings/ganon_vulnerable.png",
     "codes": "ganon_vulnerable",
-    "loop": "true",
+    "loop": true,
     "swap_actions": true,
     "initial_quantity": 7,
     "max_quantity": 7,
@@ -83,8 +83,8 @@
   {
     "name": "Boss Blocked Item Visibility",
     "type": "progressive",
-    "allow_disabled": "false",
-    "loop": "true",
+    "allow_disabled": false,
+    "loop": true,
     "stages": [
       {
         "name": "Hide Boss Blocked Items",
@@ -97,6 +97,26 @@
         "img": "images/settings/bossblockeditems_show.png",
         "inherit_codes": false,
         "codes": "bossblockeditems,bossblockeditems_show"
+      }
+    ]
+  },
+  {
+    "name": "Scoutable Locations Visibility",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "name": "Hide Scoutable Locations",
+        "img": "images/settings/scoutablelocations_hide.png",
+        "inherit_codes": false,
+        "codes": "scoutablelocations,scoutablelocations_hide"
+      },
+      {
+        "name": "Show Scoutable Locations",
+        "img": "images/settings/scoutablelocations_show.png",
+        "inherit_codes": false,
+        "codes": "scoutablelocations,scoutablelocations_show"
       }
     ]
   }

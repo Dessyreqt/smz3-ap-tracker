@@ -544,7 +544,9 @@
               "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,grapple",
               "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,speedbooster",
               "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,@CanSpringBallJump",
-              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,varia,ice"
+              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,varia,ice",
+
+              "{scoutablelocations_show,@Norfair Upper West}"
             ]
           }
         ],

@@ -190,7 +190,8 @@
                 "name": "Missile (green Brinstar below super missile)",
                 "capture_item": true,
                 "access_rules": [
-                  "@CanPassBombPassages,@CanOpenRedDoors"
+                  "@CanPassBombPassages,@CanOpenRedDoors",
+                  "{scoutablelocations_show,@CanOpenRedDoors}"
                 ]
               }
             ],

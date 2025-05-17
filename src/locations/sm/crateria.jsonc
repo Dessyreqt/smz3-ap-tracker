@@ -54,7 +54,8 @@
                 "name": "Super Missile (Crateria)",
                 "capture_item": true,
                 "access_rules": [
-                  "@CanUsePowerBombs,alltanks:2,speedbooster"
+                  "@CanUsePowerBombs,alltanks:2,speedbooster",
+                  "{scoutablelocations_show,@CanUsePowerBombs}"
                 ]
               }
             ],
@@ -158,7 +159,9 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,alltanks:1",
-                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet"
+                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet",
+                  "{scoutablelocations_show,@CardCrateriaL1,@CanUsePowerBombs}",
+                  "{scoutablelocations_show,@CardCrateriaL1,speedbooster,alltanks:2}"
                 ]
               }
             ],
@@ -203,7 +206,8 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
-                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages"
+                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages",
+                  "{scoutablelocations_show,@CanUsePowerBombs}"
                 ]
               },
               {
@@ -211,7 +215,8 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
-                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages"
+                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages",
+                  "{scoutablelocations_show,@CanUsePowerBombs}"
                 ]
               }
             ],

@@ -18,7 +18,8 @@
       {
         "name": "Bob's Torch",
         "access_rules": [
-          "boots"
+          "boots",
+          "{scoutablelocations_show}"
         ]
       },
       {

@@ -26,7 +26,8 @@
       {
         "name": "Torch",
         "access_rules": [
-          "boots"
+          "boots",
+          "{scoutablelocations_show}"
         ]
       },
       {

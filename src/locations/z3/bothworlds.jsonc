@@ -33,7 +33,8 @@
             "name": "Lake Hylia Island",
             "access_rules": [
               "flippers,moonpearl,mirror,@Dark World South",
-              "flippers,moonpearl,mirror,@Dark World North East"
+              "flippers,moonpearl,mirror,@Dark World North East",
+              "{scoutablelocations_show,@Light World South}"
             ]
           }
         ],
@@ -47,6 +48,31 @@
             "map": "darkworld",
             "x": 2959,
             "y": 3400
+          }
+        ]
+      },
+      {
+        "name": "Floating Island",
+        "sections": [
+          {
+            "name": "Floating Island",
+            "capture_item": true,
+            "access_rules": [
+              "mirror,moonpearl,progressiveglove2",
+              "{scoutablelocations_show}"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lightworld",
+            "x": 3320,
+            "y": 82
+          },
+          {
+            "map": "darkworld",
+            "x": 3320,
+            "y": 82
           }
         ]
       }
