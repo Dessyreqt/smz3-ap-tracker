@@ -12,12 +12,12 @@
           "gravity,wave,grapple",
           "gravity,wave,spacejump",
 
-          "[hard],@CardNorfairL2",
-          "[hard],speedbooster",
-          "[hard],@CanFly",
-          "[hard],grapple",
-          "[hard],hijump,@CanSpringBallJump",
-          "[hard],hijump,ice"
+          "[sm_logic_hard],@CardNorfairL2",
+          "[sm_logic_hard],speedbooster",
+          "[sm_logic_hard],@CanFly",
+          "[sm_logic_hard],grapple",
+          "[sm_logic_hard],hijump,@CanSpringBallJump",
+          "[sm_logic_hard],hijump,ice"
         ]
       },
       {
@@ -26,7 +26,7 @@
           "@CanUsePowerBombs,spacejump,super",
           "@CanUsePowerBombs,spacejump,charge",
 
-          "[hard],@CanUsePowerBombs"
+          "[sm_logic_hard],@CanUsePowerBombs"
         ]
       },
       {
@@ -36,13 +36,13 @@
           "morph,gravity,wave,grapple",
           "morph,gravity,wave,spacejump",
 
-          "[hard],morph,@CardNorfairL2",
-          "[hard],morph,@CanBlueGateGlitch,speedbooster",
-          "[hard],morph,@CanBlueGateGlitch,@CanFly",
-          "[hard],morph,@CanBlueGateGlitch,grapple",
-          "[hard],morph,@CanBlueGateGlitch,hijump,@CanSpringBallJump",
-          "[hard],morph,@CanBlueGateGlitch,hijump,ice",
-          "[hard],alltanks:5"
+          "[sm_logic_hard],morph,@CardNorfairL2",
+          "[sm_logic_hard],morph,@CanBlueGateGlitch,speedbooster",
+          "[sm_logic_hard],morph,@CanBlueGateGlitch,@CanFly",
+          "[sm_logic_hard],morph,@CanBlueGateGlitch,grapple",
+          "[sm_logic_hard],morph,@CanBlueGateGlitch,hijump,@CanSpringBallJump",
+          "[sm_logic_hard],morph,@CanBlueGateGlitch,hijump,ice",
+          "[sm_logic_hard],alltanks:5"
         ]
       },
       {
@@ -52,11 +52,11 @@
           "varia,@Norfair Upper East,@CanUsePowerBombs,spacejump,gravity,wave,speedbooster",
           "varia,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls",
 
-          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,hijump,@CardNorfairL2",
-          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,hijump,speedbooster,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,gravity,@CardNorfairL2",
-          "[hard],@Norfair Upper East,@CanUsePowerBombs,varia,gravity,speedbooster,@CanBlueGateGlitch",
-          "[hard],@CanAccessNorfairLowerPortal,@CanDestroyBombWalls"
+          "[sm_logic_hard],@Norfair Upper East,@CanUsePowerBombs,varia,hijump,@CardNorfairL2",
+          "[sm_logic_hard],@Norfair Upper East,@CanUsePowerBombs,varia,hijump,speedbooster,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper East,@CanUsePowerBombs,varia,gravity,@CardNorfairL2",
+          "[sm_logic_hard],@Norfair Upper East,@CanUsePowerBombs,varia,gravity,speedbooster,@CanBlueGateGlitch",
+          "[sm_logic_hard],@CanAccessNorfairLowerPortal,@CanDestroyBombWalls"
         ],
         "children": [
           {
@@ -65,8 +65,8 @@
               "@CanDestroyBombWalls,spacejump,@CanUsePowerBombs",
               "@CanDestroyBombWalls,@CanAccessNorfairLowerPortal",
 
-              "[hard],@CanDestroyBombWalls,varia",
-              "[hard],@CanDestroyBombWalls,@CanAccessNorfairLowerPortal"
+              "[sm_logic_hard],@CanDestroyBombWalls,varia",
+              "[sm_logic_hard],@CanDestroyBombWalls,@CanAccessNorfairLowerPortal"
             ],
             "sections": [
               {
@@ -95,11 +95,11 @@
                 "access_rules": [
                   "@CanUsePowerBombs,spacejump,super",
 
-                  "[hard],@CanUsePowerBombs,spacejump,varia,hijump",
-                  "[hard],@CanUsePowerBombs,spacejump,varia,gravity",
-                  "[hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,@CanFly",
-                  "[hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,@CanSpringBallJump",
-                  "[hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,speedbooster"
+                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,hijump",
+                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,gravity",
+                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,@CanFly",
+                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,@CanSpringBallJump",
+                  "[sm_logic_hard],@CanUsePowerBombs,spacejump,varia,@CanAccessNorfairLowerPortal,super,speedbooster"
                 ]
               }
             ],
@@ -124,8 +124,8 @@
               "@CanDestroyBombWalls,charge,@CanAccessNorfairLowerPortal",
               "@CanDestroyBombWalls,charge,spacejump,@CanUsePowerBombs",
 
-              "[hard],@CanDestroyBombWalls,varia,super",
-              "[hard],@CanDestroyBombWalls,varia,charge"
+              "[sm_logic_hard],@CanDestroyBombWalls,varia,super",
+              "[sm_logic_hard],@CanDestroyBombWalls,varia,charge"
             ],
             "sections": [
               {
@@ -151,14 +151,14 @@
               "@CanFly,morph,super,@CanExitThroughUpperNorfair",
               "@CanFly,morph,super,@CanExitThroughPortal",
 
-              "[hard],morph,varia,super,@CanFly,@CanExitThroughUpperNorfair",
-              "[hard],morph,varia,super,@CanFly,@CanExitThroughPortal",
-              "[hard],morph,varia,super,@CanSpringBallJump,@CanExitThroughUpperNorfair",
-              "[hard],morph,varia,super,@CanSpringBallJump,@CanExitThroughPortal",
-              "[hard],morph,varia,super,speedbooster,hijump,@CanUsePowerBombs,@CanExitThroughUpperNorfair",
-              "[hard],morph,varia,super,speedbooster,hijump,@CanUsePowerBombs,@CanExitThroughPortal",
-              "[hard],morph,varia,super,speedbooster,charge,ice,@CanExitThroughUpperNorfair",
-              "[hard],morph,varia,super,speedbooster,charge,ice,@CanExitThroughPortal"
+              "[sm_logic_hard],morph,varia,super,@CanFly,@CanExitThroughUpperNorfair",
+              "[sm_logic_hard],morph,varia,super,@CanFly,@CanExitThroughPortal",
+              "[sm_logic_hard],morph,varia,super,@CanSpringBallJump,@CanExitThroughUpperNorfair",
+              "[sm_logic_hard],morph,varia,super,@CanSpringBallJump,@CanExitThroughPortal",
+              "[sm_logic_hard],morph,varia,super,speedbooster,hijump,@CanUsePowerBombs,@CanExitThroughUpperNorfair",
+              "[sm_logic_hard],morph,varia,super,speedbooster,hijump,@CanUsePowerBombs,@CanExitThroughPortal",
+              "[sm_logic_hard],morph,varia,super,speedbooster,charge,ice,@CanExitThroughUpperNorfair",
+              "[sm_logic_hard],morph,varia,super,speedbooster,charge,ice,@CanExitThroughPortal"
             ],
             "sections": [
               {
@@ -186,20 +186,20 @@
           "varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,spacejump,gravity",
           "varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanUsePowerBombs,@CanFly",
 
-          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,hijump",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,hijump",
 
-          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,@CanFly",
-          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,@CanSpringBallJump",
-          "[hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,ice,charge",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,@CanFly",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,@CanSpringBallJump",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@Norfair Upper East,@CanUsePowerBombs,gravity,ice,charge",
 
-          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanFly,@CanPassBombPassages",
-          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,screwattack,spacejump",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanFly,@CanPassBombPassages",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,screwattack,spacejump",
 
-          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanSpringBallJump,@CanPassBombPassages",
-          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanSpringBallJump,screwattack,spacejump",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanSpringBallJump,@CanPassBombPassages",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,@CanSpringBallJump,screwattack,spacejump",
 
-          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,speedbooster,hijump,@CanPassBombPassages",
-          "[hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,speedbooster,ice,charge,@CanPassBombPassages"
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,speedbooster,hijump,@CanPassBombPassages",
+          "[sm_logic_hard],varia,@CardLowerNorfairL1,@CanAccessNorfairLowerPortal,@CanDestroyBombWalls,super,speedbooster,ice,charge,@CanPassBombPassages"
         ],
         "children": [
           {
@@ -229,7 +229,7 @@
             "name": "Power Bomb (lower Norfair above fire flea room)",
             "access_rules": [
               "morph,@CanExitLowerNorfairEast",
-              "[hard],@CanExitLowerNorfairEast,@CanPassBombPassages"
+              "[sm_logic_hard],@CanExitLowerNorfairEast,@CanPassBombPassages"
             ],
             "sections": [
               {
@@ -276,7 +276,7 @@
             "name": "Missile (lower Norfair near Wave Beam)",
             "access_rules": [
               "morph,@CanExitLowerNorfairEast",
-              "[hard],@CanExitLowerNorfairEast,morph,@CanDestroyBombWalls"
+              "[sm_logic_hard],@CanExitLowerNorfairEast,morph,@CanDestroyBombWalls"
             ],
             "sections": [
               {

@@ -13,9 +13,9 @@
           "@CardMaridiaL1,speedbooster",
           "@CardMaridiaL1,grapple",
 
-          "[hard],@CardMaridiaL1,gravity",
-          "[hard],@CardMaridiaL1,hijump,ice,grapple",
-          "[hard],@CardMaridiaL1,hijump,@CanSpringBallJump,grapple"
+          "[sm_logic_hard],@CardMaridiaL1,gravity",
+          "[sm_logic_hard],@CardMaridiaL1,hijump,ice,grapple",
+          "[sm_logic_hard],@CardMaridiaL1,hijump,@CanSpringBallJump,grapple"
         ]
       },
       {
@@ -25,8 +25,8 @@
 
           "speedbooster",
 
-          "[hard],ice",
-          "[hard],speedbooster,gravity"
+          "[sm_logic_hard],ice",
+          "[sm_logic_hard],speedbooster,gravity"
         ]
       },
       {
@@ -37,8 +37,8 @@
           "@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity,speedbooster,hijump",
           "@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity,@CanFly",
 
-          "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity"
+          "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanDefeatBotwoon,@CardMaridiaBoss,gravity",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaBoss,gravity"
         ]
       },
       {
@@ -48,14 +48,14 @@
           "gravity,@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,@CanPassBombPassages",
           "gravity,@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,screwattack",
 
-          "[hard],@Norfair Upper West,@CanUsePowerBombs,gravity",
-          "[hard],@Norfair Upper West,@CanUsePowerBombs,hijump,@CanSpringBallJump",
-          "[hard],@Norfair Upper West,@CanUsePowerBombs,hijump,ice",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,@CanPassBombPassages",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,gravity,screwattack",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,super,gravity",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,super,hijump,@CanSpringBallJump",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,super,hijump,ice"
+          "[sm_logic_hard],@Norfair Upper West,@CanUsePowerBombs,gravity",
+          "[sm_logic_hard],@Norfair Upper West,@CanUsePowerBombs,hijump,@CanSpringBallJump",
+          "[sm_logic_hard],@Norfair Upper West,@CanUsePowerBombs,hijump,ice",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,@CanPassBombPassages",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,gravity,screwattack",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,super,gravity",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,super,hijump,@CanSpringBallJump",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL1,@CardMaridiaL2,super,hijump,ice"
         ],
         "children": [
           {
@@ -108,8 +108,8 @@
               "@CanOpenRedDoors,@CanFly",
               "@CanOpenRedDoors,speedbooster",
               "@CanOpenRedDoors,grapple",
-              "[hard],@CanOpenRedDoors,@CanSpringBallJump,gravity",
-              "[hard],@CanOpenRedDoors,@CanSpringBallJump,hijump"
+              "[sm_logic_hard],@CanOpenRedDoors,@CanSpringBallJump,gravity",
+              "[sm_logic_hard],@CanOpenRedDoors,@CanSpringBallJump,hijump"
             ],
             "sections": [
               {
@@ -163,10 +163,10 @@
           "gravity,@Norfair Upper West,super,@CanUsePowerBombs,grapple",
           "gravity,@CanAccessMaridiaPortal",
 
-          "[hard],super,@Norfair Upper West,@CanUsePowerBombs,gravity",
-          "[hard],super,@Norfair Upper West,@CanUsePowerBombs,hijump,ice,grapple",
-          "[hard],super,@Norfair Upper West,@CanUsePowerBombs,hijump,@CanSpringBallJump,grapple",
-          "[hard],@CanAccessMaridiaPortal"
+          "[sm_logic_hard],super,@Norfair Upper West,@CanUsePowerBombs,gravity",
+          "[sm_logic_hard],super,@Norfair Upper West,@CanUsePowerBombs,hijump,ice,grapple",
+          "[sm_logic_hard],super,@Norfair Upper West,@CanUsePowerBombs,hijump,@CanSpringBallJump,grapple",
+          "[sm_logic_hard],@CanAccessMaridiaPortal"
         ],
         "children": [
           {
@@ -227,9 +227,9 @@
             "access_rules": [
               "@CanReachAqueduct,super,@CanPassBombPassages",
 
-              "[hard],@CanReachAqueduct,super,hijump,spacejump",
-              "[hard],@CanReachAqueduct,super,hijump,@CanSpringBallJump",
-              "[hard],@CanReachAqueduct,super,gravity"
+              "[sm_logic_hard],@CanReachAqueduct,super,hijump,spacejump",
+              "[sm_logic_hard],@CanReachAqueduct,super,hijump,@CanSpringBallJump",
+              "[sm_logic_hard],@CanReachAqueduct,super,gravity"
             ],
             "sections": [
               {
@@ -259,8 +259,8 @@
             "access_rules": [
               "@CanReachAqueduct,super",
 
-              "[hard],@CanReachAqueduct,super,hijump",
-              "[hard],@CanReachAqueduct,super,gravity"
+              "[sm_logic_hard],@CanReachAqueduct,super,hijump",
+              "[sm_logic_hard],@CanReachAqueduct,super,gravity"
             ],
             "sections": [
               {
@@ -286,8 +286,8 @@
             "access_rules": [
               "@CanReachAqueduct,super",
 
-              "[hard],@CanReachAqueduct,super,hijump,@CanSpringBallJump",
-              "[hard],@CanReachAqueduct,super,gravity"
+              "[sm_logic_hard],@CanReachAqueduct,super,hijump,@CanSpringBallJump",
+              "[sm_logic_hard],@CanReachAqueduct,super,gravity"
             ],
             "sections": [
               {
@@ -312,7 +312,7 @@
             "name": "Super Missile (pink Maridia)",
             "access_rules": [
               "@CanReachAqueduct,gravity,speedbooster",
-              "[hard],@CanReachAqueduct,gravity"
+              "[sm_logic_hard],@CanReachAqueduct,gravity"
             ],
             "sections": [
               {
@@ -340,7 +340,7 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanReachAqueduct,gravity,speedbooster",
-                  "[hard],@CanReachAqueduct,gravity"
+                  "[sm_logic_hard],@CanReachAqueduct,gravity"
                 ]
               }
             ],
@@ -440,12 +440,12 @@
                   "draygon,plasma,hijump",
                   "draygon,plasma,@CanFly",
 
-                  "[hard],draygon,speedbooster",
-                  "[hard],draygon,screwattack,@CanSpringBallJump",
-                  "[hard],draygon,plasma,@CanSpringBallJump",
-                  "[hard],draygon,charge,alltanks:3,hijump",
-                  "[hard],draygon,charge,alltanks:3,@CanSpringBallJump",
-                  "[hard],draygon,charge,alltanks:3,@CanFly"
+                  "[sm_logic_hard],draygon,speedbooster",
+                  "[sm_logic_hard],draygon,screwattack,@CanSpringBallJump",
+                  "[sm_logic_hard],draygon,plasma,@CanSpringBallJump",
+                  "[sm_logic_hard],draygon,charge,alltanks:3,hijump",
+                  "[sm_logic_hard],draygon,charge,alltanks:3,@CanSpringBallJump",
+                  "[sm_logic_hard],draygon,charge,alltanks:3,@CanFly"
                 ]
               }
             ],
@@ -468,9 +468,9 @@
               "super,grapple,@CanUsePowerBombs,gravity,spacejump",
               "super,grapple,@CanUsePowerBombs,gravity,hijump",
 
-              "[hard],super,grapple,@CanUsePowerBombs,gravity,@CanFly",
-              "[hard],super,grapple,@CanUsePowerBombs,gravity,hijump",
-              "[hard],super,grapple,@CanUsePowerBombs,ice,hijump,@CanSpringBallJump,spacejump"
+              "[sm_logic_hard],super,grapple,@CanUsePowerBombs,gravity,@CanFly",
+              "[sm_logic_hard],super,grapple,@CanUsePowerBombs,gravity,hijump",
+              "[sm_logic_hard],super,grapple,@CanUsePowerBombs,ice,hijump,@CanSpringBallJump,spacejump"
             ],
             "sections": [
               {

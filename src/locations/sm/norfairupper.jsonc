@@ -16,8 +16,8 @@
             "name": "Ice Beam",
             "access_rules": [
               "@CanOpenIceBeamDoor,@CanPassBombPassages,varia,speedbooster",
-              "[hard],@CanOpenIceBeamDoor,morph,varia",
-              "[hard],@CanOpenIceBeamDoor,morph,alltanks:3"
+              "[sm_logic_hard],@CanOpenIceBeamDoor,morph,varia",
+              "[sm_logic_hard],@CanOpenIceBeamDoor,morph,alltanks:3"
             ],
             "sections": [
               {
@@ -41,11 +41,11 @@
             "name": "Missile (below Ice Beam)",
             "access_rules": [
               "@CanOpenIceBeamDoor,@CanUsePowerBombs,varia,speedbooster",
-              "[hard],@CanOpenIceBeamDoor,@CanUsePowerBombs,varia",
-              "[hard],@CanOpenIceBeamDoor,@CanUsePowerBombs,alltanks:3",
-              "[hard],missile,varia,speedbooster,@CanAccessCrocomire,@CardNorfairL1",
-              "[hard],super,varia,speedbooster,@CanAccessCrocomire,@CardNorfairL1",
-              "[hard],wave,varia,speedbooster,@CanAccessCrocomire,@CardNorfairL1"
+              "[sm_logic_hard],@CanOpenIceBeamDoor,@CanUsePowerBombs,varia",
+              "[sm_logic_hard],@CanOpenIceBeamDoor,@CanUsePowerBombs,alltanks:3",
+              "[sm_logic_hard],missile,varia,speedbooster,@CanAccessCrocomire,@CardNorfairL1",
+              "[sm_logic_hard],super,varia,speedbooster,@CanAccessCrocomire,@CardNorfairL1",
+              "[sm_logic_hard],wave,varia,speedbooster,@CanAccessCrocomire,@CardNorfairL1"
             ],
             "sections": [
               {
@@ -145,13 +145,13 @@
           "@Norfair Upper West,varia,super,speedbooster,@CardNorfairL2,@CanUsePowerBombs",
           "@Norfair Upper West,varia,super,speedbooster,wave,@CanUsePowerBombs",
 
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanFly",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,hijump",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,speedbooster",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanSpringBallJump",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,varia,ice",
-          "[hard],@Norfair Upper West,@CanHellRun,speedbooster,@CardNorfairL2,@CanUsePowerBombs",
-          "[hard],@Norfair Upper West,@CanHellRun,speedbooster,@CanBlueGateGlitch,@CanUsePowerBombs"
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanFly",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,hijump",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,speedbooster",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanSpringBallJump",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,varia,ice",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,speedbooster,@CardNorfairL2,@CanUsePowerBombs",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,speedbooster,@CanBlueGateGlitch,@CanUsePowerBombs"
         ],
         "children": [
           {
@@ -163,7 +163,7 @@
               "@CardNorfairL2,morph,hijump",
               "@CardNorfairL2,morph,ice",
 
-              "[hard],@CardNorfairL2,morph,super"
+              "[sm_logic_hard],@CardNorfairL2,morph,super"
             ],
             "sections": [
               {
@@ -195,7 +195,7 @@
               "@CardNorfairL2,hijump",
               "@CardNorfairL2,ice",
 
-              "[hard],@CardNorfairL2,super"
+              "[sm_logic_hard],@CardNorfairL2,super"
             ],
             "children": [
               {
@@ -249,7 +249,7 @@
               "@CardNorfairL2,hijump",
               "@CardNorfairL2,ice",
 
-              "[hard],@CardNorfairL2,super"
+              "[sm_logic_hard],@CardNorfairL2,super"
             ],
             "sections": [
               {
@@ -302,14 +302,14 @@
               "morph,@CardNorfairL2,ice",
               "morph,speedbooster,wave,super",
 
-              "[hard],@CanOpenRedDoors,@CardNorfairL2,morph",
-              "[hard],@CanOpenRedDoors,@CardNorfairL2,grapple",
-              "[hard],@CanOpenRedDoors,@CardNorfairL2,hijump,varia",
-              "[hard],@CanOpenRedDoors,@CardNorfairL2,spacejump",
-              "[hard],@CanOpenRedDoors,varia,morph",
-              "[hard],@CanOpenRedDoors,varia,grapple",
-              "[hard],@CanOpenRedDoors,varia,hijump",
-              "[hard],@CanOpenRedDoors,varia,spacejump"
+              "[sm_logic_hard],@CanOpenRedDoors,@CardNorfairL2,morph",
+              "[sm_logic_hard],@CanOpenRedDoors,@CardNorfairL2,grapple",
+              "[sm_logic_hard],@CanOpenRedDoors,@CardNorfairL2,hijump,varia",
+              "[sm_logic_hard],@CanOpenRedDoors,@CardNorfairL2,spacejump",
+              "[sm_logic_hard],@CanOpenRedDoors,varia,morph",
+              "[sm_logic_hard],@CanOpenRedDoors,varia,grapple",
+              "[sm_logic_hard],@CanOpenRedDoors,varia,hijump",
+              "[sm_logic_hard],@CanOpenRedDoors,varia,spacejump"
             ],
             "sections": [
               {
@@ -339,8 +339,8 @@
               "@CardNorfairL2,ice",
               "morph,speedbooster,wave,super",
 
-              "[hard],@CardNorfairL2",
-              "[hard],varia"
+              "[sm_logic_hard],@CardNorfairL2",
+              "[sm_logic_hard],varia"
             ],
             "sections": [
               {
@@ -377,23 +377,23 @@
           "@CanAccessNorfairLowerPortal,varia,screwattack,spacejump,super,gravity,wave,@CardNorfairL2",
           "@CanAccessNorfairLowerPortal,varia,screwattack,spacejump,super,gravity,wave,morph",
 
-          "[hard],@Norfair Upper West,@CanOpenIceBeamDoor,@CanUsePowerBombs,speedbooster,alltanks:3",
-          "[hard],@Norfair Upper West,@CanOpenIceBeamDoor,@CanUsePowerBombs,speedbooster,varia",
-          "[hard],@Norfair Upper West,speedbooster,alltanks:2,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,speedbooster,varia,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanFly,@CanPassBombPassages,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanFly,varia,morph,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,hijump,@CanPassBombPassages,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,hijump,varia,morph,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,speedbooster,@CanPassBombPassages,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,speedbooster,varia,morph,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanSpringBallJump,@CanPassBombPassages,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanSpringBallJump,varia,morph,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,varia,ice,@CanPassBombPassages,@CanBlueGateGlitch",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,varia,ice,morph,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanOpenIceBeamDoor,@CanUsePowerBombs,speedbooster,alltanks:3",
+          "[sm_logic_hard],@Norfair Upper West,@CanOpenIceBeamDoor,@CanUsePowerBombs,speedbooster,varia",
+          "[sm_logic_hard],@Norfair Upper West,speedbooster,alltanks:2,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,speedbooster,varia,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanFly,@CanPassBombPassages,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanFly,varia,morph,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,hijump,@CanPassBombPassages,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,hijump,varia,morph,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,speedbooster,@CanPassBombPassages,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,speedbooster,varia,morph,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanSpringBallJump,@CanPassBombPassages,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,@CanSpringBallJump,varia,morph,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,varia,ice,@CanPassBombPassages,@CanBlueGateGlitch",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanOpenCathedralDoor,varia,ice,morph,@CanBlueGateGlitch",
 
-          "[hard],@CanAccessNorfairLowerPortal,screwattack,spacejump,varia,super,alltanks:2,@CardNorfairL2",
-          "[hard],@CanAccessNorfairLowerPortal,screwattack,spacejump,varia,super,alltanks:2,morph"
+          "[sm_logic_hard],@CanAccessNorfairLowerPortal,screwattack,spacejump,varia,super,alltanks:2,@CardNorfairL2",
+          "[sm_logic_hard],@CanAccessNorfairLowerPortal,screwattack,spacejump,varia,super,alltanks:2,morph"
         ],
         "children": [
           {
@@ -402,7 +402,7 @@
               "@CanAccessCrocomire,alltanks:1",
               "@CanAccessCrocomire,spacejump",
               "@CanAccessCrocomire,grapple",
-              "[hard],@CanAccessCrocomire"
+              "[sm_logic_hard],@CanAccessCrocomire"
             ],
             "sections": [
               {
@@ -451,7 +451,7 @@
               "@CanAccessCrocomire,@CanFly",
               "@CanAccessCrocomire,hijump",
               "@CanAccessCrocomire,grapple",
-              "[hard],@CanAccessCrocomire"
+              "[sm_logic_hard],@CanAccessCrocomire"
             ],
             "sections": [
               {
@@ -476,9 +476,9 @@
             "access_rules": [
               "@CanAccessCrocomire,morph,@CanFly",
               "@CanAccessCrocomire,morph,speedbooster,@CanUsePowerBombs",
-              "[hard],@CanAccessCrocomire,speedbooster",
-              "[hard],@CanAccessCrocomire,morph,@CanFly",
-              "[hard],@CanAccessCrocomire,morph,grapple"
+              "[sm_logic_hard],@CanAccessCrocomire,speedbooster",
+              "[sm_logic_hard],@CanAccessCrocomire,morph,@CanFly",
+              "[sm_logic_hard],@CanAccessCrocomire,morph,grapple"
             ],
             "sections": [
               {
@@ -503,10 +503,10 @@
             "access_rules": [
               "@CanAccessCrocomire,morph,@CanFly",
               "@CanAccessCrocomire,morph,speedbooster,@CanUsePowerBombs",
-              "[hard],@CanAccessCrocomire,spacejump",
-              "[hard],@CanAccessCrocomire,morph",
-              "[hard],@CanAccessCrocomire,grapple",
-              "[hard],@CanAccessCrocomire,hijump,speedbooster"
+              "[sm_logic_hard],@CanAccessCrocomire,spacejump",
+              "[sm_logic_hard],@CanAccessCrocomire,morph",
+              "[sm_logic_hard],@CanAccessCrocomire,grapple",
+              "[sm_logic_hard],@CanAccessCrocomire,hijump,speedbooster"
             ],
             "sections": [
               {
@@ -540,11 +540,11 @@
               "@Norfair Upper Crocomire,varia,grapple",
               "@Norfair Upper Crocomire,varia,hijump,speedbooster",
 
-              "[hard],@Norfair Upper Crocomire,@CanHellRun,@CanFly",
-              "[hard],@Norfair Upper Crocomire,@CanHellRun,grapple",
-              "[hard],@Norfair Upper Crocomire,@CanHellRun,hijump,speedbooster",
-              "[hard],@Norfair Upper Crocomire,@CanHellRun,hijump,@CanSpringBallJump",
-              "[hard],@Norfair Upper Crocomire,@CanHellRun,hijump,varia,ice"
+              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,@CanFly",
+              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,grapple",
+              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,speedbooster",
+              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,@CanSpringBallJump",
+              "[sm_logic_hard],@Norfair Upper Crocomire,@CanHellRun,hijump,varia,ice"
             ]
           }
         ],
@@ -571,12 +571,12 @@
           "@Norfair Upper West,varia,@CanOpenRedDoors,speedbooster",
           "@Norfair Upper East,varia,@CardNorfairL2",
 
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanFly",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,hijump",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,speedbooster",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanSpringBallJump",
-          "[hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,varia,ice",
-          "[hard],@Norfair Upper East,varia,@CardNorfairL2"
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanFly",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,hijump",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,speedbooster",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,@CanSpringBallJump",
+          "[sm_logic_hard],@Norfair Upper West,@CanHellRun,@CanOpenRedDoors,varia,ice",
+          "[sm_logic_hard],@Norfair Upper East,varia,@CardNorfairL2"
         ],
         "sections": [
           {

@@ -14,10 +14,10 @@
       "super,@CanOpenMoatDoor,gravity,@CanIbj",
       "super,@CanOpenMoatDoor,gravity,hijump",
 
-      "[hard],super,@CanOpenMoatDoor",
-      "[hard],super,@CanUsePowerBombs,hijump,ice,grapple,@CardMaridiaL1",
-      "[hard],super,@CanUsePowerBombs,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1",
-      "[hard],super,@CanAccessMaridiaPortal,hijump,@CanPassBombPassages,@CardMaridiaL2"
+      "[sm_logic_hard],super,@CanOpenMoatDoor",
+      "[sm_logic_hard],super,@CanUsePowerBombs,hijump,ice,grapple,@CardMaridiaL1",
+      "[sm_logic_hard],super,@CanUsePowerBombs,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1",
+      "[sm_logic_hard],super,@CanAccessMaridiaPortal,hijump,@CanPassBombPassages,@CardMaridiaL2"
     ],
     "children": [
       {
@@ -57,9 +57,9 @@
           "@CanUnlockShip,speedbooster",
           "@CanUnlockShip,gravity",
 
-          "[hard],@CanUnlockShip,bombs",
-          "[hard],@CanUnlockShip,powerbomb",
-          "[hard],@CanUnlockShip,@CanSpringBallJump"
+          "[sm_logic_hard],@CanUnlockShip,bombs",
+          "[sm_logic_hard],@CanUnlockShip,powerbomb",
+          "[sm_logic_hard],@CanUnlockShip,@CanSpringBallJump"
         ],
         "sections": [
           {
@@ -160,8 +160,8 @@
               "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,varia,alltanks:2",
               "@CanUnlockShip,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
 
-              "[hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
-              "[hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2"
+              "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
+              "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2"
             ]
           }
         ],
@@ -186,8 +186,8 @@
           "@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
           "@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
 
-          "[hard],@CanUnlockShip,@CardWreckedShipL1,varia",
-          "[hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
+          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,varia",
+          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
         ],
         "sections": [
           {
@@ -215,8 +215,8 @@
           "@CanUnlockShip,@CardWreckedShipL1,varia,alltanks:2",
           "@CanUnlockShip,@CardWreckedShipL1,alltanks:3",
 
-          "[hard],@CanUnlockShip,@CardWreckedShipL1,varia",
-          "[hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
+          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,varia",
+          "[sm_logic_hard],@CanUnlockShip,@CardWreckedShipL1,alltanks:1"
         ],
         "sections": [
           {

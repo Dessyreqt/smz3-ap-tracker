@@ -170,12 +170,12 @@
     "name": "CanAccessDarkWorldPortal",
     "access_rules": [
       "@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,gravity,speedbooster",
-      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,ice",
-      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,speedbooster",
-      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,hijump,ice,grapple",
-      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,ice",
-      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,speedbooster",
-      "[hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,hijump,ice,grapple"
+      "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,ice",
+      "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,gravity,speedbooster",
+      "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,charge,hijump,ice,grapple",
+      "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,ice",
+      "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,gravity,speedbooster",
+      "[sm_logic_hard],@CardMaridiaL1,@CardMaridiaL2,@CanUsePowerBombs,super,missile,hijump,ice,grapple"
     ]
   },
   {
@@ -183,12 +183,12 @@
     "access_rules": [
       "speedbooster,wave,varia,super,gravity,spacejump,@CanUsePowerBombs",
       "@CardNorfairL2,varia,super,gravity,spacejump,@CanUsePowerBombs",
-      "[hard],speedbooster,varia,super,gravity,@CanUsePowerBombs",
-      "[hard],speedbooster,varia,super,hijump,@CanUsePowerBombs",
-      "[hard],@CardNorfairL2,varia,super,hijump,@CanUsePowerBombs",
-      "[hard],@CardNorfairL2,varia,super,@CanFly,gravity,@CanUsePowerBombs",
-      "[hard],@CardNorfairL2,varia,super,@CanSpringBallJump,gravity,@CanUsePowerBombs",
-      "[hard],@CardNorfairL2,varia,super,ice,gravity,@CanUsePowerBombs"
+      "[sm_logic_hard],speedbooster,varia,super,gravity,@CanUsePowerBombs",
+      "[sm_logic_hard],speedbooster,varia,super,hijump,@CanUsePowerBombs",
+      "[sm_logic_hard],@CardNorfairL2,varia,super,hijump,@CanUsePowerBombs",
+      "[sm_logic_hard],@CardNorfairL2,varia,super,@CanFly,gravity,@CanUsePowerBombs",
+      "[sm_logic_hard],@CardNorfairL2,varia,super,@CanSpringBallJump,gravity,@CanUsePowerBombs",
+      "[sm_logic_hard],@CardNorfairL2,varia,super,ice,gravity,@CanUsePowerBombs"
     ]
   },
   {
@@ -210,12 +210,12 @@
       "moonpearl,flippers,gravity,morph,agahnim",
       "moonpearl,flippers,gravity,morph,hammer,progressiveglove1",
       "moonpearl,flippers,gravity,morph,progressiveglove2",
-      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,agahnim",
-      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,hammer,progressiveglove1",
-      "[hard],moonpearl,flippers,morph,@CanSpringBallJump,progressiveglove2",
-      "[hard],moonpearl,flippers,morph,hijump,agahnim",
-      "[hard],moonpearl,flippers,morph,hijump,hammer,progressiveglove1",
-      "[hard],moonpearl,flippers,morph,hijump,progressiveglove2"
+      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,agahnim",
+      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,hammer,progressiveglove1",
+      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,progressiveglove2",
+      "[sm_logic_hard],moonpearl,flippers,morph,hijump,agahnim",
+      "[sm_logic_hard],moonpearl,flippers,morph,hijump,hammer,progressiveglove1",
+      "[sm_logic_hard],moonpearl,flippers,morph,hijump,progressiveglove2"
     ]
   }
 ]

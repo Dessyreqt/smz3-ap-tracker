@@ -1,5 +1,5 @@
 function GtCrystalCount()
-    local reqCount = Tracker:ProviderCountForCode("gt_crystals")
+    local reqCount = Tracker:ProviderCountForCode("open_tower")
     local count = Tracker:ProviderCountForCode("allcrystals")
 
     if count >= reqCount then

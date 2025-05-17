@@ -83,7 +83,7 @@
                   "@CardBrinstarL1,hijump",
                   "@CardBrinstarL1,speedbooster",
                   "@CardBrinstarL1,ice",
-                  "[hard],@CardBrinstarL1"
+                  "[sm_logic_hard],@CardBrinstarL1"
                 ],
                 "capture_item": true
               }
@@ -163,7 +163,7 @@
             "name": "Reserve Tank, Brinstar",
             "access_rules": [
               "@CanOpenRedDoors,speedbooster",
-              "[hard],@CanOpenRedDoors,morph"
+              "[sm_logic_hard],@CanOpenRedDoors,morph"
             ],
             "sections": [
               {
@@ -211,7 +211,7 @@
             "name": "Super Missile (green Brinstar top)",
             "access_rules": [
               "@CanOpenRedDoors,speedbooster",
-              "[hard],@CanOpenRedDoors,morph"
+              "[sm_logic_hard],@CanOpenRedDoors,morph"
             ],
             "sections": [
               {
@@ -238,15 +238,15 @@
                 "name": "Missile (green Brinstar behind reserve tank)",
                 "access_rules": [
                   "speedbooster,@CanOpenRedDoors,morph",
-                  "[hard],@CanOpenRedDoors,morph"
+                  "[sm_logic_hard],@CanOpenRedDoors,morph"
                 ]
               },
               {
                 "name": "Missile (green Brinstar behind missile)",
                 "access_rules": [
                   "speedbooster,@CanPassBombPassages,@CanOpenRedDoors",
-                  "[hard],@CanPassBombPassages,@CanOpenRedDoors",
-                  "[hard],morph,screwattack,@CanOpenRedDoors"
+                  "[sm_logic_hard],@CanPassBombPassages,@CanOpenRedDoors",
+                  "[sm_logic_hard],morph,screwattack,@CanOpenRedDoors"
                 ]
               }
             ],
@@ -345,12 +345,12 @@
 
           "@CanAccessNorfairUpperPortal,morph,wave,spacejump",
 
-          "[hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,ice",
-          "[hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,hijump",
-          "[hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,@CanSpringBallJump",
-          "[hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,@CanFly",
-          "[hard],@CanAccessNorfairUpperPortal,morph,wave,@CanSpringBallJump",
-          "[hard],@CanAccessNorfairUpperPortal,morph,wave,@CanFly"
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,ice",
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,hijump",
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,@CanSpringBallJump",
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,morph,@CanOpenRedDoors,@CanFly",
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,morph,wave,@CanSpringBallJump",
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,morph,wave,@CanFly"
         ],
         "children": [
           {
@@ -429,8 +429,8 @@
             "name": "Energy Tank, Brinstar Gate",
             "access_rules": [
               "@CardBrinstarL2,@CanUsePowerBombs,wave,alltanks:1",
-              "[hard],@CardBrinstarL2,@CanUsePowerBombs,wave",
-              "[hard],@CardBrinstarL2,@CanUsePowerBombs,super"
+              "[sm_logic_hard],@CardBrinstarL2,@CanUsePowerBombs,wave",
+              "[sm_logic_hard],@CardBrinstarL2,@CanUsePowerBombs,super"
             ],
             "sections": [
               {
@@ -454,7 +454,7 @@
             "name": "Super Missile (pink Brinstar)",
             "access_rules": [
               "@CardBrinstarBoss,@CanPassBombPassages,super",
-              "[hard],@CardBrinstarL2,@CanPassBombPassages,super"
+              "[sm_logic_hard],@CardBrinstarL2,@CanPassBombPassages,super"
             ],
             "sections": [
               {
@@ -478,7 +478,7 @@
             "name": "Power Bomb (pink Brinstar)",
             "access_rules": [
               "@CanUsePowerBombs,super,alltanks:1",
-              "[hard],@CanUsePowerBombs,super"
+              "[sm_logic_hard],@CanUsePowerBombs,super"
             ],
             "sections": [
               {
@@ -550,8 +550,8 @@
 
           "@CanAccessNorfairUpperPortal,spacejump",
 
-          "[hard],@CanAccessNorfairUpperPortal,@CanSpringBallJump",
-          "[hard],@CanAccessNorfairUpperPortal,@CanFly"
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,@CanSpringBallJump",
+          "[sm_logic_hard],@CanAccessNorfairUpperPortal,@CanFly"
         ],
         "children": [
           {
@@ -560,12 +560,12 @@
               "@CanUsePowerBombs,@CanOpenRedDoors,grapple",
               "@CanUsePowerBombs,@CanOpenRedDoors,spacejump",
 
-              "[hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanIbj,varia,alltanks:3",
-              "[hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanIbj,alltanks:5",
-              "[hard],@CanUsePowerBombs,@CanOpenRedDoors,hijump,speedbooster,varia,alltanks:3",
-              "[hard],@CanUsePowerBombs,@CanOpenRedDoors,hijump,speedbooster,alltanks:5",
-              "[hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanSpringBallJump,varia,alltanks:3",
-              "[hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanSpringBallJump,alltanks:5"
+              "[sm_logic_hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanIbj,varia,alltanks:3",
+              "[sm_logic_hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanIbj,alltanks:5",
+              "[sm_logic_hard],@CanUsePowerBombs,@CanOpenRedDoors,hijump,speedbooster,varia,alltanks:3",
+              "[sm_logic_hard],@CanUsePowerBombs,@CanOpenRedDoors,hijump,speedbooster,alltanks:5",
+              "[sm_logic_hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanSpringBallJump,varia,alltanks:3",
+              "[sm_logic_hard],@CanUsePowerBombs,@CanOpenRedDoors,@CanSpringBallJump,alltanks:5"
             ],
             "sections": [
               {
@@ -636,7 +636,7 @@
             "access_rules": [
               "@CanUsePowerBombs,super",
               "ice,super",
-              "[hard],super"
+              "[sm_logic_hard],super"
             ],
             "sections": [
               {

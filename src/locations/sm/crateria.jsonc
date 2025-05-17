@@ -14,10 +14,10 @@
           "@CardCrateriaL1,morph,speedbooster,@CanUsePowerBombs,powerbomb:10",
           "@CardCrateriaL1,morph,speedbooster,screwattack",
 
-          "[hard],@CardCrateriaL1,morph,bombs",
-          "[hard],@CardCrateriaL1,morph,powerbomb:10",
-          "[hard],@CardCrateriaL1,screwattack",
-          "[hard],@CardCrateriaL1,speedbooster,@CanUsePowerBombs,alltanks:2"
+          "[sm_logic_hard],@CardCrateriaL1,morph,bombs",
+          "[sm_logic_hard],@CardCrateriaL1,morph,powerbomb:10",
+          "[sm_logic_hard],@CardCrateriaL1,screwattack",
+          "[sm_logic_hard],@CardCrateriaL1,speedbooster,@CanUsePowerBombs,alltanks:2"
         ]
       },
       {
@@ -27,7 +27,7 @@
             "name": "Bombs",
             "access_rules": [
               "@CanOpenBombTorizoDoor,@CanPassBombPassages",
-              "[hard],@CanOpenBombTorizoDoor,morph"
+              "[sm_logic_hard],@CanOpenBombTorizoDoor,morph"
             ],
             "sections": [
               {
@@ -158,7 +158,7 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,alltanks:1",
-                  "[hard],@CanEnterAndLeaveGauntlet"
+                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet"
                 ]
               }
             ],
@@ -203,7 +203,7 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
-                  "[hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages"
+                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages"
                 ]
               },
               {
@@ -211,7 +211,7 @@
                 "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
-                  "[hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages"
+                  "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages"
                 ]
               }
             ],
@@ -242,13 +242,13 @@
           "@CanAccessMaridiaPortal,gravity,super,@CanDestroyBombWalls,@CardMaridiaL2",
           "@CanAccessMaridiaPortal,gravity,super,draygon",
 
-          "[hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanFly",
-          "[hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanSpringBallJump",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,hijump,@CanPassBombPassages",
-          "[hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,gravity,@CanDestroyBombWalls",
-          "[hard],@CanAccessMaridiaPortal,gravity,draygon",
-          "[hard],@CanUsePowerBombs,super,hijump,ice,grapple,@CardMaridiaL1",
-          "[hard],@CanUsePowerBombs,super,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1"
+          "[sm_logic_hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanFly",
+          "[sm_logic_hard],@CanOpenMoatDoor,@CanAccessNorfairUpperPortal,@CanUsePowerBombs,@CanSpringBallJump",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,hijump,@CanPassBombPassages",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,@CardMaridiaL2,super,gravity,@CanDestroyBombWalls",
+          "[sm_logic_hard],@CanAccessMaridiaPortal,gravity,draygon",
+          "[sm_logic_hard],@CanUsePowerBombs,super,hijump,ice,grapple,@CardMaridiaL1",
+          "[sm_logic_hard],@CanUsePowerBombs,super,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1"
         ],
         "children": [
           {
@@ -260,7 +260,7 @@
               "morph,gravity,@CanIbj",
               "morph,gravity,hijump",
               "morph,@Wrecked Ship",
-              "[hard],morph"
+              "[sm_logic_hard],morph"
             ],
             "sections": [
               {
