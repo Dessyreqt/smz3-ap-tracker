@@ -4,7 +4,7 @@
   "package_version": "1.0.2",
   "package_uid": "smz3_ap_dessyreqt",
   "author": "Dessyreqt",
-  "min_poptracker_version": "0.25.9",
+  "min_poptracker_version": "0.26.2",
   "target_poptracker_version": "0.31.0",
   "versions_url": "https://raw.githubusercontent.com/dessyreqt/smz3-ap-tracker/refs/heads/main/versions.json",
   "variants": {

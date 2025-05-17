@@ -44,6 +44,32 @@
           },
           {
             "map": "wreckedship",
+            "x": 633,
+            "y": 436
+          }
+        ]
+      },
+      {
+        "name": "Phantoon",
+        "access_rules": [
+          "@CanUnlockShip"
+        ],
+        "sections": [
+          {
+            "name": "Phantoon",
+            "hosted_item": "phantoon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "metroid",
+            "shape": "diamond",
+            "x": 1738,
+            "y": 373
+          },
+          {
+            "map": "wreckedship",
+            "shape": "diamond",
             "x": 408,
             "y": 340
           }

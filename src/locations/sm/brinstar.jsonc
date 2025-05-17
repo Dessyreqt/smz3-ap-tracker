@@ -713,6 +713,32 @@
             ]
           },
           {
+            "name": "Kraid",
+            "access_rules": [
+              "@CardBrinstarBoss"
+            ],
+            "sections": [
+              {
+                "name": "Kraid",
+                "hosted_item": "kraid"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "shape": "diamond",
+                "x": 1720,
+                "y": 1252
+              },
+              {
+                "map": "brinstar",
+                "shape": "diamond",
+                "x": 1722,
+                "y": 678
+              }
+            ]
+          },
+          {
             "name": "Varia Suit",
             "access_rules": [
               "@CardBrinstarBoss"

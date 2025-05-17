@@ -255,6 +255,7 @@
             "map_locations": [
               {
                 "map": "palaceofdarkness",
+                "shape": "diamond",
                 "x": 1917,
                 "y": 922
               }

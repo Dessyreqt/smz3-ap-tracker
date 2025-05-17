@@ -146,7 +146,7 @@
   {
     "name": "Mother Brain",
     "type": "toggle",
-    "img": "images/items/z3/motherbrain.png",
+    "img": "images/items/sm/motherbrain.png",
     "codes": "motherbrain"
   }
 ]

@@ -76,6 +76,7 @@
             "map_locations": [
               {
                 "map": "castletower",
+                "shape": "diamond",
                 "x": 1458,
                 "y": 135
               }

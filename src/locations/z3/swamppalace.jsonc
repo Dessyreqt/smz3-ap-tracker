@@ -202,6 +202,7 @@
             "map_locations": [
               {
                 "map": "swamppalace",
+                "shape": "diamond",
                 "x": 1148,
                 "y": 136
               }

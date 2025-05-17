@@ -170,6 +170,7 @@
             "map_locations": [
               {
                 "map": "skullwoods",
+                "shape": "diamond",
                 "x": 1408,
                 "y": 136
               }

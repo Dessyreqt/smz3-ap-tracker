@@ -63,6 +63,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/sm/norfairupper.jsonc")
     Tracker:AddLocations("locations/sm/norfairlower.jsonc")
     Tracker:AddLocations("locations/sm/maridia.jsonc")
+    Tracker:AddLocations("locations/sm/tourian.jsonc")
 end
 
 -- Layout

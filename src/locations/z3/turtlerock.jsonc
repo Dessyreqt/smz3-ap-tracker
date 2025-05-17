@@ -215,6 +215,7 @@
             "map_locations": [
               {
                 "map": "turtlerock",
+                "shape": "diamond",
                 "x": 125,
                 "y": 905
               }

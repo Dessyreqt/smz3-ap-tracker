@@ -180,6 +180,7 @@
             "map_locations": [
               {
                 "map": "miserymire",
+                "shape": "diamond",
                 "x": 892,
                 "y": 136
               }

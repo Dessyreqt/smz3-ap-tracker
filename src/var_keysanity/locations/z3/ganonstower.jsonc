@@ -344,6 +344,7 @@
             "map_locations": [
               {
                 "map": "ganonstower",
+                "shape": "diamond",
                 "x": 1677,
                 "y": 124
               }
@@ -363,6 +364,7 @@
     "map_locations": [
       {
         "map": "darkworld",
+        "shape": "diamond",
         "x": 2040,
         "y": 1664
       }

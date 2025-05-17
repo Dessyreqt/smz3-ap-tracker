@@ -137,6 +137,7 @@
             "map_locations": [
               {
                 "map": "desertpalace",
+                "shape": "diamond",
                 "x": 1951,
                 "y": 130
               }

@@ -131,6 +131,7 @@
             "map_locations": [
               {
                 "map": "easternpalace",
+                "shape": "diamond",
                 "x": 126,
                 "y": 1171
               }

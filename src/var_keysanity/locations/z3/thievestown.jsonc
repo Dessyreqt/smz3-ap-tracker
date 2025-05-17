@@ -176,6 +176,7 @@
             "map_locations": [
               {
                 "map": "thievestown",
+                "shape": "diamond",
                 "x": 893,
                 "y": 133
               }

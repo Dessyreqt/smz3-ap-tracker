@@ -176,6 +176,7 @@
             "map_locations": [
               {
                 "map": "icepalace",
+                "shape": "diamond",
                 "x": 1950,
                 "y": 1707
               }

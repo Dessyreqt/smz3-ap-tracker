@@ -138,6 +138,7 @@
             "map_locations": [
               {
                 "map": "towerofhera",
+                "shape": "diamond",
                 "x": 1584,
                 "y": 255
               }

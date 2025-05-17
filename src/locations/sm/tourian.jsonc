@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Tourian",
+    "chest_unopened_img": "images/items/sm/majorunopened.png",
+    "chest_opened_img": "images/items/sm/majoropened.png",
+    "children": [
+      {
+        "name": "Mother Brain",
+        "access_rules": [
+          "$MotherBrainBossesCount,ice,etank:1,alltanks:3,varia,missile:10,super:10,charge",
+          "$MotherBrainBossesCount,ice,etank:1,alltanks:3,varia,missile:25,super:5,charge",
+          "$MotherBrainBossesCount,ice,etank:1,alltanks:3,varia,missile:40,charge",
+          "$MotherBrainBossesCount,ice,etank:1,alltanks:3,varia,$MotherBrainAmmo",
+          "$MotherBrainBossesCount,ice,etank:3,alltanks:6,missile:10,super:10,charge",
+          "$MotherBrainBossesCount,ice,etank:3,alltanks:6,missile:25,super:5,charge",
+          "$MotherBrainBossesCount,ice,etank:3,alltanks:6,missile:40,charge",
+          "$MotherBrainBossesCount,ice,etank:3,alltanks:6,$MotherBrainAmmo",
+          "$MotherBrainBossesCount,powerbomb:5,etank:1,alltanks:3,varia,missile:10,super:10,charge",
+          "$MotherBrainBossesCount,powerbomb:5,etank:1,alltanks:3,varia,missile:25,super:5,charge",
+          "$MotherBrainBossesCount,powerbomb:5,etank:1,alltanks:3,varia,missile:40,charge",
+          "$MotherBrainBossesCount,powerbomb:5,etank:1,alltanks:3,varia,$MotherBrainAmmo",
+          "$MotherBrainBossesCount,powerbomb:5,etank:3,alltanks:6,missile:10,super:10,charge",
+          "$MotherBrainBossesCount,powerbomb:5,etank:3,alltanks:6,missile:25,super:5,charge",
+          "$MotherBrainBossesCount,powerbomb:5,etank:3,alltanks:6,missile:40,charge",
+          "$MotherBrainBossesCount,powerbomb:5,etank:3,alltanks:6,$MotherBrainAmmo"
+        ],
+        "sections": [
+          {
+            "name": "Mother Brain",
+            "hosted_item": "motherbrain"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "metroid",
+            "shape": "diamond",
+            "x": 360,
+            "y": 660
+          }
+        ]
+      }
+    ]
+  }
+]

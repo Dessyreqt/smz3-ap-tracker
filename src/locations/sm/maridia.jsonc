@@ -429,6 +429,32 @@
             ]
           },
           {
+            "name": "Draygon",
+            "access_rules": [
+              "@CanDefeatDraygon"
+            ],
+            "sections": [
+              {
+                "name": "Draygon",
+                "hosted_item": "draygon"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "metroid",
+                "shape": "diamond",
+                "x": 2106,
+                "y": 960
+              },
+              {
+                "map": "maridia",
+                "shape": "diamond",
+                "x": 1176,
+                "y": 386
+              }
+            ]
+          },
+          {
             "name": "Plasma Beam",
             "sections": [
               {
