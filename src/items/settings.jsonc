@@ -54,7 +54,7 @@
     "img": "images/settings/open_tourian.png",
     "max_quantity":4,
     "initial_quantity":4,
-    "disabled_img_mods":"overlay|images/settings/open_tourian.png",
+    "disabled_img_mods":"overlay|images/settings/open_tourian_nobosses.png",
     "overlay_font_size": 40,
     "codes": "open_tourian"
   },
@@ -67,7 +67,7 @@
     "loop": "true",
     "initial_quantity": 7,
     "max_quantity": 7,
-    "disabled_img_mods": "overlay|images/settings/open_tower.png",
+    "disabled_img_mods": "overlay|images/settings/open_tower_nocrystals.png",
     "overlay_font_size": 40
   },
   {
@@ -79,7 +79,7 @@
     "swap_actions": true,
     "initial_quantity": 7,
     "max_quantity": 7,
-    "disabled_img_mods": "overlay|images/settings/ganon_vulnerable.png",
+    "disabled_img_mods": "overlay|images/settings/ganon_vulnerable_nocrystals.png",
     "overlay_font_size": 40
   }
 ]
