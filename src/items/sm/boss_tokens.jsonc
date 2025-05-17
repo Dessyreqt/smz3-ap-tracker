@@ -142,5 +142,11 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Mother Brain",
+    "type": "toggle",
+    "img": "images/items/z3/motherbrain.png",
+    "codes": "motherbrain"
   }
 ]

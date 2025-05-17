@@ -110,6 +110,13 @@
         "access_rules": [
           "@CanAscendGanonsTower,@CanBeatMoldorm,hookshot"
         ]
+      },
+      {
+        "name": "Agahnim 2",
+        "access_rules": [
+          "@CanAscendGanonsTower,@CanBeatMoldorm,hookshot"
+        ],
+        "hosted_item": "agahnim2"
       }
     ],
     "children": [
@@ -325,8 +332,44 @@
                 "y": 903
               }
             ]
+          },
+          {
+            "name": "Agahnim 2",
+            "sections": [
+              {
+                "ref": "Ganon's Tower/Agahnim 2"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "ganonstower",
+                "x": 1677,
+                "y": 124
+              }
+            ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Ganon",
+    "access_rules": [
+      "@CanBeatGanon,goal_defeatboth,agahnim2",
+      "@CanBeatGanon,goal_fastganondefeatmotherbrain",
+      "@CanBeatGanon,goal_alldungeonsdefeatmotherbrain,easternpalace,desertpalace,towerofhera,agahnim1,agahnim2,palaceofdarkness,swamppalace,skullwoods,thievestown,icepalace,miserymire,turtlerock,agahnim2"
+    ],
+    "map_locations": [
+      {
+        "map": "darkworld",
+        "x": 2040,
+        "y": 1664
+      }
+    ],
+    "sections": [
+      {
+        "name": "Ganon",
+        "hosted_item": "ganon"
       }
     ]
   }

@@ -416,9 +416,21 @@
     ]
   },
   {
-    "name": "Agahnim",
+    "name": "Agahnim 1",
     "type": "toggle",
-    "img": "images/items/z3/agahnim.png",
-    "codes": "agahnim"
+    "img": "images/items/z3/agahnim1.png",
+    "codes": "agahnim1"
+  },
+  {
+    "name": "Agahnim 2",
+    "type": "toggle",
+    "img": "images/items/z3/agahnim2.png",
+    "codes": "agahnim2"
+  },
+  {
+    "name": "Ganon",
+    "type": "toggle",
+    "img": "images/items/z3/ganon.png",
+    "codes": "ganon"
   }
 ]

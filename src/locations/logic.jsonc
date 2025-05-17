@@ -96,6 +96,12 @@
       "[hammer],[hookshot],[somaria],[firerod],[boots],bow"
     ]
   },
+  {
+    "name": "CanBeatGanon",
+    "access_rules": [
+      "@CanLightTorches,progressivesword2,$GanonCrystalCount"
+    ]
+  },
   // SM logic
   {
     "name": "CanIbj",
@@ -207,13 +213,13 @@
   {
     "name": "CanAccessMaridiaPortal",
     "access_rules": [
-      "moonpearl,flippers,gravity,morph,agahnim",
+      "moonpearl,flippers,gravity,morph,agahnim1",
       "moonpearl,flippers,gravity,morph,hammer,progressiveglove1",
       "moonpearl,flippers,gravity,morph,progressiveglove2",
-      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,agahnim",
+      "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,agahnim1",
       "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,hammer,progressiveglove1",
       "[sm_logic_hard],moonpearl,flippers,morph,@CanSpringBallJump,progressiveglove2",
-      "[sm_logic_hard],moonpearl,flippers,morph,hijump,agahnim",
+      "[sm_logic_hard],moonpearl,flippers,morph,hijump,agahnim1",
       "[sm_logic_hard],moonpearl,flippers,morph,hijump,hammer,progressiveglove1",
       "[sm_logic_hard],moonpearl,flippers,morph,hijump,progressiveglove2"
     ]
