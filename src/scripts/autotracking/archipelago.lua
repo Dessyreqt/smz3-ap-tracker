@@ -272,7 +272,6 @@ end
 
 function onNotify(key, value, old_value)
     if value ~= old_value and key == HINTS_ID then
-		print(string.format("onNotify called for key: %s, value: %s, old_value: %s", key, dump_table(value), dump_table(old_value)))
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 if not hint.found then
@@ -287,7 +286,6 @@ end
 
 function onNotifyLaunch(key, value)
     if key == HINTS_ID then
-		print(string.format("onNotifyLaunch called for key: %s, value: %s", key, dump_table(value)))
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 if not hint.found then
