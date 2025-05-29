@@ -71,7 +71,7 @@
     "content": [
       {
         "type": "item",
-        "key": "empty_label"
+        "item": "empty_label"
       }
     ]
   }

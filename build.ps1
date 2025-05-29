@@ -3,6 +3,26 @@ param(
     [Alias('c')][string]$changelog = ""
 )
 
+function Remove-JsonCComments {
+    param (
+        [string]$filePath
+    )
+    $content = Get-Content -Path $filePath -Raw
+    # Remove comments (// and /* */) and trailing commas
+    $content = $content -replace '(?m)//.*?$|/\*.*?\*/', '' -replace ',\s*([}\]])', '$1'
+    Set-Content -Path $filePath -Value $content -Force
+}
+
+function Minify-Json {
+    param (
+        [string]$filePath
+    )
+    $content = Get-Content -Path $filePath -Raw
+    # Remove whitespace and newlines
+    $content = $content -replace '\s+', ' ' -replace '^\s+|\s+$', ''
+    Set-Content -Path $filePath -Value $content -Force
+}
+
 # Create the bin directory if it doesn't exist
 if (!(Test-Path -Path .\bin)) {
     New-Item -ItemType Directory -Path .\bin
@@ -21,11 +41,33 @@ if ($version -ne "") {
 }
 
 # build the package
+Write-Host "Building poptracker pack..."
+
+if (Test-Path .\bin\build) {
+    Remove-Item -Path .\bin\build -Recurse -Force
+}
+
+Copy-Item -Path .\src -Destination .\bin\build -Recurse -Force
+
+foreach ($file in Get-ChildItem -Path .\bin\build -Recurse -Filter *.jsonc) {
+    Remove-JsonCComments -filePath $file.FullName
+    Minify-Json -filePath $file.FullName
+    Rename-Item -Path $file.FullName -NewName ($file.BaseName + ".json") -Force
+}
+
+# update filenames in init.lua
+$initLuaPath = ".\bin\build\scripts\init.lua"
+if (Test-Path -Path $initLuaPath) {
+    $content = Get-Content -Path $initLuaPath -Raw
+    $content = $content -replace 'jsonc', 'json'
+    Set-Content -Path $initLuaPath -Value $content -Force
+}
+
 if (Test-Path .\bin\$filename){
     Remove-Item .\bin\$filename -Force
 }  
 
-Compress-Archive -Path .\src -DestinationPath .\bin\$filename -Force
+Compress-Archive -Path .\bin\build\* -DestinationPath .\bin\$filename -Force
 Write-Host "Build complete. Output: .\bin\$filename"
 
 if ($version -ne "") {
@@ -51,7 +93,3 @@ if ($version -ne "") {
 - Create release in GitHub and attach $filename to it
 - Commit and push .\versions.json"
 }
-
-
-
-
