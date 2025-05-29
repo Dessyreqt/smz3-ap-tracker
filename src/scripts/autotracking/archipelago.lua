@@ -86,7 +86,7 @@ end
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
-	Tracker.BulkUpdate = true	
+	Tracker.BulkUpdate = true
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
@@ -146,11 +146,11 @@ function onClear(slot_data)
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 
-    if PLAYER_NUMBER > -1 then
-        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
-    end
+	if PLAYER_NUMBER > -1 then
+		HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+		Archipelago:SetNotify({ HINTS_ID })
+		Archipelago:Get({ HINTS_ID })
+	end
 
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
 	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
@@ -271,31 +271,31 @@ function GetHighlightFromStatus(status)
 end
 
 function onNotify(key, value, old_value)
-    if value ~= old_value and key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, GetHighlightFromStatus(hint.status))
-                elseif hint.found then
-                    updateHints(hint.location, Highlight.None)
-                end
-            end
-        end
-    end
+	if value ~= old_value and key == HINTS_ID then
+		for _, hint in ipairs(value) do
+			if hint.finding_player == Archipelago.PlayerNumber then
+				if not hint.found then
+					updateHints(hint.location, GetHighlightFromStatus(hint.status))
+				elseif hint.found then
+					updateHints(hint.location, Highlight.None)
+				end
+			end
+		end
+	end
 end
 
 function onNotifyLaunch(key, value)
-    if key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location, GetHighlightFromStatus(hint.status))
-                elseif hint.found then
-                    updateHints(hint.location, Highlight.None)
-                end
-            end
-        end
-    end
+	if key == HINTS_ID then
+		for _, hint in ipairs(value) do
+			if hint.finding_player == Archipelago.PlayerNumber then
+				if not hint.found then
+					updateHints(hint.location, GetHighlightFromStatus(hint.status))
+				elseif hint.found then
+					updateHints(hint.location, Highlight.None)
+				end
+			end
+		end
+	end
 end
 
 function updateHints(locationID, highlight)
@@ -303,7 +303,7 @@ function updateHints(locationID, highlight)
 		return
 	end
 
-    local location_name = LOCATION_MAPPING[locationID][1][1]
+	local location_name = LOCATION_MAPPING[locationID][1][1]
 	local obj = Tracker:FindObjectForCode(location_name)
 
 	if obj then
@@ -312,13 +312,13 @@ function updateHints(locationID, highlight)
 		print(string.format("No object found for code: %s", location_name))
 	end
 end
- 
+
 function updateHintsClear(locationID)
 	if not LOCATION_MAPPING[locationID] then
 		return
 	end
 
-    local location_name = LOCATION_MAPPING[locationID][1][1]
+	local location_name = LOCATION_MAPPING[locationID][1][1]
 	local obj = Tracker:FindObjectForCode(location_name)
 
 	if obj then
