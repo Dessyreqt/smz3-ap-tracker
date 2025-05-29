@@ -1,6 +1,7 @@
 param(
     [Alias('v')][string]$version = "",
-    [Alias('c')][string]$changelog = ""
+    [Alias('c')][string]$changelog = "",
+    [switch]$skipcompression = $false
 )
 
 function Remove-JsonCComments {
@@ -21,6 +22,13 @@ function Minify-Json {
     # Remove whitespace and newlines
     $content = $content -replace '\s+', ' ' -replace '^\s+|\s+$', ''
     Set-Content -Path $filePath -Value $content -Force
+}
+
+if (-not $skipcompression) {
+    Write-Host "Compressing images..."
+    & ".\compressimages.ps1"
+} else {
+    Write-Host "Skipping image compression."
 }
 
 # Create the bin directory if it doesn't exist

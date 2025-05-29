@@ -43,7 +43,7 @@ foreach ($file in Get-ChildItem -Path .\src -Recurse -Filter *.png) {
     
     $outputFile = Join-Path -Path $file.DirectoryName -ChildPath ($file.BaseName + "-compressed.png")
     Write-Host "Compressing $($file.FullName) to $outputFile..."
-    & $zopflipngLocation --iterations=500 --filters=01234mepb --lossy_8bit --lossy_transparent $file.FullName $outputFile
+    & $zopflipngLocation --iterations=15 --filters=01234mepb --lossy_8bit --lossy_transparent $file.FullName $outputFile
     Remove-Item -Path $file.FullName -Force
     Rename-Item -Path $outputFile -NewName $file.Name -Force
     # Calculate hash of the compressed image
