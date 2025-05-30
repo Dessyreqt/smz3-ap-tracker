@@ -1,10 +1,10 @@
 {
   "name": "SMZ3 Archipelago",
   "game_name": "SMZ3",
-  "package_version": "1.1.0",
+  "package_version": "1.1.1",
   "package_uid": "smz3_ap_dessyreqt",
   "author": "Dessyreqt",
-  "min_poptracker_version": "0.32.0",
+  "min_poptracker_version": "0.26.2",
   "target_poptracker_version": "0.32.0",
   "versions_url": "https://raw.githubusercontent.com/dessyreqt/smz3-ap-tracker/refs/heads/main/versions.json",
   "variants": {

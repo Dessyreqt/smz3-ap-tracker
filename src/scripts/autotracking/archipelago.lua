@@ -299,6 +299,10 @@ function onNotifyLaunch(key, value)
 end
 
 function updateHints(locationID, highlight)
+	if not Highlight then
+		return
+	end
+
 	if not LOCATION_MAPPING[locationID] then
 		return
 	end
@@ -314,6 +318,10 @@ function updateHints(locationID, highlight)
 end
 
 function updateHintsClear(locationID)
+	if not Highlight then
+		return
+	end
+
 	if not LOCATION_MAPPING[locationID] then
 		return
 	end
@@ -354,8 +362,10 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", onLocation)
 end
-Archipelago:AddSetReplyHandler("notify handler", onNotify)
-Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+if Highlight then
+	Archipelago:AddSetReplyHandler("notify handler", onNotify)
+	Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+end
 
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
