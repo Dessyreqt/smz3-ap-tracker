@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.2.0",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.2.0/smz3-ap-tracker-1.2.0.zip",
+      "sha256": "38548CD1F25829D89877966B2B8FC23C4EA82396BD65620237C01513AA1115AC",
+      "changelog": [
+        "Add hint tracking, optimize images"
+      ]
+    },
+    {
       "package_version": "1.1.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.1.0/smz3-ap-tracker-1.1.0.zip",
       "sha256": "35C33A891ECE192769C4E1568954DDC3A0C134DDB97ECB29A3B54FAC950F9605",
