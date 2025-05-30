@@ -86,13 +86,13 @@ end
 -- called right after an AP slot is connected
 function onClear(slot_data)
 	-- use bulk update to pause logic updates until we are done resetting all items/locations
-	Tracker.BulkUpdate = true	
+	Tracker.BulkUpdate = true
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 	end
 	CUR_INDEX = -1
 	-- reset locations
-	for _, mapping_entry in pairs(LOCATION_MAPPING) do
+	for location_id, mapping_entry in pairs(LOCATION_MAPPING) do
 		for _, location_table in ipairs(mapping_entry) do
 			if location_table then
 				local location_code = location_table[1]
@@ -120,6 +120,7 @@ function onClear(slot_data)
 				print(string.format("onClear: skipping empty location_table"))
 			end
 		end
+		updateHintsClear(location_id)
 	end
 	-- reset items
 	for _, mapping_entry in pairs(ITEM_MAPPING) do
@@ -139,8 +140,18 @@ function onClear(slot_data)
 		end
 	end
 	apply_slot_data(slot_data)
+	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
+
+	if PLAYER_NUMBER > -1 then
+		HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+		Archipelago:SetNotify({ HINTS_ID })
+		Archipelago:Get({ HINTS_ID })
+	end
+
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
 	if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
 		-- add snes interface functions here
@@ -247,6 +258,84 @@ function onLocation(location_id, location_name)
 	end
 end
 
+function GetHighlightFromStatus(status)
+	if status == 0 then
+		return Highlight.Unspecified
+	elseif status == 10 then
+		return Highlight.NoPriority
+	elseif status == 20 then
+		return Highlight.Avoid
+	elseif status == 30 then
+		return Highlight.Priority
+	end
+end
+
+function onNotify(key, value, old_value)
+	if value ~= old_value and key == HINTS_ID then
+		for _, hint in ipairs(value) do
+			if hint.finding_player == Archipelago.PlayerNumber then
+				if not hint.found then
+					updateHints(hint.location, GetHighlightFromStatus(hint.status))
+				elseif hint.found then
+					updateHints(hint.location, Highlight.None)
+				end
+			end
+		end
+	end
+end
+
+function onNotifyLaunch(key, value)
+	if key == HINTS_ID then
+		for _, hint in ipairs(value) do
+			if hint.finding_player == Archipelago.PlayerNumber then
+				if not hint.found then
+					updateHints(hint.location, GetHighlightFromStatus(hint.status))
+				elseif hint.found then
+					updateHints(hint.location, Highlight.None)
+				end
+			end
+		end
+	end
+end
+
+function updateHints(locationID, highlight)
+	if not Highlight then
+		return
+	end
+
+	if not LOCATION_MAPPING[locationID] then
+		return
+	end
+
+	local location_name = LOCATION_MAPPING[locationID][1][1]
+	local obj = Tracker:FindObjectForCode(location_name)
+
+	if obj then
+		obj.Highlight = highlight
+	else
+		print(string.format("No object found for code: %s", location_name))
+	end
+end
+
+function updateHintsClear(locationID)
+	if not Highlight then
+		return
+	end
+
+	if not LOCATION_MAPPING[locationID] then
+		return
+	end
+
+	local location_name = LOCATION_MAPPING[locationID][1][1]
+	local obj = Tracker:FindObjectForCode(location_name)
+
+	if obj then
+		obj.Highlight = Highlight.None
+	else
+		print(string.format("No object found for code: %s", location_name))
+	end
+end
+
 -- called when a locations is scouted
 function onScout(location_id, location_name, item_id, item_name, item_player)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -273,5 +362,10 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", onLocation)
 end
+if Highlight then
+	Archipelago:AddSetReplyHandler("notify handler", onNotify)
+	Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+end
+
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
