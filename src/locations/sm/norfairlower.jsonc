@@ -91,7 +91,6 @@
             "sections": [
               {
                 "name": "Missile (Gold Torizo)",
-                "capture_item": true,
                 "access_rules": [
                   "@CanUsePowerBombs,spacejump,super",
 

@@ -534,7 +534,6 @@
         "sections": [
           {
             "name": "Missile (above Crocomire)",
-            "capture_item": true,
             "access_rules": [
               "@Norfair Upper Crocomire,varia,@CanFly",
               "@Norfair Upper Crocomire,varia,grapple",
@@ -583,7 +582,6 @@
         "sections": [
           {
             "name": "Missile (lava room)",
-            "capture_item": true,
             "access_rules": [
               "morph"
             ]

@@ -128,7 +128,6 @@
             "sections": [
               {
                 "name": "Bumper Cave",
-                "capture_item": true,
                 "access_rules": [
                   "progressiveglove1,cape",
                   "{scoutablelocations_show}"
@@ -322,7 +321,6 @@
             "sections": [
               {
                 "name": "Bombos Tablet",
-                "capture_item": true,
                 "access_rules": [
                   "book,progressivesword2,mirror",
                   "{scoutablelocations_show,book,mirror}"

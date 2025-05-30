@@ -84,8 +84,7 @@
                   "@CardBrinstarL1,speedbooster",
                   "@CardBrinstarL1,ice",
                   "[sm_logic_hard],@CardBrinstarL1"
-                ],
-                "capture_item": true
+                ]
               }
             ],
             "map_locations": [
@@ -188,7 +187,6 @@
             "sections": [
               {
                 "name": "Missile (green Brinstar below super missile)",
-                "capture_item": true,
                 "access_rules": [
                   "@CanPassBombPassages,@CanOpenRedDoors",
                   "{scoutablelocations_show,@CanOpenRedDoors}"

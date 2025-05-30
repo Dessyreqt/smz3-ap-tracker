@@ -52,7 +52,6 @@
             "sections": [
               {
                 "name": "Super Missile (Crateria)",
-                "capture_item": true,
                 "access_rules": [
                   "@CanUsePowerBombs,alltanks:2,speedbooster",
                   "{scoutablelocations_show,@CanUsePowerBombs}"
@@ -156,7 +155,6 @@
             "sections": [
               {
                 "name": "Energy Tank, Gauntlet",
-                "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,alltanks:1",
                   "[sm_logic_hard],@CanEnterAndLeaveGauntlet",
@@ -203,7 +201,6 @@
             "sections": [
               {
                 "name": "Missile (Crateria gauntlet left)",
-                "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
                   "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages",
@@ -212,7 +209,6 @@
               },
               {
                 "name": "Missile (Crateria gauntlet right)",
-                "capture_item": true,
                 "access_rules": [
                   "@CanEnterAndLeaveGauntlet,@CanPassBombPassages,alltanks:2",
                   "[sm_logic_hard],@CanEnterAndLeaveGauntlet,@CanPassBombPassages",

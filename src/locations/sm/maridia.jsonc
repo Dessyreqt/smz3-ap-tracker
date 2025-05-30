@@ -63,7 +63,6 @@
             "sections": [
               {
                 "name": "Missile (green Maridia shinespark)",
-                "capture_item": true,
                 "access_rules": [
                   "gravity,speedbooster",
                   "{scoutablelocations_show}"
@@ -116,7 +115,6 @@
             "sections": [
               {
                 "name": "Energy Tank, Mama turtle",
-                "capture_item": true
               }
             ],
             "map_locations": [
@@ -236,11 +234,9 @@
             "sections": [
               {
                 "name": "Missile (left Maridia sand pit room)",
-                "capture_item": true
               },
               {
                 "name": "Reserve Tank, Maridia",
-                "capture_item": true
               }
             ],
             "map_locations": [
@@ -267,7 +263,6 @@
             "sections": [
               {
                 "name": "Missile (right Maridia sand pit room)",
-                "capture_item": true
               }
             ],
             "map_locations": [
@@ -294,7 +289,6 @@
             "sections": [
               {
                 "name": "Power Bomb (right Maridia sand pit room)",
-                "capture_item": true
               }
             ],
             "map_locations": [
@@ -340,7 +334,6 @@
             "sections": [
               {
                 "name": "Missile (pink Maridia)",
-                "capture_item": true,
                 "access_rules": [
                   "@CanReachAqueduct,gravity,speedbooster",
                   "[sm_logic_hard],@CanReachAqueduct,gravity"
@@ -462,7 +455,6 @@
             "sections": [
               {
                 "name": "Plasma Beam",
-                "capture_item": true,
                 "access_rules": [
                   "@DraygonBeaten,screwattack,hijump",
                   "@DraygonBeaten,screwattack,@CanFly",

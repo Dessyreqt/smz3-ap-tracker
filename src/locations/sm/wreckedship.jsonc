@@ -179,7 +179,6 @@
         "sections": [
           {
             "name": "Reserve Tank, Wrecked Ship",
-            "capture_item": true,
             "access_rules": [
               "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,grapple",
               "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,spacejump",

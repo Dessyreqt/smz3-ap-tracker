@@ -19,7 +19,6 @@
             "sections": [
               {
                 "name": "Master Sword Pedestal",
-                "capture_item": true,
                 "access_rules": [
                   "pendant:2,greenpendant",
                   "{scoutablelocations_show,book}"
@@ -192,7 +191,6 @@
             "sections": [
               {
                 "name": "Lumberjack Tree",
-                "capture_item": true,
                 "access_rules": [
                   "@Aganihm1Beaten,boots",
                   "{scoutablelocations_show}"
@@ -280,7 +278,6 @@
               },
               {
                 "name": "Zora's Ledge",
-                "capture_item": true,
                 "access_rules": [
                   "flippers",
                   "{scoutablelocations_show,progressiveglove1}",
@@ -468,7 +465,6 @@
             "sections": [
               {
                 "name": "Library",
-                "capture_item": true,
                 "access_rules": [
                   "boots",
                   "{scoutablelocations_show}"
@@ -488,7 +484,6 @@
             "sections": [
               {
                 "name": "Maze Race",
-                "capture_item": true
               }
             ]
           },
@@ -497,7 +492,6 @@
             "sections": [
               {
                 "name": "Desert Ledge",
-                "capture_item": true,
                 "access_rules": [
                   "book",
                   "mirror,progressiveglove2,flute",
@@ -565,7 +559,6 @@
             "sections": [
               {
                 "name": "Spectacle Rock",
-                "capture_item": true,
                 "access_rules": [
                   "mirror",
                   "{scoutablelocations_show}"
@@ -600,7 +593,6 @@
             "sections": [
               {
                 "name": "Ether Tablet",
-                "capture_item": true,
                 "access_rules": [
                   "book,progressivesword2,mirror",
                   "book,progressivesword2,hammer,hookshot",

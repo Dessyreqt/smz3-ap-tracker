@@ -56,7 +56,6 @@
         "sections": [
           {
             "name": "Floating Island",
-            "capture_item": true,
             "access_rules": [
               "mirror,moonpearl,progressiveglove2",
               "{scoutablelocations_show}"
