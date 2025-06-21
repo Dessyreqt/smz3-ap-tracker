@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.2.1",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.2.1/smz3-ap-tracker-1.2.1.zip",
+      "sha256": "DE195B926C1B1240B464D4CD5EBF16FDEFD9C7340CE2C173B668A9B1B31E192F",
+      "changelog": [
+        "Fix scouting logic error"
+      ]
+    },
+    {
       "package_version": "1.2.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.2.0/smz3-ap-tracker-1.2.0.zip",
       "sha256": "38548CD1F25829D89877966B2B8FC23C4EA82396BD65620237C01513AA1115AC",
