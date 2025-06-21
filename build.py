@@ -53,7 +53,7 @@ def main():
         versions["versions"].insert(0, new_version)
 
         with open(versions_path, "w") as f:
-            json.dump(versions, f, indent=4)
+            json.dump(versions, f, indent=2)
 
         print("Versioning complete! Next steps:")
         print("- Commit and push all files except ./versions.json")

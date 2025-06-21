@@ -10,7 +10,7 @@ from zopflipng import png_optimize
 def save_image_hashes(image_hashes, output_path):
     ordered_hashes = dict(sorted(image_hashes.items()))
     with open(output_path, "w") as f:
-        json.dump(ordered_hashes, f, indent=4)
+        json.dump(ordered_hashes, f, indent=2)
 
 def compress_image(file_path, output_path):
     data = open(file_path, 'rb').read()
@@ -98,7 +98,7 @@ def update_manifest(version):
         manifest = json.load(f)
     manifest["package_version"] = version
     with open(manifest_path, "w") as f:
-        json.dump(manifest, f, indent=4)
+        json.dump(manifest, f, indent=2)
 
 def calculate_sha256(file_path):
     sha256 = hashlib.sha256()
