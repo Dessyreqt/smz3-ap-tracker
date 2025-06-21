@@ -30,6 +30,7 @@ Tracker:AddItems("items/sm/keys.jsonc")
 Tracker:AddItems("items/z3/dungeon_info.jsonc")
 Tracker:AddItems("items/z3/equipment.jsonc")
 Tracker:AddItems("items/z3/keys.jsonc")
+Tracker:AddItems("items/z3/prizes.jsonc")
 Tracker:AddItems("items/settings.jsonc")
 Tracker:AddItems("items/labels.jsonc")
 
@@ -69,12 +70,13 @@ end
 -- Layout
 Tracker:AddLayouts("layouts/alttp_item_grid.jsonc")
 Tracker:AddLayouts("layouts/boss_tokens_grid.jsonc")
-Tracker:AddLayouts("layouts/sm_item_grid.jsonc")
-Tracker:AddLayouts("layouts/maps.jsonc")
-Tracker:AddLayouts("layouts/tracker.jsonc")
-Tracker:AddLayouts("layouts/broadcast.jsonc")
-Tracker:AddLayouts("layouts/settings.jsonc")
 Tracker:AddLayouts("layouts/bottom_bar.jsonc")
+Tracker:AddLayouts("layouts/broadcast.jsonc")
+Tracker:AddLayouts("layouts/maps.jsonc")
+Tracker:AddLayouts("layouts/prizepacks.jsonc")
+Tracker:AddLayouts("layouts/settings.jsonc")
+Tracker:AddLayouts("layouts/sm_item_grid.jsonc")
+Tracker:AddLayouts("layouts/tracker.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

@@ -78,6 +78,42 @@
     "codes": "ganonstower_label"
   },
   {
+    "name": "Pull (1-3 kills)",
+    "type": "static",
+    "img": "images/labels/pull1.png",
+    "codes": "pull1_label"
+  },
+  {
+    "name": "Pull (4+ kills)",
+    "type": "static",
+    "img": "images/labels/pull2.png",
+    "codes": "pull2_label"
+  },
+  {
+    "name": "Pull (4+ kills, no damage taken)",
+    "type": "static",
+    "img": "images/labels/pull3.png",
+    "codes": "pull3_label"
+  },
+  {
+    "name": "Stun Pack",
+    "type": "static",
+    "img": "images/labels/stun.png",
+    "codes": "stun_label"
+  },
+  {
+    "name": "Crab Pack (continuous drops)",
+    "type": "static",
+    "img": "images/labels/crab1.png",
+    "codes": "crab1_label"
+  },
+  {
+    "name": "Crab Pack, (final drop)",
+    "type": "static",
+    "img": "images/labels/crab2.png",
+    "codes": "crab2_label"
+  },
+  {
     "name": "Kraid",
     "type": "static",
     "img": "images/labels/kraid.png",

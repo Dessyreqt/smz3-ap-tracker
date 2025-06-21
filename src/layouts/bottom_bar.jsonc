@@ -50,7 +50,7 @@
       },
       {
         "type": "group",
-        "header": "",
+        "header": "Prize Packs",
         "content": {
           "type": "array",
           "orientation": "horizontal",
@@ -58,7 +58,7 @@
           "content": [
             {
               "type": "layout",
-              "key": "empty_section"
+              "key": "prizepacks"
             }
           ]
         }
