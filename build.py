@@ -1,6 +1,5 @@
 import os
 import shutil
-import hashlib
 import json
 import argparse
 from buildfunctions import build_pack_content, calculate_sha256, compress_images, update_manifest

@@ -7,6 +7,8 @@
     "map_locations": [
       {
         "map": "lightworld",
+        "shape": "trapezoid",
+        "size": 96,
         "x": 2047,
         "y": 1849
       }
@@ -83,6 +85,8 @@
     "map_locations": [
       {
         "map": "lightworld",
+        "shape": "trapezoid",
+        "size": 96,
         "x": 1888,
         "y": 1094
       }
@@ -123,6 +127,8 @@
     "map_locations": [
       {
         "map": "lightworld",
+        "shape": "trapezoid",
+        "size": 96,
         "x": 2128,
         "y": 1202
       }

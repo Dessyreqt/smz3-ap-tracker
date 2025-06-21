@@ -12,6 +12,8 @@
     "map_locations": [
       {
         "map": "lightworld",
+        "shape": "trapezoid",
+        "size": 96,
         "x": 298,
         "y": 3233
       }

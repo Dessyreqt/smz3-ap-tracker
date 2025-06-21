@@ -13,6 +13,8 @@
     "map_locations": [
       {
         "map": "darkworld",
+        "shape": "trapezoid",
+        "size": 96,
         "x": 3857,
         "y": 294
       }
