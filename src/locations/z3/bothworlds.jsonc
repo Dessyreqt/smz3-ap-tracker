@@ -21,8 +21,8 @@
         "map_locations": [
           {
             "map": "lightworld",
-            "x": 2463,
-            "y": 1220
+            "x": 1232,
+            "y": 610
           }
         ]
       },
@@ -41,13 +41,13 @@
         "map_locations": [
           {
             "map": "lightworld",
-            "x": 2959,
-            "y": 3400
+            "x": 1480,
+            "y": 1700
           },
           {
             "map": "darkworld",
-            "x": 2959,
-            "y": 3400
+            "x": 1480,
+            "y": 1700
           }
         ]
       },
@@ -65,13 +65,13 @@
         "map_locations": [
           {
             "map": "lightworld",
-            "x": 3320,
-            "y": 82
+            "x": 1660,
+            "y": 41
           },
           {
             "map": "darkworld",
-            "x": 3320,
-            "y": 82
+            "x": 1660,
+            "y": 41
           }
         ]
       }

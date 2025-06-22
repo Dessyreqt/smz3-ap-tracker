@@ -11,9 +11,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 512,
-        "y": 1982
+        "size": 60,
+        "x": 256,
+        "y": 991
       }
     ],
     "sections": [
@@ -173,6 +173,7 @@
               {
                 "map": "thievestown",
                 "shape": "diamond",
+                "size": 48,
                 "x": 893,
                 "y": 133
               }

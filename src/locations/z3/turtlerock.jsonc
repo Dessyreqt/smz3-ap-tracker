@@ -14,9 +14,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 3857,
-        "y": 294
+        "size": 60,
+        "x": 1928,
+        "y": 147
       }
     ],
     "sections": [
@@ -218,6 +218,7 @@
               {
                 "map": "turtlerock",
                 "shape": "diamond",
+                "size": 48,
                 "x": 125,
                 "y": 905
               }

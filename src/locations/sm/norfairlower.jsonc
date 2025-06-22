@@ -314,12 +314,14 @@
               {
                 "map": "metroid",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1672,
                 "y": 1824
               },
               {
                 "map": "norfair",
                 "shape": "diamond",
+                "size": 48,
                 "x": 792,
                 "y": 610
               }

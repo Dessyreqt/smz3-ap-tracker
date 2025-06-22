@@ -18,9 +18,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 306,
-        "y": 3408
+        "size": 60,
+        "x": 153,
+        "y": 1704
       }
     ],
     "sections": [
@@ -183,6 +183,7 @@
               {
                 "map": "miserymire",
                 "shape": "diamond",
+                "size": 48,
                 "x": 892,
                 "y": 136
               }

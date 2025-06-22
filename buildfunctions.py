@@ -34,7 +34,6 @@ def compress_images():
     for file in src_path.rglob("*.png"):
         relative_path = str(file.relative_to(src_path)).replace("\\", "/")
         current_hash = hashlib.sha256(file.read_bytes()).hexdigest()
-        print(f"Current hash for {relative_path}: {current_hash}")
 
         if image_hashes.get(relative_path) == current_hash:
             print(f"Skipping {file}, already compressed.")

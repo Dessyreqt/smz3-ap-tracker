@@ -11,9 +11,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 2298,
-        "y": 139
+        "size": 60,
+        "x": 1149,
+        "y": 70
       }
     ],
     "sections": [
@@ -348,6 +348,7 @@
               {
                 "map": "ganonstower",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1677,
                 "y": 124
               }
@@ -368,8 +369,9 @@
       {
         "map": "darkworld",
         "shape": "diamond",
-        "x": 2040,
-        "y": 1664
+        "size": 60,
+        "x": 1020,
+        "y": 832
       }
     ],
     "sections": [

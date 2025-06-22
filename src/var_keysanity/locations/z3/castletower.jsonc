@@ -11,9 +11,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 2047,
-        "y": 1636
+        "size": 60,
+        "x": 1024,
+        "y": 818
       }
     ],
     "sections": [
@@ -79,6 +79,7 @@
               {
                 "map": "castletower",
                 "shape": "diamond",
+                "size": 32,
                 "x": 1458,
                 "y": 135
               }

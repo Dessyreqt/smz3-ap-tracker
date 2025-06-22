@@ -439,12 +439,14 @@
               {
                 "map": "metroid",
                 "shape": "diamond",
+                "size": 48,
                 "x": 2106,
                 "y": 960
               },
               {
                 "map": "maridia",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1176,
                 "y": 386
               }

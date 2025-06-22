@@ -27,8 +27,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 3700,
-                "y": 708
+                "x": 1850,
+                "y": 354
               }
             ]
           },
@@ -42,8 +42,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 2375,
-                "y": 1882
+                "x": 1188,
+                "y": 941
               }
             ]
           }
@@ -70,8 +70,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 447,
-                "y": 2390
+                "x": 224,
+                "y": 1195
               }
             ]
           },
@@ -85,8 +85,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 845,
-                "y": 1978
+                "x": 422,
+                "y": 989
               }
             ]
           },
@@ -100,8 +100,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 204,
-                "y": 1910
+                "x": 102,
+                "y": 955
               }
             ]
           },
@@ -118,8 +118,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 1298,
-                "y": 2478
+                "x": 649,
+                "y": 1239
               }
             ]
           },
@@ -137,8 +137,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 1402,
-                "y": 694
+                "x": 701,
+                "y": 347
               }
             ]
           },
@@ -155,13 +155,13 @@
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 2310,
-                "y": 1120
+                "x": 1155,
+                "y": 560
               },
               {
                 "map": "darkworld",
-                "x": 2310,
-                "y": 1082
+                "x": 1155,
+                "y": 541
               }
             ]
           },
@@ -178,13 +178,13 @@
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 1257,
-                "y": 2151
+                "x": 628,
+                "y": 1076
               },
               {
                 "map": "darkworld",
-                "x": 602,
-                "y": 2704
+                "x": 301,
+                "y": 1352
               }
             ]
           },
@@ -201,13 +201,13 @@
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 1388,
-                "y": 3684
+                "x": 694,
+                "y": 1842
               },
               {
                 "map": "darkworld",
-                "x": 1227,
-                "y": 2143
+                "x": 614,
+                "y": 1072
               }
             ]
           }
@@ -241,8 +241,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 1918,
-                "y": 1992
+                "x": 959,
+                "y": 996
               }
             ]
           },
@@ -258,8 +258,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 2449,
-                "y": 3184
+                "x": 1224,
+                "y": 1592
               }
             ]
           },
@@ -273,8 +273,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 1265,
-                "y": 2798
+                "x": 632,
+                "y": 1399
               }
             ]
           },
@@ -291,13 +291,13 @@
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 1127,
-                "y": 3455
+                "x": 564,
+                "y": 1728
               },
               {
                 "map": "darkworld",
-                "x": 1127,
-                "y": 3455
+                "x": 564,
+                "y": 1728
               }
             ]
           },
@@ -311,8 +311,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 204,
-                "y": 2827
+                "x": 102,
+                "y": 1414
               }
             ]
           },
@@ -330,13 +330,13 @@
             "map_locations": [
               {
                 "map": "lightworld",
-                "x": 898,
-                "y": 3765
+                "x": 449,
+                "y": 1882
               },
               {
                 "map": "darkworld",
-                "x": 898,
-                "y": 3765
+                "x": 449,
+                "y": 1882
               }
             ]
           }
@@ -365,8 +365,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 157,
-                "y": 3265
+                "x": 78,
+                "y": 1632
               }
             ]
           }
@@ -392,8 +392,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 2349,
-                "y": 600
+                "x": 1174,
+                "y": 300
               }
             ]
           }
@@ -420,8 +420,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 3459,
-                "y": 592
+                "x": 1730,
+                "y": 296
               }
             ]
           },
@@ -450,8 +450,8 @@
             "map_locations": [
               {
                 "map": "darkworld",
-                "x": 3408,
-                "y": 257
+                "x": 1704,
+                "y": 128
               }
             ]
           }

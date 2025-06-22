@@ -11,9 +11,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 1918,
-        "y": 3837
+        "size": 60,
+        "x": 959,
+        "y": 1918
       }
     ],
     "sections": [
@@ -208,6 +208,7 @@
               {
                 "map": "swamppalace",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1148,
                 "y": 136
               }

@@ -11,9 +11,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 3926,
-        "y": 1633
+        "size": 60,
+        "x": 1963,
+        "y": 816
       }
     ],
     "sections": [
@@ -280,6 +280,7 @@
               {
                 "map": "palaceofdarkness",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1917,
                 "y": 922
               }

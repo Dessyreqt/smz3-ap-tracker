@@ -7,13 +7,11 @@
       "super,@CanUsePowerBombs,gravity",
       "super,@CanAccessMaridiaPortal,gravity,@CardMaridiaL2,@CanDestroyBombWalls",
       "super,@CanAccessMaridiaPortal,gravity,@DraygonBeaten",
-
       "super,@CanOpenMoatDoor,speedbooster",
       "super,@CanOpenMoatDoor,grapple",
       "super,@CanOpenMoatDoor,spacejump",
       "super,@CanOpenMoatDoor,gravity,@CanIbj",
       "super,@CanOpenMoatDoor,gravity,hijump",
-
       "[sm_logic_hard],super,@CanOpenMoatDoor",
       "[sm_logic_hard],super,@CanUsePowerBombs,hijump,ice,grapple,@CardMaridiaL1",
       "[sm_logic_hard],super,@CanUsePowerBombs,hijump,@CanSpringBallJump,grapple,@CardMaridiaL1",
@@ -64,16 +62,18 @@
           {
             "map": "metroid",
             "shape": "diamond",
+            "size": 48,
             "x": 1738,
             "y": 373
           },
           {
             "map": "wreckedship",
             "shape": "diamond",
+            "size": 48,
             "x": 633,
             "y": 436
           }
-       ]
+        ]
       },
       {
         "name": "Energy Tank, Wrecked Ship",
@@ -82,7 +82,6 @@
           "@PhantoonBeaten,spacejump",
           "@PhantoonBeaten,speedbooster",
           "@PhantoonBeaten,gravity",
-
           "[sm_logic_hard],@PhantoonBeaten,bombs",
           "[sm_logic_hard],@PhantoonBeaten,powerbomb",
           "[sm_logic_hard],@PhantoonBeaten,@CanSpringBallJump"
@@ -184,10 +183,8 @@
               "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,spacejump",
               "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,varia,alltanks:2",
               "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
-
               "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
               "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2",
-
               "{scoutablelocations_show,@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs}",
               "{scoutablelocations_show,@CanUnlockShip,@CardWreckedShipL1,wave}",
               "{scoutablelocations_show,@CanUnlockShip,@CardWreckedShipL1,xray}"
@@ -214,7 +211,6 @@
           "@PhantoonBeaten,@CardWreckedShipL1,spacejump",
           "@PhantoonBeaten,@CardWreckedShipL1,varia,alltanks:2",
           "@PhantoonBeaten,@CardWreckedShipL1,alltanks:3",
-
           "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,varia",
           "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,alltanks:1"
         ],
@@ -243,7 +239,6 @@
           "@PhantoonBeaten,@CardWreckedShipL1,spacejump",
           "@PhantoonBeaten,@CardWreckedShipL1,varia,alltanks:2",
           "@PhantoonBeaten,@CardWreckedShipL1,alltanks:3",
-
           "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,varia",
           "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,alltanks:1"
         ],

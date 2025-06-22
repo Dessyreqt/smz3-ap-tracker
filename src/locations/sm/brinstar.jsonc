@@ -726,12 +726,14 @@
               {
                 "map": "metroid",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1720,
                 "y": 1252
               },
               {
                 "map": "brinstar",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1722,
                 "y": 678
               }

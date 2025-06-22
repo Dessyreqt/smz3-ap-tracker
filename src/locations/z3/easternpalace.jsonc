@@ -8,9 +8,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 3929,
-        "y": 1614
+        "size": 60,
+        "x": 1964,
+        "y": 807
       }
     ],
     "sections": [
@@ -134,6 +134,7 @@
               {
                 "map": "easternpalace",
                 "shape": "diamond",
+                "size": 48,
                 "x": 126,
                 "y": 1171
               }

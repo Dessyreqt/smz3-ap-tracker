@@ -2,8 +2,8 @@
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
     "name": "metroid",
-    "location_size": 40,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/sm/map_full.png"
   },
   {
@@ -38,13 +38,13 @@
   },
   {
     "name": "lightworld",
-    "location_size": 64,
+    "location_size": 40,
     "location_border_thickness": 5,
     "img": "images/maps/z3/lightworld.png"
   },
   {
     "name": "darkworld",
-    "location_size": 64,
+    "location_size": 40,
     "location_border_thickness": 5,
     "img": "images/maps/z3/darkworld.png"
   },

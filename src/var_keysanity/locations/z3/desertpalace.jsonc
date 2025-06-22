@@ -13,9 +13,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 298,
-        "y": 3233
+        "size": 60,
+        "x": 149,
+        "y": 1616
       }
     ],
     "sections": [
@@ -149,6 +149,7 @@
               {
                 "map": "desertpalace",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1951,
                 "y": 130
               }

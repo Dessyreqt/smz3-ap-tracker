@@ -12,9 +12,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 2298,
-        "y": 139
+        "size": 60,
+        "x": 1149,
+        "y": 70
       }
     ],
     "sections": [
@@ -141,6 +141,7 @@
               {
                 "map": "towerofhera",
                 "shape": "diamond",
+                "size": 32,
                 "x": 1584,
                 "y": 255
               }

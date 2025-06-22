@@ -8,9 +8,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 2047,
-        "y": 1849
+        "size": 60,
+        "x": 1024,
+        "y": 924
       }
     ],
     "sections": [
@@ -86,9 +86,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 1888,
-        "y": 1094
+        "size": 60,
+        "x": 944,
+        "y": 547
       }
     ],
     "sections": [
@@ -128,9 +128,9 @@
       {
         "map": "lightworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 2128,
-        "y": 1202
+        "size": 60,
+        "x": 1064,
+        "y": 601
       }
     ],
     "sections": [

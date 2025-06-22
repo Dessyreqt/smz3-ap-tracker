@@ -11,9 +11,9 @@
       {
         "map": "darkworld",
         "shape": "trapezoid",
-        "size": 96,
-        "x": 3265,
-        "y": 3541
+        "size": 60,
+        "x": 1632,
+        "y": 1770
       }
     ],
     "sections": [
@@ -179,6 +179,7 @@
               {
                 "map": "icepalace",
                 "shape": "diamond",
+                "size": 48,
                 "x": 1950,
                 "y": 1707
               }
