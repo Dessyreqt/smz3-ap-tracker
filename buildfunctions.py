@@ -98,7 +98,11 @@ def compress_pack(zip_path, root_directory):
         for file in build_path.rglob("*"):
             if file.is_file():  # Ensure the current item is a file
                 arcname = file.relative_to(build_path)  # Preserve relative paths in the ZIP
-                zipf.write(file, arcname)
+                if file.suffix.lower() == ".png" or file.suffix.lower() == ".jpg":
+                    # Add image files with ZIP_STORED (no compression)
+                    zipf.write(file, arcname, compress_type=zipfile.ZIP_STORED)
+                else:
+                    zipf.write(file, arcname)
 
     print(f"Pack built and saved to: {zip_path}")
 
