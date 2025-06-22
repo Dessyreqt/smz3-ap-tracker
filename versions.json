@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.3.0",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.3.0/smz3-ap-tracker-1.3.0.zip",
+      "sha256": "c5cd40e41a316385b925d6fc1c60d63305587221beef844461f346c89b767341",
+      "changelog": [
+        "prize pack tracking, dungeon shapes, and optimizations"
+      ]
+    },
+    {
       "package_version": "1.2.1",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.2.1/smz3-ap-tracker-1.2.1.zip",
       "sha256": "DE195B926C1B1240B464D4CD5EBF16FDEFD9C7340CE2C173B668A9B1B31E192F",
