@@ -1,9 +1,10 @@
-import os
-import json
 import hashlib
-import shutil
+import json
+import os
 import re
+import shutil
 import subprocess
+import zipfile
 from pathlib import Path
 from zopflipng import png_optimize
 
@@ -91,6 +92,16 @@ def build_pack_content():
         with open(init_lua_path, "w") as f:
             f.write(content)
 
+def compress_pack(zip_path, root_directory):
+    build_path = Path(root_directory)
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED, allowZip64=True) as zipf:
+        for file in build_path.rglob("*"):
+            if file.is_file():  # Ensure the current item is a file
+                arcname = file.relative_to(build_path)  # Preserve relative paths in the ZIP
+                zipf.write(file, arcname)
+
+    print(f"Pack built and saved to: {zip_path}")
+
 def update_manifest(version):
     manifest_path = "./src/manifest.json"
     with open(manifest_path, "r") as f:
@@ -107,7 +118,6 @@ def calculate_sha256(file_path):
     return sha256.hexdigest()
 
 def stop_process(process_name):
-    """Stops a running process by name."""
     try:
         result = subprocess.run(
             ["tasklist"], capture_output=True, text=True, check=True
@@ -119,7 +129,6 @@ def stop_process(process_name):
         print(f"No running process found with name: {process_name}")
 
 def wait_for_process_to_close(process_name):
-    """Waits for a process to fully close."""
     while True:
         try:
             result = subprocess.run(

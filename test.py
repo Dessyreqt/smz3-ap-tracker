@@ -1,7 +1,7 @@
-import shutil
 import subprocess
+from buildfunctions import build_pack_content, compress_pack, stop_process, wait_for_process_to_close
+from pack_constants import pack_name
 from pathlib import Path
-from buildfunctions import build_pack_content, stop_process, wait_for_process_to_close
 
 def main():
     poptracker_path = Path("./test/poptracker.exe")
@@ -23,13 +23,12 @@ def main():
     test_packs_path.mkdir(parents=True, exist_ok=True)
 
     # Remove existing zip file if it exists
-    zip_path = test_packs_path / "smz3-ap-tracker.zip"
+    zip_path = test_packs_path / f"{pack_name}.zip"
     if zip_path.exists():
         zip_path.unlink()
 
     # Create the new zip file
-    shutil.make_archive(zip_path.with_suffix(""), "zip", "./bin/build")
-    print(f"Pack built and saved to: {zip_path}")
+    compress_pack(zip_path, "./bin/build")
 
     # Run poptracker
     print("Starting poptracker...")
