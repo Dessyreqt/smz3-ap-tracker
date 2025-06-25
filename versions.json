@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.3.2",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.3.2/smz3-ap-tracker-1.3.2.zip",
+      "sha256": "ea021be564a4dd99859b5e2441062b12d8e39b5087d573cddb0ea6bda24aaf4e",
+      "changelog": [
+        "Fix Wrecked Ship logic"
+      ]
+    },
+    {
       "package_version": "1.3.1",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.3.1/smz3-ap-tracker-1.3.1.zip",
       "sha256": "63ecc7d6c80186d5ac904b9dcbe85c4b00157005f741cdb2f05ecdf23278a8f5",
