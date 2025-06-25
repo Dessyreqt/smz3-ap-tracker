@@ -284,7 +284,7 @@
           {
             "name": "Missile (outside Wrecked Ship top)",
             "access_rules": [
-              "@Wrecked Ship,@CanUnlockShip"
+              "@Wrecked Ship,@PhantoonBeaten"
             ],
             "sections": [
               {
@@ -307,7 +307,7 @@
           {
             "name": "Missile (outside Wrecked Ship middle)",
             "access_rules": [
-              "@Wrecked Ship,@CanUnlockShip"
+              "@Wrecked Ship,@PhantoonBeaten"
             ],
             "sections": [
               {

@@ -185,9 +185,9 @@
               "@PhantoonBeaten,@CardWreckedShipL1,speedbooster,@CanUsePowerBombs,alltanks:3",
               "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,varia",
               "[sm_logic_hard],@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs,speedbooster,alltanks:2",
-              "{scoutablelocations_show,@CanUnlockShip,@CardWreckedShipL1,@CanUsePowerBombs}",
-              "{scoutablelocations_show,@CanUnlockShip,@CardWreckedShipL1,wave}",
-              "{scoutablelocations_show,@CanUnlockShip,@CardWreckedShipL1,xray}"
+              "{scoutablelocations_show,@PhantoonBeaten,@CardWreckedShipL1,@CanUsePowerBombs}",
+              "{scoutablelocations_show,@PhantoonBeaten,@CardWreckedShipL1,wave}",
+              "{scoutablelocations_show,@PhantoonBeaten,@CardWreckedShipL1,xray}"
             ]
           }
         ],
