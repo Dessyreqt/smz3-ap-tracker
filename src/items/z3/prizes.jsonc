@@ -412,5 +412,15 @@
         "inherit_codes": false
       } 
     ]
+  },
+  {
+    "name": "Pull",
+    "type": "consumable",
+    "img": "images/items/z3/progressiveglove1.png",
+    "max_quantity": 0,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "codes": "pull"
   }
 ]

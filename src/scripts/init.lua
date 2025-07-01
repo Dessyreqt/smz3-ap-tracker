@@ -57,6 +57,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/z3/miserymire.jsonc")
     Tracker:AddLocations("locations/z3/turtlerock.jsonc")
     Tracker:AddLocations("locations/z3/ganonstower.jsonc")
+    Tracker:AddLocations("locations/z3/itempulls.jsonc")
     Tracker:AddLocations("locations/sm/doors.jsonc")
     Tracker:AddLocations("locations/sm/wreckedship.jsonc")
     Tracker:AddLocations("locations/sm/crateria.jsonc")
