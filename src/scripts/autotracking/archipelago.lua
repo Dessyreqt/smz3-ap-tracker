@@ -7,6 +7,18 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
+-- used for hint tracking to quickly map hint status to a value from the Highlight enum
+HINT_STATUS_MAPPING = {}
+if Highlight then
+	HINT_STATUS_MAPPING = {
+		[0] = Highlight.Unspecified,
+		[10] = Highlight.NoPriority,
+		[20] = Highlight.Avoid,
+		[30] = Highlight.Priority,
+		[40] = Highlight.None,
+	}
+end
+
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
@@ -258,24 +270,12 @@ function onLocation(location_id, location_name)
 	end
 end
 
-function GetHighlightFromStatus(status)
-	if status == 0 then
-		return Highlight.Unspecified
-	elseif status == 10 then
-		return Highlight.NoPriority
-	elseif status == 20 then
-		return Highlight.Avoid
-	elseif status == 30 then
-		return Highlight.Priority
-	end
-end
-
 function onNotify(key, value, old_value)
 	if value ~= old_value and key == HINTS_ID then
 		for _, hint in ipairs(value) do
 			if hint.finding_player == Archipelago.PlayerNumber then
 				if not hint.found then
-					updateHints(hint.location, GetHighlightFromStatus(hint.status))
+					updateHints(hint.location, HINT_STATUS_MAPPING[hint.status])
 				elseif hint.found then
 					updateHints(hint.location, Highlight.None)
 				end
@@ -289,7 +289,7 @@ function onNotifyLaunch(key, value)
 		for _, hint in ipairs(value) do
 			if hint.finding_player == Archipelago.PlayerNumber then
 				if not hint.found then
-					updateHints(hint.location, GetHighlightFromStatus(hint.status))
+					updateHints(hint.location, HINT_STATUS_MAPPING[hint.status])
 				elseif hint.found then
 					updateHints(hint.location, Highlight.None)
 				end
