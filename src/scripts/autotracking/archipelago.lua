@@ -92,20 +92,21 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	if slot_data == nil then
+	if not slot_data then
 		print("apply_slot_data: slot_data is nil")
 		return
 	end
-    dump_table(slot_data)
-	setFromSlotData("goal", "goal")
-	setFromSlotData("open_tower", "open_tower")
-	setFromSlotData("ganon_vulnerable", "ganon_vulnerable")
-	setFromSlotData("open_tourian", "open_tourian")
-	setFromSlotData("sm_logic", "sm_logic")
-	setFromSlotData("key_shuffle", "key_shuffle")
+
+    -- print(dump_table(slot_data))
+	setFromSlotData(slot_data, "goal", "goal")
+	setFromSlotData(slot_data, "open_tower", "open_tower")
+	setFromSlotData(slot_data, "ganon_vulnerable", "ganon_vulnerable")
+	setFromSlotData(slot_data, "open_tourian", "open_tourian")
+	setFromSlotData(slot_data, "sm_logic", "sm_logic")
+	setFromSlotData(slot_data, "key_shuffle", "key_shuffle")
 end
 
-function setFromSlotData(slot_data_key, item_code)
+function setFromSlotData(slot_data, slot_data_key, item_code)
 	local v = slot_data[slot_data_key]
 	if not v then
 		print(string.format("Could not find key '%s' in slot data", slot_data_key))
