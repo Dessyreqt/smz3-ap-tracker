@@ -91,9 +91,9 @@ function incrementItem(item_code, item_type, keep_stage)
 end
 
 -- apply everything needed from slot_data, called from onClear
-function apply_slot_data(slot_data)
+function applySlotData(slot_data)
 	if not slot_data then
-		print("apply_slot_data: slot_data is nil")
+		print("applySlotData: slot_data is nil")
 		return
 	end
 
@@ -191,7 +191,7 @@ function onClear(slot_data)
 			end
 		end
 	end
-	apply_slot_data(slot_data)
+	applySlotData(slot_data)
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 
