@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.5.0",
+      "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.5.0/smz3-ap-tracker-1.5.0.zip",
+      "sha256": "8847a717520ad504120f4344a3641318d859c6d74495d524f8eb0e6618843525",
+      "changelog": [
+        "Read options from slot_data"
+      ]
+    },
+    {
       "package_version": "1.4.0",
       "download_url": "https://github.com/dessyreqt/smz3-ap-tracker/releases/download/1.4.0/smz3-ap-tracker-1.4.0.zip",
       "sha256": "eb73adcd2a89b4bcd9a152f7959e397f27e6ac0498070c03b02c7a8391b85c4e",
