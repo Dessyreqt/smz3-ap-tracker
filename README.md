@@ -2,6 +2,8 @@
 
 This is an autotracking package for PopTracker to use with the [Archipelago](https://archipelago.gg) implementation of the Super Metroid/Zelda: A Link to the Past (SMZ3) randomizer. 
 
+![Screenshot of the pack](images/preview.png)
+
 ## Installation
 
 Download the latest release of the package from the [releases page](https://github.com/Dessyreqt/smz3-ap-tracker/releases/latest) to your `packs` directory.
