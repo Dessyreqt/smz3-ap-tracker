@@ -2,13 +2,13 @@
   // Some locations can be accessed from both worlds and have more complex access dependencies as a result.
   // These need to get loaded after all the light/dark world locations to handle the dependencies.
   {
-    "name": "Both Worlds",
+    "name": "Item Pulls",
     "chest_unopened_img": "images/items/z3/ChestUnopened.png",
     "chest_opened_img": "images/items/z3/ChestOpened.png",
     "overlay_background": "#000000",
     "children": [
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Pre-Agahnim)",
         "sections": [
           {
             "name": "Pre-Agahnim",
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Post-Agahnim)",
         "sections": [
           {
             "name": "Post-Agahnim",
@@ -104,7 +104,7 @@
         ]
       },
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Any Time)",
         "sections": [
           {
             "name": "Any time",
@@ -138,7 +138,7 @@
         ]
       },
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Turtle Rock)",
         "sections": [
           {
             "name": "Any time",
@@ -172,7 +172,7 @@
         ]
       },
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Dark World North West)",
         "sections": [
           {
             "name": "Any time",
@@ -206,7 +206,7 @@
         ]
       },
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Dark World South)",
         "sections": [
           {
             "name": "Any time",
@@ -247,7 +247,7 @@
         ]
       },
       {
-        "name": "Item Pull",
+        "name": "Item Pull (Pyramid)",
         "sections": [
           {
             "name": "Any time",
