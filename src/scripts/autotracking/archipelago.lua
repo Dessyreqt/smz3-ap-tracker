@@ -92,7 +92,47 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+	if not slot_data then
+		print("apply_slot_data: slot_data is nil")
+		return
+	end
+
+    -- print(dump_table(slot_data))
+	setFromSlotData(slot_data, "goal", "goal")
+	setFromSlotData(slot_data, "open_tower", "open_tower")
+	setFromSlotData(slot_data, "ganon_vulnerable", "ganon_vulnerable")
+	setFromSlotData(slot_data, "open_tourian", "open_tourian")
+	setFromSlotData(slot_data, "sm_logic", "sm_logic")
+	setFromSlotData(slot_data, "key_shuffle", "key_shuffle")
+end
+
+function setFromSlotData(slot_data, slot_data_key, item_code)
+	local v = slot_data[slot_data_key]
+	if not v then
+		print(string.format("Could not find key '%s' in slot data", slot_data_key))
+		return nil
+	end
+
+	local obj = Tracker:FindObjectForCode(item_code)
+	if not obj then
+		print(string.format("Could not find item for code '%s'", item_code))
+		return nil
+	end
+
+	if obj.Type == 'toggle' then
+		local active = v ~= 0
+		obj.Active = active
+		return v
+	elseif obj.Type == 'progressive' then
+		obj.CurrentStage = v
+		return v
+	elseif obj.Type == 'consumable' then
+		obj.AcquiredCount = v
+		return v
+	else
+		print(string.format("Unsupported item type '%s' for item '%s'", tostring(obj.Type), item_code))
+		return nil
+	end
 end
 
 -- called right after an AP slot is connected
