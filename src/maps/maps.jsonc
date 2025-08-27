@@ -8,32 +8,32 @@
   },
   {
     "name": "crateria",
-    "location_size": 40,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/sm/map_crateria.png"
   },
   {
     "name": "norfair",
-    "location_size": 40,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/sm/map_norfair.png"
   },
   {
     "name": "wreckedship",
-    "location_size": 40,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/sm/map_ws.png"
   },
   {
     "name": "brinstar",
-    "location_size": 40,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/sm/map_brinstar.png"
   },
   {
     "name": "maridia",
-    "location_size": 64,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/sm/map_maridia.png"
   },
   {
